@@ -20,6 +20,12 @@
     color: white;
 }
 
+.case:hover {
+    color: rgb(2, 34, 102);
+    text-decoration: none;
+    background-color: rgb(214, 208, 208);
+}
+
 .ecurie {
     margin: auto;
 }
@@ -133,7 +139,7 @@
 
 .accueil2013 {
     min-height: 93vh;
-    width: 100vw;
+    width: 100%;
     background-color: rgb(2, 34, 102);
     color: white;
     display: flex;
@@ -163,6 +169,12 @@
     margin-left: 5%;
     display: flex;
     margin-bottom: 2%;
+}
+
+.rubrique:hover {
+    color: rgb(2, 34, 102);
+    text-decoration: none;
+    background-color: rgb(214, 208, 208);
 }
 
 .titreRubrique {
