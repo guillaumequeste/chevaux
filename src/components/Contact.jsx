@@ -9,7 +9,7 @@ class Contact extends Component {
         return (
             <div>
                 <Helmet title={"Contact bases React"}
-                        link={"http://decouverte.guillaumequeste.fr"} />
+                        link={"http://chevaux.guillaumequeste.fr"} />
                 <Header />
                 <div className="divContact">
                     <div className="divContact2">

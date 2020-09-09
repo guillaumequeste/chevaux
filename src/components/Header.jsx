@@ -13,16 +13,16 @@ class Header extends Component {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                         <li className="nav-item">
-                                <NavLink exact activeClassName="active" className="nav-link" to="/">2013</NavLink>
+                                <NavLink exact activeClassName="active" className="nav-link" to="/2013">2013</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink exact activeClassName="active" className="nav-link" to="/">2014</NavLink>
+                                <NavLink exact activeClassName="active" className="nav-link" to="/2014">2014</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink exact activeClassName="active" className="nav-link" to="/">2015</NavLink>
+                                <NavLink exact activeClassName="active" className="nav-link" to="/2015">2015</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink exact activeClassName="active" className="nav-link" to="/">Club</NavLink>
+                                <NavLink exact activeClassName="active" className="nav-link" to="/club">Club</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink exact activeClassName="active" className="nav-link" to="/">Contact</NavLink>

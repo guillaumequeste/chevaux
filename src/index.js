@@ -11,6 +11,9 @@ import Popper from 'popper.js'
 import 'bootstrap/dist/js/bootstrap.bundle.min'
 
 import Accueil2013 from './components/2013/Accueil2013'
+import Accueil2014 from './components/2014/Accueil2014'
+import Accueil2015 from './components/2015/Accueil2015'
+import AccueilClub from './components/Club/AccueilClub'
 
 import Contact from './components/Contact'
 import NotFound from './components/NotFound'
@@ -21,6 +24,9 @@ const Root = () => (
             <Route exact path='/' component={App}/>
 
             <Route path='/2013' component={Accueil2013}/>
+            <Route path='/2014' component={Accueil2014}/>
+            <Route path='/2015' component={Accueil2015}/>
+            <Route path='/club' component={AccueilClub}/>
         
             <Route path='/contact' component={Contact}/>
             <Route path='/notfound' component={NotFound}/>

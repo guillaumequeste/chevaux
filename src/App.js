@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 const App = () => (
   <>
     <Helmet title={"Accueil Découverte de la Normandie et du Littoral"}
-              link={"http://decouverte.guillaumequeste.fr"} />
+              link={"http://chevaux.guillaumequeste.fr"} />
     <Header />
     <Footer />
     <div className="app">
@@ -33,7 +33,7 @@ const App = () => (
             <p className="nomEcurie">2015</p>
           </div>
         </Link>
-        <Link tp="/club" className="case">
+        <Link to="/club" className="case">
           <div className="ecurie">
             <img src={require("./img/casaqueClub.png")} alt="casaqueClub" className="casaque"/>
             <p className="nomEcurie">Club</p>
