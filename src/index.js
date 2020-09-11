@@ -17,6 +17,12 @@ import AccueilClub from './components/Club/AccueilClub'
 
 import Compo2013 from './components/2013/Compo2013'
 
+import Compo2014 from './components/2014/Compo2014'
+
+import Compo2015 from './components/2015/Compo2015'
+
+import CompoClub from './components/Club/CompoClub'
+
 import Contact from './components/Contact'
 import NotFound from './components/NotFound'
 
@@ -31,6 +37,12 @@ const Root = () => (
             <Route path='/club' component={AccueilClub}/>
 
             <Route path='/compo2013' component={Compo2013}/>
+
+            <Route path='/compo2014' component={Compo2014}/>
+
+            <Route path='/compo2015' component={Compo2015}/>
+
+            <Route path='/compoClub' component={CompoClub}/>
         
             <Route path='/contact' component={Contact}/>
             <Route path='/notfound' component={NotFound}/>

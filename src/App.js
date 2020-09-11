@@ -21,7 +21,7 @@ const App = () => (
         </Link>
         <Link to="/2014" className="case">
           <div className="ecurie">
-            <img src={require("./img/casaque2014.png")} alt="casaque2014" className="casaque"/>
+            <img src={require("./img/2014/casaque2014.png")} alt="casaque2014" className="casaque"/>
             <p className="nomEcurie">2014</p>
           </div>
         </Link>
@@ -29,13 +29,13 @@ const App = () => (
       <div className="ligne">
         <Link to="/2015" className="case">
           <div className="ecurie">
-            <img src={require("./img/casaque2015.png")} alt="casaque2015" className="casaque"/>
+            <img src={require("./img/2015/casaque2015.png")} alt="casaque2015" className="casaque"/>
             <p className="nomEcurie">2015</p>
           </div>
         </Link>
         <Link to="/club" className="case">
           <div className="ecurie">
-            <img src={require("./img/casaqueClub.png")} alt="casaqueClub" className="casaque"/>
+            <img src={require("./img/club/casaqueClub.png")} alt="casaqueClub" className="casaque"/>
             <p className="nomEcurie">Club</p>
           </div>
         </Link>
