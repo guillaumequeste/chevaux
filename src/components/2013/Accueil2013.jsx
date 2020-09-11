@@ -18,12 +18,12 @@ class Accueil2013 extends Component {
                 <div className="accueil2013">
                     <div className="titreAccueil">
                         <Bounce top>
-                            <img src={require("../../img/casaque2013.png")} alt="casaque2013" className="casaqueAccueil"/>
+                            <img src={require("../../img/2013/casaque2013.png")} alt="casaque2013" className="casaqueAccueil"/>
                             <h5 className="annee">2013</h5>
                         </Bounce>
                     </div>
                     <Fade right>
-                        <NavLink to="/" className="rubrique">
+                        <NavLink to="/compo2013" className="rubrique">
                             <h6 className="titreRubrique">Compo</h6>
                         </NavLink>
                     </Fade>

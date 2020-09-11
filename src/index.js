@@ -15,6 +15,8 @@ import Accueil2014 from './components/2014/Accueil2014'
 import Accueil2015 from './components/2015/Accueil2015'
 import AccueilClub from './components/Club/AccueilClub'
 
+import Compo2013 from './components/2013/Compo2013'
+
 import Contact from './components/Contact'
 import NotFound from './components/NotFound'
 
@@ -27,6 +29,8 @@ const Root = () => (
             <Route path='/2014' component={Accueil2014}/>
             <Route path='/2015' component={Accueil2015}/>
             <Route path='/club' component={AccueilClub}/>
+
+            <Route path='/compo2013' component={Compo2013}/>
         
             <Route path='/contact' component={Contact}/>
             <Route path='/notfound' component={NotFound}/>

@@ -15,7 +15,7 @@ const App = () => (
       <div className="ligne">
         <Link to="/2013" className="case">
           <div className="ecurie">
-            <img src={require("./img/casaque2013.png")} alt="casaque2013" className="casaque"/>
+            <img src={require("./img/2013/casaque2013.png")} alt="casaque2013" className="casaque"/>
             <p className="nomEcurie">2013</p>
           </div>
         </Link>
