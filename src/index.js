@@ -16,6 +16,13 @@ import Accueil2015 from './components/2015/Accueil2015'
 import AccueilClub from './components/Club/AccueilClub'
 
 import Compo2013 from './components/2013/Compo2013'
+import Premier_partant_galop from './components/2013/Premier_partant_galop'
+import Premier_gagnant_galop from './components/2013/Premier_gagnant_galop'
+import Premier_gagnant_longchamp from './components/2013/Premier_gagnant_longchamp'
+import Premier_partant_quinte from './components/2013/Premier_partant_quinte'
+import Benodet from './components/2013/Benodet'
+import Falcolina from './components/2013/Falcolina'
+import Pan_di_Stelle from './components/2013/Pan_di_Stelle'
 
 import Compo2014 from './components/2014/Compo2014'
 
@@ -37,6 +44,13 @@ const Root = () => (
             <Route path='/club' component={AccueilClub}/>
 
             <Route path='/compo2013' component={Compo2013}/>
+            <Route path='/premier_partant_galop' component={Premier_partant_galop}/>
+            <Route path='/premier_gagnant_galop' component={Premier_gagnant_galop}/>
+            <Route path='/premier_gagnant_longchamp' component={Premier_gagnant_longchamp}/>
+            <Route path='/premier_partant_quinte' component={Premier_partant_quinte}/>
+            <Route path='/benodet' component={Benodet}/>
+            <Route path='/falcolina' component={Falcolina}/>
+            <Route path='/pan_di_stelle' component={Pan_di_Stelle}/>
 
             <Route path='/compo2014' component={Compo2014}/>
 

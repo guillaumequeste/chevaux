@@ -28,42 +28,37 @@ class Accueil2013 extends Component {
                         </NavLink>
                     </Fade>
                     <Fade right>
-                        <NavLink to="/" className="rubrique">
+                        <NavLink to="/premier_partant_galop" className="rubrique">
                             <h6 className="titreRubrique">1er partant (galop)</h6>
                         </NavLink>
                     </Fade>
                     <Fade right>
-                        <NavLink to="/" className="rubrique">
+                        <NavLink to="/premier_gagnant_galop" className="rubrique">
                             <h6 className="titreRubrique">1er gagnant (galop)</h6>
                         </NavLink>
                     </Fade>
                     <Fade right>
-                        <NavLink to="/" className="rubrique">
+                        <NavLink to="/premier_gagnant_longchamp" className="rubrique">
                             <h6 className="titreRubrique">1er gagnant à Longchamp</h6>
                         </NavLink>
                     </Fade>
                     <Fade right>
-                        <NavLink to="/" className="rubrique">
-                            <h6 className="titreRubrique">1er blacktype</h6>
-                        </NavLink>
-                    </Fade>
-                    <Fade right>
-                        <NavLink to="/" className="rubrique">
+                        <NavLink to="/premier_partant_quinte" className="rubrique">
                             <h6 className="titreRubrique">1er partant dans un Quinté</h6>
                         </NavLink>
                     </Fade>
                     <Fade right>
-                        <NavLink to="/" className="rubrique">
+                        <NavLink to="/benodet" className="rubrique">
                             <h6 className="titreRubrique">Bénodet</h6>
                         </NavLink>
                     </Fade>
                     <Fade right>
-                        <NavLink to="/" className="rubrique">
+                        <NavLink to="/falcolina" className="rubrique">
                             <h6 className="titreRubrique">Falcolina</h6>
                         </NavLink>
                     </Fade>
                     <Fade right>
-                        <NavLink to="/" className="rubrique">
+                        <NavLink to="/pan_di_stelle" className="rubrique">
                             <h6 className="titreRubrique">Pan di Stelle</h6>
                         </NavLink>
                     </Fade>

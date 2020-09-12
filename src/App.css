@@ -243,3 +243,66 @@
     text-align: center;
     margin: 0;
 }
+
+
+/* Page */
+
+.accueilPremierPartantGalop {
+    min-height: 93vh;
+    width: 100%;
+    background-color: rgb(2, 34, 102);
+    color: white;
+    padding-bottom: 10vh;
+}
+
+.titrePage {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 2%;
+}
+
+.infosPage {
+    text-align: center;
+}
+
+.photosPage {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1025px) {
+    .photosPage {
+        flex-direction: row;
+    }
+}
+
+.divPhotoPage {
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.photoPageHorizontale {
+    width: 80vw;
+    height: 30vh;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 1025px) {
+    .photoPageHorizontale {
+        width: 30vw;
+        height: 40vh;
+    }
+}
+
+.photoPageVerticale {
+    width: 40vw;
+    height: 30vh;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 1025px) {
+    .photoPageVerticale {
+        width: 18vw;
+        height: 40vh;
+    }
+}
