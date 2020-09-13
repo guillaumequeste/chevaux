@@ -6,31 +6,31 @@ class Footer extends Component {
     render () {
         return (
             <div className="bodyFooter">
-                <div className="divFooter">
+                <Link to="/" className="divFooter">
                     <div className="linkFooter">
-                        <Link to="/" className="colorLinkFooter">Accueil</Link>
+                        <span className="colorLinkFooter">Accueil</span>
                     </div>
-                </div>
-                <div className="divFooter">
+                </Link>
+                <Link to="/2013" className="divFooter">
                     <div className="linkFooter">
-                        <Link to="/2013" className="colorLinkFooter">2013</Link>
+                        <span className="colorLinkFooter">2013</span>
                     </div>
-                </div>
-                <div className="divFooter">
+                </Link>
+                <Link to="/2014" className="divFooter">
                     <div className="linkFooter">
-                        <Link to="/2014" className="colorLinkFooter">2014</Link>
+                        <span className="colorLinkFooter">2014</span>
                     </div>
-                </div>
-                <div className="divFooter">
+                </Link>
+                <Link to="/2015" className="divFooter">
                     <div className="linkFooter">
-                        <Link to="/2015" className="colorLinkFooter">2015</Link>
+                        <span className="colorLinkFooter">2015</span>
                     </div>
-                </div>
-                <div className="divFooter">
+                </Link>
+                <Link to="/club" className="divFooter">
                     <div className="linkFooter">
-                        <Link to="/club" className="colorLinkFooter">Club</Link>
+                        <span className="colorLinkFooter">Club</span>
                     </div>
-                </div>
+                </Link>
             </div>
         )
     }
