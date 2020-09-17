@@ -40,6 +40,20 @@ const App = () => (
           </div>
         </Link>
       </div>
+      <div className="ligne">
+        <Link to="/xxl" className="case">
+          <div className="ecurie">
+            <img src={require("./img/xxl/casaqueXXL.png")} alt="casaqueXXL" className="casaque"/>
+            <p className="nomEcurie">XXL</p>
+          </div>
+        </Link>
+        <Link to="/top" className="case">
+          <div className="ecurie">
+            <img src={require("./img/top/casaqueTop.jpg")} alt="casaqueTop" className="casaque"/>
+            <p className="nomEcurie">Top</p>
+          </div>
+        </Link>
+      </div>
   </div>
   </>
 )

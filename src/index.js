@@ -14,6 +14,8 @@ import Accueil2013 from './components/2013/Accueil2013'
 import Accueil2014 from './components/2014/Accueil2014'
 import Accueil2015 from './components/2015/Accueil2015'
 import AccueilClub from './components/Club/AccueilClub'
+import AccueilXXL from './components/XXL/AccueilXXL'
+import AccueilTop from './components/Top/AccueilTop'
 
 import Compo2013 from './components/2013/Compo2013'
 import Premier_partant_galop from './components/2013/Premier_partant_galop'
@@ -30,6 +32,10 @@ import Compo2015 from './components/2015/Compo2015'
 
 import CompoClub from './components/Club/CompoClub'
 
+import CompoXXL from './components/XXL/CompoXXL'
+
+import CompoTop from './components/Top/CompoTop'
+
 import Contact from './components/Contact'
 import NotFound from './components/NotFound'
 
@@ -42,6 +48,8 @@ const Root = () => (
             <Route path='/2014' component={Accueil2014}/>
             <Route path='/2015' component={Accueil2015}/>
             <Route path='/club' component={AccueilClub}/>
+            <Route path='/xxl' component={AccueilXXL}/>
+            <Route path='/top' component={AccueilTop}/>
 
             <Route path='/compo2013' component={Compo2013}/>
             <Route path='/premier_partant_galop' component={Premier_partant_galop}/>
@@ -57,6 +65,10 @@ const Root = () => (
             <Route path='/compo2015' component={Compo2015}/>
 
             <Route path='/compoClub' component={CompoClub}/>
+
+            <Route path='/compoXXL' component={CompoXXL}/>
+
+            <Route path='/compoTop' component={CompoTop}/>
         
             <Route path='/contact' component={Contact}/>
             <Route path='/notfound' component={NotFound}/>

@@ -25,6 +25,11 @@ class Header extends Component {
                                 <NavLink exact activeClassName="active" className="nav-link" to="/club">Club</NavLink>
                             </li>
                             <li className="nav-item">
+                                <NavLink exact activeClassName="active" className="nav-link" to="/xxl">XXL</NavLink>
+                            </li><li className="nav-item">
+                                <NavLink exact activeClassName="active" className="nav-link" to="/top">Top</NavLink>
+                            </li>
+                            <li className="nav-item">
                                 <NavLink exact activeClassName="active" className="nav-link" to="/">Contact</NavLink>
                             </li>
                         </ul>

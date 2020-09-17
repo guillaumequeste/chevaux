@@ -31,6 +31,16 @@ class Footer extends Component {
                         <span className="colorLinkFooter">Club</span>
                     </div>
                 </Link>
+                <Link to="/xxl" className="divFooter">
+                    <div className="linkFooter">
+                        <span className="colorLinkFooter">XXL</span>
+                    </div>
+                </Link>
+                <Link to="/top" className="divFooter">
+                    <div className="linkFooter">
+                        <span className="colorLinkFooter">Top</span>
+                    </div>
+                </Link>
             </div>
         )
     }
