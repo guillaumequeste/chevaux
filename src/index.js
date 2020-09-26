@@ -36,6 +36,9 @@ import Auteur2014 from './components/2014/Auteur2014'
 import Baldi_Star from './components/2014/Baldi_Star'
 import Borsalino_du_Jal from './components/2014/Borsalino_du_Jal'
 import Claudia_Eria from './components/2014/Claudia_Eria'
+import Kilava from './components/2014/Kilava'
+import Magic_Miles from './components/2014/Magic_Miles'
+import Unrefundable2014 from './components/2014/Unrefundable2014'
 
 import Compo2015 from './components/2015/Compo2015'
 
@@ -75,10 +78,13 @@ const Root = () => (
             <Route path='/premiere_place_dieppe' component={Premiere_place_dieppe}/>
             <Route path='/premier_gagnant_dieppe' component={Premier_gagnant_dieppe}/>
             <Route path='/premier_gagnant_vincennes' component={Premier_gagnant_vincennes}/>
-            <Route path='/auteur' component={Auteur2014}/>
+            <Route path='/auteur2014' component={Auteur2014}/>
             <Route path='/baldi_star' component={Baldi_Star}/>
             <Route path='/borsalino_du_jal' component={Borsalino_du_Jal}/>
             <Route path='/claudia_eria' component={Claudia_Eria}/>
+            <Route path='/kilava' component={Kilava}/>
+            <Route path='/magic_miles' component={Magic_Miles}/>
+            <Route path='/unrefundable2014' component={Unrefundable2014}/>
 
             <Route path='/compo2015' component={Compo2015}/>
 

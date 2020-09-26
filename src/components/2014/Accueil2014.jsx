@@ -53,7 +53,7 @@ class Accueil2014 extends Component {
                         </NavLink>
                     </Fade>
                     <Fade right>
-                        <NavLink to="/auteur" className="rubrique">
+                        <NavLink to="/auteur2014" className="rubrique">
                             <h6 className="titreRubrique">Auteur</h6>
                         </NavLink>
                     </Fade>
@@ -73,18 +73,18 @@ class Accueil2014 extends Component {
                         </NavLink>
                     </Fade>
                     <Fade right>
-                        <NavLink to="/" className="rubrique">
+                        <NavLink to="/kilava" className="rubrique">
                             <h6 className="titreRubrique">Kilava</h6>
                         </NavLink>
                     </Fade>
                     <Fade right>
-                        <NavLink to="/" className="rubrique">
+                        <NavLink to="/magic_miles" className="rubrique">
                             <h6 className="titreRubrique">Magic Miles</h6>
                         </NavLink>
                     </Fade>
                     
                     <Fade right>
-                        <NavLink to="/" className="rubrique">
+                        <NavLink to="/unrefundable2014" className="rubrique">
                             <h6 className="titreRubrique">Unrefundable</h6>
                         </NavLink>
                     </Fade>
