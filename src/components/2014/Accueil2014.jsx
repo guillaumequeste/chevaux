@@ -58,17 +58,17 @@ class Accueil2014 extends Component {
                         </NavLink>
                     </Fade>
                     <Fade right>
-                        <NavLink to="/" className="rubrique">
+                        <NavLink to="/baldi_star" className="rubrique">
                             <h6 className="titreRubrique">Baldi Star</h6>
                         </NavLink>
                     </Fade>
                     <Fade right>
-                        <NavLink to="/" className="rubrique">
+                        <NavLink to="/borsalino_du_jal" className="rubrique">
                             <h6 className="titreRubrique">Borsalino du Jal</h6>
                         </NavLink>
                     </Fade>
                     <Fade right>
-                        <NavLink to="/" className="rubrique">
+                        <NavLink to="/claudia_eria" className="rubrique">
                             <h6 className="titreRubrique">Claudia Eria</h6>
                         </NavLink>
                     </Fade>

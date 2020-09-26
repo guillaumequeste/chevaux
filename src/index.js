@@ -33,6 +33,9 @@ import Premiere_place_dieppe from './components/2014/Premiere_place_dieppe'
 import Premier_gagnant_dieppe from './components/2014/Premier_gagnant_dieppe'
 import Premier_gagnant_vincennes from './components/2014/Premier_gagnant_vincennes'
 import Auteur2014 from './components/2014/Auteur2014'
+import Baldi_Star from './components/2014/Baldi_Star'
+import Borsalino_du_Jal from './components/2014/Borsalino_du_Jal'
+import Claudia_Eria from './components/2014/Claudia_Eria'
 
 import Compo2015 from './components/2015/Compo2015'
 
@@ -73,6 +76,9 @@ const Root = () => (
             <Route path='/premier_gagnant_dieppe' component={Premier_gagnant_dieppe}/>
             <Route path='/premier_gagnant_vincennes' component={Premier_gagnant_vincennes}/>
             <Route path='/auteur' component={Auteur2014}/>
+            <Route path='/baldi_star' component={Baldi_Star}/>
+            <Route path='/borsalino_du_jal' component={Borsalino_du_Jal}/>
+            <Route path='/claudia_eria' component={Claudia_Eria}/>
 
             <Route path='/compo2015' component={Compo2015}/>
 
