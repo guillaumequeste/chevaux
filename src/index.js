@@ -41,6 +41,11 @@ import Magic_Miles from './components/2014/Magic_Miles'
 import Unrefundable2014 from './components/2014/Unrefundable2014'
 
 import Compo2015 from './components/2015/Compo2015'
+import Auteur2015 from './components/2015/Auteur2015'
+import Cristal_Pierji2015 from './components/2015/Cristal_Pierji2015'
+import Drakkar_Delo2015 from './components/2015/Drakkar_Delo2015'
+import Unrefundable2015 from './components/2015/Unrefundable2015'
+import Valley_Kid from './components/2015/Valley_Kid'
 
 import CompoClub from './components/Club/CompoClub'
 
@@ -87,6 +92,11 @@ const Root = () => (
             <Route path='/unrefundable2014' component={Unrefundable2014}/>
 
             <Route path='/compo2015' component={Compo2015}/>
+            <Route path='/auteur2015' component={Auteur2015}/>
+            <Route path='/cristal_pierji2015' component={Cristal_Pierji2015}/>
+            <Route path='/drakkar_delo2015' component={Drakkar_Delo2015}/>
+            <Route path='/unrefundable2015' component={Unrefundable2015}/>
+            <Route path='/valley_kid' component={Valley_Kid}/>
 
             <Route path='/compoClub' component={CompoClub}/>
 

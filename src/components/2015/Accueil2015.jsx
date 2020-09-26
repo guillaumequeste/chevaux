@@ -28,32 +28,27 @@ class Accueil2015 extends Component {
                         </NavLink>
                     </Fade>
                     <Fade right>
-                        <NavLink to="/" className="rubrique">
-                            <h6 className="titreRubrique">1er gagnant à Vincennes</h6>
-                        </NavLink>
-                    </Fade>
-                    <Fade right>
-                        <NavLink to="/" className="rubrique">
-                            <h6 className="titreRubrique">Unrefundable</h6>
-                        </NavLink>
-                    </Fade>
-                    <Fade right>
-                        <NavLink to="/" className="rubrique">
+                        <NavLink to="/auteur2015" className="rubrique">
                             <h6 className="titreRubrique">Auteur</h6>
                         </NavLink>
                     </Fade>
                     <Fade right>
-                        <NavLink to="/" className="rubrique">
+                        <NavLink to="/cristal_pierji2015" className="rubrique">
                             <h6 className="titreRubrique">Cristal Pierji</h6>
                         </NavLink>
                     </Fade>
                     <Fade right>
-                        <NavLink to="/" className="rubrique">
+                        <NavLink to="/drakkar_delo2015" className="rubrique">
                             <h6 className="titreRubrique">Drakkar Delo</h6>
                         </NavLink>
                     </Fade>
                     <Fade right>
-                        <NavLink to="/" className="rubrique">
+                        <NavLink to="/unrefundable2015" className="rubrique">
+                            <h6 className="titreRubrique">Unrefundable</h6>
+                        </NavLink>
+                    </Fade>
+                    <Fade right>
+                        <NavLink to="/valley_kid" className="rubrique">
                             <h6 className="titreRubrique">Valley Kid</h6>
                         </NavLink>
                     </Fade>
