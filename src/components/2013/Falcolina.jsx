@@ -41,24 +41,41 @@ class Falcolina extends Component {
                     <div className="photosPage">
                         <Fade right>
                             <div className="divPhotoPage">
-                                <img src={require("../../img/2013/falcolina/victoire_falcolina_cagnes01.jpg")} alt="victoire_falcolina_cagnes01" className="photoPageHorizontale"/>
+                                <img src={require("../../img/2013/falcolina/1er_partant_falcolina01.jpg")} alt="1er_partant_falcolina01" className="photoPageHorizontale"/>
                             </div>
                         </Fade>
                         <Fade right>
                             <div className="divPhotoPage">
-                                <img src={require("../../img/2013/falcolina/victoire_falcolina_cagnes02.jpg")} alt="victoire_falcolina_cagnes02" className="photoPageHorizontale"/>
+                                <img src={require("../../img/2013/falcolina/1er_partant_falcolina02.jpg")} alt="1er_partant_falcolina02" className="photoPageHorizontale"/>
                             </div>
                         </Fade>
                         <Fade right>
                             <div className="divPhotoPage">
-                                <img src={require("../../img/2013/falcolina/victoire_falcolina_lyon01.jpg")} alt="victoire_falcolina_lyon01" className="photoPageHorizontale"/>
+                                <img src={require("../../img/2013/falcolina/1er_partant_falcolina03.jpg")} alt="1er_partant_falcolina03" className="photoPageHorizontale"/>
                             </div>
                         </Fade>
                     </div>
                     <div className="photosPage">
                         <Fade right>
                             <div className="divPhotoPage">
+                                <img src={require("../../img/2013/falcolina/victoire_falcolina_lyon01.jpg")} alt="victoire_falcolina_lyon01" className="photoPageHorizontale"/>
+                            </div>
+                        </Fade>
+                        <Fade right>
+                            <div className="divPhotoPage">
                                 <img src={require("../../img/2013/falcolina/victoire_falcolina_lyon02.jpg")} alt="victoire_falcolina_lyon02" className="photoPageHorizontale"/>
+                            </div>
+                        </Fade>
+                        <Fade right>
+                            <div className="divPhotoPage">
+                                <img src={require("../../img/2013/falcolina/victoire_falcolina_cagnes01.jpg")} alt="victoire_falcolina_cagnes01" className="photoPageHorizontale"/>
+                            </div>
+                        </Fade>
+                    </div>
+                    <div className="photosPage">
+                        <Fade right>
+                            <div className="divPhotoPage">
+                                <img src={require("../../img/2013/falcolina/victoire_falcolina_cagnes02.jpg")} alt="victoire_falcolina_cagnes02" className="photoPageHorizontale"/>
                             </div>
                         </Fade>
                     </div>

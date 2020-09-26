@@ -66,6 +66,18 @@ class Pan_di_Stelle extends Component {
                                 <img src={require("../../img/2013/pan/pan_dieppe06.jpg")} alt="pan_dieppe06" className="photoPageVerticale"/>
                             </div>
                         </Fade>
+                        <Fade right>
+                            <div className="divPhotoPage">
+                                <img src={require("../../img/2013/pan/victoire_pan_di_stelle03.jpg")} alt="victoire_pan_di_stelle03" className="photoPageHorizontale"/>
+                            </div>
+                        </Fade>
+                    </div>
+                    <div className="photosPage">
+                        <Fade right>
+                            <div className="divPhotoPage">
+                                <img src={require("../../img/2013/pan/victoire_pan_di_stelle04.jpg")} alt="victoire_pan_di_stelle04" className="photoPageHorizontale"/>
+                            </div>
+                        </Fade>
                     </div>
                 </div>
             </div>

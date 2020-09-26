@@ -41,24 +41,24 @@ class Benodet extends Component {
                     <div className="photosPage">
                         <Fade right>
                             <div className="divPhotoPage">
-                                <img src={require("../../img/2013/benodet/victoire_compiegne_benodet01.jpg")} alt="victoire_compiegne_benodet01" className="photoPageHorizontale"/>
-                            </div>
-                        </Fade>
-                        <Fade right>
-                            <div className="divPhotoPage">
-                                <img src={require("../../img/2013/benodet/victoire_compiegne_benodet02.jpg")} alt="victoire_compiegne_benodet01" className="photoPageHorizontale"/>
-                            </div>
-                        </Fade>
-                        <Fade right>
-                            <div className="divPhotoPage">
                                 <img src={require("../../img/2013/benodet/victoire_marseille_benodet01.jpg")} alt="victoire_marseille_benodet01" className="photoPageHorizontale"/>
+                            </div>
+                        </Fade>
+                        <Fade right>
+                            <div className="divPhotoPage">
+                                <img src={require("../../img/2013/benodet/victoire_marseille_benodet02.jpg")} alt="victoire_marseille_benodet02" className="photoPageHorizontale"/>
+                            </div>
+                        </Fade>
+                        <Fade right>
+                            <div className="divPhotoPage">
+                                <img src={require("../../img/2013/benodet/victoire_compiegne_benodet01.jpg")} alt="victoire_compiegne_benodet01" className="photoPageHorizontale"/>
                             </div>
                         </Fade>
                     </div>
                     <div className="photosPage">
                         <Fade right>
                             <div className="divPhotoPage">
-                                <img src={require("../../img/2013/benodet/victoire_marseille_benodet02.jpg")} alt="victoire_marseille_benodet02" className="photoPageHorizontale"/>
+                                <img src={require("../../img/2013/benodet/victoire_compiegne_benodet02.jpg")} alt="victoire_compiegne_benodet01" className="photoPageHorizontale"/>
                             </div>
                         </Fade>
                     </div>
