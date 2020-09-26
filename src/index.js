@@ -27,6 +27,12 @@ import Falcolina from './components/2013/Falcolina'
 import Pan_di_Stelle from './components/2013/Pan_di_Stelle'
 
 import Compo2014 from './components/2014/Compo2014'
+import Premier_partant_trot from './components/2014/Premier_partant_trot'
+import Premier_gagnant_trot from './components/2014/Premier_gagnant_trot'
+import Premiere_place_dieppe from './components/2014/Premiere_place_dieppe'
+import Premier_gagnant_dieppe from './components/2014/Premier_gagnant_dieppe'
+import Premier_gagnant_vincennes from './components/2014/Premier_gagnant_vincennes'
+import Auteur2014 from './components/2014/Auteur2014'
 
 import Compo2015 from './components/2015/Compo2015'
 
@@ -61,6 +67,12 @@ const Root = () => (
             <Route path='/pan_di_stelle' component={Pan_di_Stelle}/>
 
             <Route path='/compo2014' component={Compo2014}/>
+            <Route path='/premier_partant_trot' component={Premier_partant_trot}/>
+            <Route path='/premier_gagnant_trot' component={Premier_gagnant_trot}/>
+            <Route path='/premiere_place_dieppe' component={Premiere_place_dieppe}/>
+            <Route path='/premier_gagnant_dieppe' component={Premier_gagnant_dieppe}/>
+            <Route path='/premier_gagnant_vincennes' component={Premier_gagnant_vincennes}/>
+            <Route path='/auteur' component={Auteur2014}/>
 
             <Route path='/compo2015' component={Compo2015}/>
 

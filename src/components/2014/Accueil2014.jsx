@@ -28,38 +28,38 @@ class Accueil2014 extends Component {
                         </NavLink>
                     </Fade>
                     <Fade right>
-                        <NavLink to="/" className="rubrique">
+                        <NavLink to="/premier_partant_trot" className="rubrique">
                             <h6 className="titreRubrique">1er partant au trot</h6>
                         </NavLink>
                     </Fade>
                     <Fade right>
-                        <NavLink to="/" className="rubrique">
+                        <NavLink to="/premier_gagnant_trot" className="rubrique">
                             <h6 className="titreRubrique">1er gagnant au trot</h6>
                         </NavLink>
                     </Fade>
                     <Fade right>
-                        <NavLink to="/" className="rubrique">
-                            <h6 className="titreRubrique">1er gagnant à Vincennes</h6>
-                        </NavLink>
-                    </Fade>
-                    <Fade right>
-                        <NavLink to="/" className="rubrique">
-                            <h6 className="titreRubrique">1er partant à Dieppe</h6>
-                        </NavLink>
-                    </Fade>
-                    <Fade right>
-                        <NavLink to="/" className="rubrique">
+                        <NavLink to="/premiere_place_dieppe" className="rubrique">
                             <h6 className="titreRubrique">1ère place à Dieppe</h6>
                         </NavLink>
                     </Fade>
                     <Fade right>
-                        <NavLink to="/" className="rubrique">
+                        <NavLink to="/premier_gagnant_dieppe" className="rubrique">
                             <h6 className="titreRubrique">1er gagnant à Dieppe</h6>
                         </NavLink>
                     </Fade>
                     <Fade right>
+                        <NavLink to="/premier_gagnant_vincennes" className="rubrique">
+                            <h6 className="titreRubrique">1er gagnant à Vincennes</h6>
+                        </NavLink>
+                    </Fade>
+                    <Fade right>
+                        <NavLink to="/auteur" className="rubrique">
+                            <h6 className="titreRubrique">Auteur</h6>
+                        </NavLink>
+                    </Fade>
+                    <Fade right>
                         <NavLink to="/" className="rubrique">
-                            <h6 className="titreRubrique">Kilava</h6>
+                            <h6 className="titreRubrique">Baldi Star</h6>
                         </NavLink>
                     </Fade>
                     <Fade right>
@@ -74,22 +74,18 @@ class Accueil2014 extends Component {
                     </Fade>
                     <Fade right>
                         <NavLink to="/" className="rubrique">
+                            <h6 className="titreRubrique">Kilava</h6>
+                        </NavLink>
+                    </Fade>
+                    <Fade right>
+                        <NavLink to="/" className="rubrique">
                             <h6 className="titreRubrique">Magic Miles</h6>
                         </NavLink>
                     </Fade>
-                    <Fade right>
-                        <NavLink to="/" className="rubrique">
-                            <h6 className="titreRubrique">Baldi Star</h6>
-                        </NavLink>
-                    </Fade>
+                    
                     <Fade right>
                         <NavLink to="/" className="rubrique">
                             <h6 className="titreRubrique">Unrefundable</h6>
-                        </NavLink>
-                    </Fade>
-                    <Fade right>
-                        <NavLink to="/" className="rubrique">
-                            <h6 className="titreRubrique">Auteur</h6>
                         </NavLink>
                     </Fade>
                 </div>
