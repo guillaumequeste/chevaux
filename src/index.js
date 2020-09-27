@@ -48,6 +48,17 @@ import Unrefundable2015 from './components/2015/Unrefundable2015'
 import Valley_Kid from './components/2015/Valley_Kid'
 
 import CompoClub from './components/Club/CompoClub'
+import Premiere_victoire_quinte from './components/Club/Premiere_victoire_quinte'
+import Premiere_journee_2_victoires from './components/Club/Premiere_journee_2_victoires'
+import Al_Rassoul from './components/Club/Al_Rassoul'
+import Cayo_Coco from './components/Club/Cayo_Coco'
+import Cristal_Pierji_club from './components/Club/Cristal_Pierji_club'
+import Diva_du_Dancing from './components/Club/Diva_du_Dancing'
+import Domino_de_Larre from './components/Club/Domino_de_Larre'
+import Drakkar_Delo_club from './components/Club/Drakkar_Delo_club'
+import Eclipse_Somolli from './components/Club/Eclipse_Somolli'
+import Loquen from './components/Club/Loquen'
+import Saam from './components/Club/Saam'
 
 import CompoXXL from './components/XXL/CompoXXL'
 
@@ -99,6 +110,17 @@ const Root = () => (
             <Route path='/valley_kid' component={Valley_Kid}/>
 
             <Route path='/compoClub' component={CompoClub}/>
+            <Route path='/premiere_victoire_quinte' component={Premiere_victoire_quinte}/>
+            <Route path='/premiere_journee_2_victoires' component={Premiere_journee_2_victoires}/>
+            <Route path='/al_rassoul' component={Al_Rassoul}/>
+            <Route path='/cayo_coco' component={Cayo_Coco}/>
+            <Route path='/cristal_pierji_club' component={Cristal_Pierji_club}/>
+            <Route path='/diva_du_dancing' component={Diva_du_Dancing}/>
+            <Route path='/domino_de_larre' component={Domino_de_Larre}/>
+            <Route path='/drakkar_delo_club' component={Drakkar_Delo_club}/>
+            <Route path='/eclipse_somolli' component={Eclipse_Somolli}/>
+            <Route path='/loquen' component={Loquen}/>
+            <Route path='/saam' component={Saam}/>
 
             <Route path='/compoXXL' component={CompoXXL}/>
 

@@ -28,58 +28,58 @@ class AccueilClub extends Component {
                         </NavLink>
                     </Fade>
                     <Fade right>
-                        <NavLink to="/" className="rubrique">
-                            <h6 className="titreRubrique">1er Q+ à Longchamp</h6>
+                        <NavLink to="/premiere_victoire_quinte" className="rubrique">
+                            <h6 className="titreRubrique">1ère victoire dans un Qinté+</h6>
                         </NavLink>
                     </Fade>
                     <Fade right>
-                        <NavLink to="/" className="rubrique">
+                        <NavLink to="/premiere_journee_2_victoires" className="rubrique">
                             <h6 className="titreRubrique">1ère journée avec 2 victoires</h6>
                         </NavLink>
                     </Fade>
                     <Fade right>
-                        <NavLink to="/" className="rubrique">
-                            <h6 className="titreRubrique">Eclipse Somolli</h6>
-                        </NavLink>
-                    </Fade>
-                    <Fade right>
-                        <NavLink to="/" className="rubrique">
-                            <h6 className="titreRubrique">Cayo Coco</h6>
-                        </NavLink>
-                    </Fade>
-                    <Fade right>
-                        <NavLink to="/" className="rubrique">
-                            <h6 className="titreRubrique">Diva du Dancing</h6>
-                        </NavLink>
-                    </Fade>
-                    <Fade right>
-                        <NavLink to="/" className="rubrique">
-                            <h6 className="titreRubrique">Cristal Pierji</h6>
-                        </NavLink>
-                    </Fade>
-                    <Fade right>
-                        <NavLink to="/" className="rubrique">
-                            <h6 className="titreRubrique">Drakkar Delo</h6>
-                        </NavLink>
-                    </Fade>
-                    <Fade right>
-                        <NavLink to="/" className="rubrique">
-                            <h6 className="titreRubrique">Domino de Larré</h6>
-                        </NavLink>
-                    </Fade>
-                    <Fade right>
-                        <NavLink to="/" className="rubrique">
+                        <NavLink to="/al_rassoul" className="rubrique">
                             <h6 className="titreRubrique">Al Rassoul</h6>
                         </NavLink>
                     </Fade>
                     <Fade right>
-                        <NavLink to="/" className="rubrique">
-                            <h6 className="titreRubrique">Saam</h6>
+                        <NavLink to="/cayo_coco" className="rubrique">
+                            <h6 className="titreRubrique">Cayo Coco</h6>
                         </NavLink>
                     </Fade>
                     <Fade right>
-                        <NavLink to="/" className="rubrique">
+                        <NavLink to="/cristal_pierji_club" className="rubrique">
+                            <h6 className="titreRubrique">Cristal Pierji</h6>
+                        </NavLink>
+                    </Fade>
+                    <Fade right>
+                        <NavLink to="/diva_du_dancing" className="rubrique">
+                            <h6 className="titreRubrique">Diva du Dancing</h6>
+                        </NavLink>
+                    </Fade>
+                    <Fade right>
+                        <NavLink to="/domino_de_larre" className="rubrique">
+                            <h6 className="titreRubrique">Domino de Larré</h6>
+                        </NavLink>
+                    </Fade>
+                    <Fade right>
+                        <NavLink to="/drakkar_delo_club" className="rubrique">
+                            <h6 className="titreRubrique">Drakkar Delo</h6>
+                        </NavLink>
+                    </Fade>
+                    <Fade right>
+                        <NavLink to="/eclipse_somolli" className="rubrique">
+                            <h6 className="titreRubrique">Eclipse Somolli</h6>
+                        </NavLink>
+                    </Fade>
+                    <Fade right>
+                        <NavLink to="/loquen" className="rubrique">
                             <h6 className="titreRubrique">Loquen</h6>
+                        </NavLink>
+                    </Fade>
+                    <Fade right>
+                        <NavLink to="/saam" className="rubrique">
+                            <h6 className="titreRubrique">Saam</h6>
                         </NavLink>
                     </Fade>
                 </div>
