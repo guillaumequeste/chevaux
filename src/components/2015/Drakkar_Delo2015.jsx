@@ -41,7 +41,7 @@ class Drakkar_Delo2015 extends Component {
                     <div className="photosPage">
                         <Fade right>
                             <div className="divPhotoPage">
-                                <img src={require("../../img/2015/drakkar_delo/drakkar04.jpg")} alt="drakkar04" className="photoPageVerticale"/>
+                                <img src={require("../../img/2015/drakkar_delo/drakkar04.jpg")} alt="drakkar04" className="photoPageHorizontale"/>
                             </div>
                         </Fade>
                         <Fade right>
