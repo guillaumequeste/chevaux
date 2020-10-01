@@ -49,7 +49,7 @@ const App = () => (
         </Link>
         <Link to="/top" className="case">
           <div className="ecurie">
-            <img src={require("./img/top/casaqueTop.jpg")} alt="casaqueTop" className="casaque"/>
+            <img src={require("./img/top/casaqueTop.png")} alt="casaqueTop" className="casaque"/>
             <p className="nomEcurie">Top</p>
           </div>
         </Link>

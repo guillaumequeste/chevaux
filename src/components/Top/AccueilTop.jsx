@@ -18,7 +18,7 @@ class AccueilTop extends Component {
                 <div className="accueil2013">
                     <div className="titreAccueil">
                         <Bounce top>
-                            <img src={require("../../img/top/casaqueTop.jpg")} alt="casaqueTop" className="casaqueAccueil"/>
+                            <img src={require("../../img/top/casaqueTop.png")} alt="casaqueTop" className="casaqueAccueil"/>
                             <h5 className="annee">Top</h5>
                         </Bounce>
                     </div>
