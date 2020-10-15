@@ -239,16 +239,52 @@
 .nomCheval {
     text-align: center;
     font-weight: bold;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .nomCheval {
+        font-size: 1.8rem;
+    }
 }
 
 .discipline {
     font-style: italic;
     text-align: center;
+    font-size: 0.8rem;
+}
+
+@media screen and (min-width: 768px) {
+    .discipline {
+        font-size: 1.2rem;
+    }
+}
+
+.divDetailsCompo {
+    display: flex;
+    flex-direction: row;
+}
+
+.resultats {
+    display: flex;
+    width: 50%;
+}
+
+.resultats2 {
+    margin: auto;
 }
 
 .pInfos {
     text-align: center;
     margin: 0;
+    font-size: 0.6rem;
+}
+
+@media screen and (min-width: 768px) {
+    .pInfos {
+        font-size: 1.2rem;
+    }
 }
 
 
