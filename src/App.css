@@ -239,7 +239,7 @@
 .nomCheval {
     text-align: center;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin: 0;
 }
 
@@ -273,12 +273,19 @@
 
 .resultats2 {
     margin: auto;
+    padding-left: 5%;
+}
+
+@media screen and (min-width: 1024px) {
+    .divInfos {
+        padding-right: 2%;
+    }
 }
 
 .pInfos {
     text-align: center;
     margin: 0;
-    font-size: 0.6rem;
+    font-size: 0.5rem;
 }
 
 @media screen and (min-width: 768px) {

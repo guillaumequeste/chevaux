@@ -77,6 +77,12 @@ class Compo2013 extends Component {
                     </div>
                   </div>
                   <div className="divInfos">
+                    <p className="pInfos">
+                      <i>Falco</i>
+                    </p>
+                    <p className="pInfos">
+                      <i>Flamenba</i>
+                    </p>
                     <p className="pInfos">chez Patrick Monfort</p>
                   </div>
                 </div>
@@ -93,10 +99,24 @@ class Compo2013 extends Component {
               <div className="infos">
                 <h3 className="nomCheval">Pan di Stelle</h3>
                 <h6 className="discipline">plat</h6>
-                <p className="pInfos">16 courses</p>
-                <p className="pInfos">1 victoire</p>
-                <p className="pInfos">9 places</p>
-                <p className="pInfos">chez Carlos & Yann Lerner</p>
+                <div className="divDetailsCompo">
+                  <div className="resultats">
+                    <div className="resultats2">
+                      <p className="pInfos">16 courses</p>
+                      <p className="pInfos">1 victoire</p>
+                      <p className="pInfos">9 places</p>
+                    </div>
+                  </div>
+                  <div className="divInfos">
+                    <p className="pInfos">
+                      <i>Panis</i>
+                    </p>
+                    <p className="pInfos">
+                      <i>Orion Queen</i>
+                    </p>
+                    <p className="pInfos">chez Carlos & Yann Lerner</p>
+                  </div>
+                </div>
               </div>
             </div>
           </Fade>
@@ -110,10 +130,24 @@ class Compo2013 extends Component {
               <div className="infos">
                 <h3 className="nomCheval">Pedregalejo</h3>
                 <h6 className="discipline">plat</h6>
-                <p className="pInfos">14 courses</p>
-                <p className="pInfos">1 victoire</p>
-                <p className="pInfos">5 places</p>
-                <p className="pInfos">chez Philippe Van de Poële</p>
+                <div className="divDetailsCompo">
+                  <div className="resultats">
+                    <div className="resultats2">
+                      <p className="pInfos">14 courses</p>
+                      <p className="pInfos">1 victoire</p>
+                      <p className="pInfos">5 places</p>
+                    </div>
+                  </div>
+                  <div className="divInfos">
+                    <p className="pInfos">
+                      <i>High Chaparral</i>
+                    </p>
+                    <p className="pInfos">
+                      <i>Highphar</i>
+                    </p>
+                    <p className="pInfos">chez Philippe Van de Poële</p>
+                  </div>
+                </div>
               </div>
             </div>
           </Fade>
@@ -127,9 +161,23 @@ class Compo2013 extends Component {
               <div className="infos">
                 <h3 className="nomCheval">Shingueti</h3>
                 <h6 className="discipline">plat</h6>
-                <p className="pInfos">12 courses</p>
-                <p className="pInfos">3 places</p>
-                <p className="pInfos">chez Keven Borgel</p>
+                <div className="divDetailsCompo">
+                  <div className="resultats">
+                    <div className="resultats2">
+                      <p className="pInfos">12 courses</p>
+                      <p className="pInfos">3 places</p>
+                    </div>
+                  </div>
+                  <div className="divInfos">
+                    <p className="pInfos">
+                      <i>Desert Style</i>
+                    </p>
+                    <p className="pInfos">
+                      <i>Spain</i>
+                    </p>
+                    <p className="pInfos">chez Keven Borgel</p>
+                  </div>
+                </div>
               </div>
             </div>
           </Fade>
@@ -143,10 +191,24 @@ class Compo2013 extends Component {
               <div className="infos">
                 <h3 className="nomCheval">Sole Reign</h3>
                 <h6 className="discipline">plat</h6>
-                <p className="pInfos">16 courses</p>
-                <p className="pInfos">1 victoire</p>
-                <p className="pInfos">1 place</p>
-                <p className="pInfos">chez Tony Clout</p>
+                <div className="divDetailsCompo">
+                  <div className="resultats">
+                    <div className="resultats2">
+                      <p className="pInfos">16 courses</p>
+                      <p className="pInfos">1 victoire</p>
+                      <p className="pInfos">1 place</p>
+                    </div>
+                  </div>
+                  <div className="divInfos">
+                    <p className="pInfos">
+                      <i>Desert Style</i>
+                    </p>
+                    <p className="pInfos">
+                      <i>Hokey Pokey</i>
+                    </p>
+                    <p className="pInfos">chez Tony Clout</p>
+                  </div>
+                </div>
               </div>
             </div>
           </Fade>
@@ -160,8 +222,22 @@ class Compo2013 extends Component {
               <div className="infos">
                 <h3 className="nomCheval">Solside</h3>
                 <h6 className="discipline">plat</h6>
-                <p className="pInfos">2 courses</p>
-                <p className="pInfos">chez Antoine de Watrigant</p>
+                <div className="divDetailsCompo">
+                  <div className="resultats">
+                    <div className="resultats2">
+                      <p className="pInfos">2 courses</p>
+                    </div>
+                  </div>
+                  <div className="divInfos">
+                    <p className="pInfos">
+                      <i>Country Reel</i>
+                    </p>
+                    <p className="pInfos">
+                      <i>Carabiola</i>
+                    </p>
+                    <p className="pInfos">chez Antoine de Watrigant</p>
+                  </div>
+                </div>
               </div>
             </div>
           </Fade>
@@ -175,9 +251,23 @@ class Compo2013 extends Component {
               <div className="infos">
                 <h3 className="nomCheval">Sweet Smoke</h3>
                 <h6 className="discipline">plat</h6>
-                <p className="pInfos">15 courses</p>
-                <p className="pInfos">8 places</p>
-                <p className="pInfos">chez Mathieu Boutin</p>
+                <div className="divDetailsCompo">
+                  <div className="resultats">
+                    <div className="resultats2">
+                      <p className="pInfos">15 courses</p>
+                      <p className="pInfos">8 places</p>
+                    </div>
+                  </div>
+                  <div className="divInfos">
+                    <p className="pInfos">
+                      <i>Redback</i>
+                    </p>
+                    <p className="pInfos">
+                      <i>Sweet Alabama</i>
+                    </p>
+                    <p className="pInfos">chez Mathieu Boutin</p>
+                  </div>
+                </div>
               </div>
             </div>
           </Fade>
@@ -191,9 +281,23 @@ class Compo2013 extends Component {
               <div className="infos">
                 <h3 className="nomCheval">T'Choupi Chop</h3>
                 <h6 className="discipline">plat</h6>
-                <p className="pInfos">8 courses</p>
-                <p className="pInfos">1 place</p>
-                <p className="pInfos">chez Antoine de Watrigant</p>
+                <div className="divDetailsCompo">
+                  <div className="resultats">
+                    <div className="resultats2">
+                      <p className="pInfos">8 courses</p>
+                      <p className="pInfos">1 place</p>
+                    </div>
+                  </div>
+                  <div className="divInfos">
+                    <p className="pInfos">
+                      <i>Indian Rocket</i>
+                    </p>
+                    <p className="pInfos">
+                      <i>Chopinette</i>
+                    </p>
+                    <p className="pInfos">chez Antoine de Watrigant</p>
+                  </div>
+                </div>
               </div>
             </div>
           </Fade>
