@@ -61,6 +61,9 @@ import Loquen from './components/Club/Loquen'
 import Saam from './components/Club/Saam'
 
 import CompoXXL from './components/XXL/CompoXXL'
+import Premiere_victoire_auteuil from './components/XXL/Premiere_victoire_auteuil'
+import Journee_deux_victoires from './components/XXL/Journee_deux_victoires'
+import Belle_Promesse from './components/XXL/Belle_Promesse'
 
 import CompoTop from './components/Top/CompoTop'
 
@@ -124,6 +127,9 @@ const Root = () => (
             <Route path='/saam' component={Saam}/>
 
             <Route path='/compoXXL' component={CompoXXL}/>
+            <Route path='/premiere_victoire_auteuil' component={Premiere_victoire_auteuil}/>
+            <Route path='/journee_deux_victoires' component={Journee_deux_victoires}/>
+            <Route path='/belle_promesse' component={Belle_Promesse}/>
 
             <Route path='/compoTop' component={CompoTop}/>
         

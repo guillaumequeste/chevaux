@@ -211,7 +211,7 @@
 
 .divContact {
     display: flex;
-    height: 93vh;
+    height: 86vh;
     background-color: rgb(2, 34, 102);
 }
 
@@ -243,7 +243,7 @@
 
 .divCredits {
     display: flex;
-    height: 93vh;
+    height: 86vh;
     background-color: rgb(2, 34, 102);
 }
 
@@ -355,6 +355,11 @@
     font-size: 0.6rem;
 }
 
+.linkHeaderMobile1:hover {
+    color: white;
+    text-decoration: none;
+}
+
 @media screen and (min-width: 540px) {
     .linkHeaderMobile1 {
         font-size: 1rem;
@@ -367,6 +372,11 @@
     line-height: 7vh;
     text-align: center;
     font-size: 0.6rem;
+}
+
+.linkHeaderMobile2:hover {
+    color: white;
+    text-decoration: none;
 }
 
 @media screen and (min-width: 540px) {

@@ -29,6 +29,21 @@ class AccueilXXL extends Component {
                             <h6 className="titreRubrique">Compo</h6>
                         </NavLink>
                     </Fade>
+                    <Fade right>
+                        <NavLink to="/premiere_victoire_auteuil" className="rubrique">
+                            <h6 className="titreRubrique">1ère victoire à Auteuil</h6>
+                        </NavLink>
+                    </Fade>
+                    <Fade right>
+                        <NavLink to="/journee_deux_victoires" className="rubrique">
+                            <h6 className="titreRubrique">Journée à 2 victoires</h6>
+                        </NavLink>
+                    </Fade>
+                    <Fade right>
+                        <NavLink to="/belle_promesse" className="rubrique">
+                            <h6 className="titreRubrique">Belle Promesse</h6>
+                        </NavLink>
+                    </Fade>
                 </div>
             </div>
         )
