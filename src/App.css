@@ -1,7 +1,7 @@
-/* App */
+/* App ------------------------------------------------------------------ */
 
 .app {
-    height: 93vh;
+    height: 86vh;
     width: 100vw;
     background-color: rgb(2, 34, 102);
     display: flex;
@@ -9,22 +9,29 @@
     color: white;
 }
 
+@media screen and (min-width: 1025px) {
+    .app {
+        height: 93vh;
+        margin-top: 0;
+    }
+}
+
 .ligne {
     display: flex;
-    height: calc(100% / 3);
+    height: calc(100% / 4);
+    padding-top: 5%;
 }
 
 .case {
     display: flex;
     width: 50%;
+    height: 100%;
     color: white;
 }
 
 .case:hover {
-    color: rgb(2, 34, 102);
+    color: white;
     text-decoration: none;
-    background-color: rgb(214, 208, 208);
-    border-radius: 5px;
 }
 
 .ecurie {
@@ -32,118 +39,22 @@
 }
 
 .casaque {
-    width: 15vh;
+    width: 10vh;
+}
+
+.casaque:hover {
+    transition: transform 500ms;
+    transform: rotate(360deg);
 }
 
 .nomEcurie {
     text-align: center;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 
-/* Header */
-
-.bodyHeader {
-    display: none;
-}
-
-@media screen and (min-width: 1025px) {
-    .bodyHeader {
-        display: block;
-    }
-}
-
-.navbar {
-    height: 7vh;
-    z-index: 100 !important;
-}
-
-.nav-link {
-    background-color: #f8f9fa;
-    z-index: 100 !important;
-}
-
-
-/* Footer */
-
-.bodyFooter {
-    height: 7vh;
-    width: 100vw;
-    display: flex;
-    position: fixed;
-    bottom: 0;
-    z-index: 5;
-}
-
-@media screen and (min-width: 1025px) {
-    .bodyFooter {
-        display: none;
-    }
-}
-
-.divFooter {
-    width: calc(100% / 7);
-    height: 7vh;
-    background-color: rgb(2, 34, 102);
-    display: flex;
-    border: solid 1px white;
-}
-
-.linkFooter {
-    margin: auto;
-}
-
-.colorLinkFooter {
-    color: white;
-    font-size: 0.8em;
-}
-
-@media screen and (min-width: 760px) {
-    .colorLinkFooter {
-        font-size: 1.4em;
-    }
-}
-
-
-/* Contact */
-
-.divContact {
-    display: flex;
-    height: 93vh;
-    background-color: rgb(2, 34, 102);
-}
-
-.divContact2 {
-    margin: auto;
-    color: white;
-}
-
-
-/* Not Found */
-
-.notFound {
-    height: 93vh;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-}
-
-.divNotFound {
-    margin: auto;
-    color: white;
-}
-
-.imgExit {
-    width: 100px;
-}
-
-.imgDoor {
-    width: 100px;
-}
-
-
-/* Accueil 2013 */
+/* Accueil 2013 ----------------------------------------------------------------- */
 
 .accueil2013 {
     min-height: 93vh;
@@ -188,10 +99,11 @@
 
 .titreRubrique {
     margin: auto;
+    text-align: center;
 }
 
 
-/* Compo */
+/* Compo ----------------------------------------------------------------------- */
 
 .cheval {
     border: solid 1px white;
@@ -295,7 +207,199 @@
 }
 
 
-/* Page */
+/* Contact ------------------------------------------------------------------------ */
+
+.divContact {
+    display: flex;
+    height: 93vh;
+    background-color: rgb(2, 34, 102);
+}
+
+.divContact2 {
+    margin: auto;
+    color: white;
+}
+
+.divContact2 a {
+    color: white;
+}
+
+.divContact2 a:hover {
+    color: white;
+}
+
+.textContact {
+    font-size: 0.9rem;
+}
+
+@media screen and (min-width: 540px) {
+    .textContact {
+        font-size: 1.2rem;
+    }
+}
+
+
+/* Crédits ------------------------------------------------------------------------ */
+
+.divCredits {
+    display: flex;
+    height: 93vh;
+    background-color: rgb(2, 34, 102);
+}
+
+.divCredits2 {
+    margin: auto;
+    color: white;
+}
+
+.divCredits2 a {
+    color: white;
+}
+
+.divCredits2 a:hover {
+    color: white;
+}
+
+
+/* Footer ------------------------------------------------------------------------- */
+
+.bodyFooter {
+    height: 7vh;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    z-index: 5;
+}
+
+@media screen and (min-width: 1025px) {
+    .bodyFooter {
+        display: none;
+    }
+}
+
+.divFooter {
+    width: calc(100% / 7);
+    height: 7vh;
+    display: flex;
+    background-color: rgb(115, 117, 134);
+}
+
+.linkFooter {
+    margin: auto;
+    color: white;
+}
+
+.colorLinkFooter {
+    font-size: 0.7em;
+}
+
+@media screen and (min-width: 760px) {
+    .colorLinkFooter {
+        font-size: 1.4em;
+    }
+}
+
+
+/* Header --------------------------------------------------------------------- */
+
+.bodyHeader {
+    display: none;
+}
+
+@media screen and (min-width: 1025px) {
+    .bodyHeader {
+        display: block;
+    }
+}
+
+.navbar {
+    height: 7vh;
+    z-index: 100 !important;
+}
+
+.nav-link {
+    background-color: #f8f9fa;
+    z-index: 100 !important;
+}
+
+
+/* HeaderMobile -------------------------------------------------------------- */
+
+.bodyHeaderMobile {
+    height: 7vh;
+    width: 100vw;
+    display: flex;
+    top: 0;
+}
+
+@media screen and (min-width: 1025px) {
+    .bodyHeaderMobile {
+        display: none;
+    }
+}
+
+.divHeaderMobile {
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    background-image: url("img/grass.jpg");
+    background-size: cover;
+}
+
+.linkHeaderMobile1 {
+    color: white;
+    width: 80%;
+    line-height: 7vh;
+    text-align: right;
+    font-size: 0.6rem;
+}
+
+@media screen and (min-width: 540px) {
+    .linkHeaderMobile1 {
+        font-size: 1rem;
+    }
+}
+
+.linkHeaderMobile2 {
+    color: white;
+    width: 20%;
+    line-height: 7vh;
+    text-align: center;
+    font-size: 0.6rem;
+}
+
+@media screen and (min-width: 540px) {
+    .linkHeaderMobile2 {
+        font-size: 1rem;
+    }
+}
+
+
+/* Not Found -------------------------------------------------------------- */
+
+.notFound {
+    height: 93vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.divNotFound {
+    margin: auto;
+    color: white;
+}
+
+.imgExit {
+    width: 100px;
+}
+
+.imgDoor {
+    width: 100px;
+}
+
+
+/* Page ----------------------------------------------------------------------------------- */
 
 .accueilPremierPartantGalop {
     min-height: 93vh;

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Header from '../Header'
+import HeaderMobile from '../HeaderMobile'
 import Helmet from '../Helmet'
 import Footer from '../Footer'
 import Bounce from 'react-reveal/Bounce'
@@ -14,6 +15,7 @@ class AccueilTop extends Component {
                 <Helmet title={"Contact bases React"}
                         link={"http://chevaux.guillaumequeste.fr"} />
                 <Header />
+                <HeaderMobile />
                 <Footer />
                 <div className="accueil2013">
                     <div className="titreAccueil">

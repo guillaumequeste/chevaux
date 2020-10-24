@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header'
+import HeaderMobile from './components/HeaderMobile'
 import Footer from './components/Footer'
 import Helmet from './components/Helmet'
 import { Link } from 'react-router-dom'
@@ -10,6 +11,7 @@ const App = () => (
     <Helmet title={"Accueil Découverte de la Normandie et du Littoral"}
               link={"http://chevaux.guillaumequeste.fr"} />
     <Header />
+    <HeaderMobile />
     <Footer />
     <div className="app">
       <div className="ligne">
@@ -19,7 +21,7 @@ const App = () => (
             <p className="nomEcurie">2013</p>
           </div>
         </Link>
-        <Link to="/2014" className="case">
+        <Link to="/2014" className="case case2014">
           <div className="ecurie">
             <img src={require("./img/2014/casaque2014.png")} alt="casaque2014" className="casaque"/>
             <p className="nomEcurie">2014</p>
@@ -33,7 +35,7 @@ const App = () => (
             <p className="nomEcurie">2015</p>
           </div>
         </Link>
-        <Link to="/club" className="case">
+        <Link to="/club" className="case caseClub">
           <div className="ecurie">
             <img src={require("./img/club/casaqueClub.png")} alt="casaqueClub" className="casaque"/>
             <p className="nomEcurie">Club</p>
@@ -41,13 +43,13 @@ const App = () => (
         </Link>
       </div>
       <div className="ligne">
-        <Link to="/xxl" className="case">
+        <Link to="/xxl" className="case caseXXL">
           <div className="ecurie">
             <img src={require("./img/xxl/casaqueXXL.png")} alt="casaqueXXL" className="casaque"/>
             <p className="nomEcurie">XXL</p>
           </div>
         </Link>
-        <Link to="/top" className="case">
+        <Link to="/top" className="case caseTop">
           <div className="ecurie">
             <img src={require("./img/top/casaqueTop.png")} alt="casaqueTop" className="casaque"/>
             <p className="nomEcurie">Top</p>

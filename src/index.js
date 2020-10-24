@@ -64,6 +64,7 @@ import CompoXXL from './components/XXL/CompoXXL'
 
 import CompoTop from './components/Top/CompoTop'
 
+import Credits from './components/Credits'
 import Contact from './components/Contact'
 import NotFound from './components/NotFound'
 
@@ -126,6 +127,7 @@ const Root = () => (
 
             <Route path='/compoTop' component={CompoTop}/>
         
+            <Route path='/credits' component={Credits}/>
             <Route path='/contact' component={Contact}/>
             <Route path='/notfound' component={NotFound}/>
             <Redirect to="/notfound" />

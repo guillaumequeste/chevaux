@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Header from "../Header";
+import HeaderMobile from "../HeaderMobile";
 import Helmet from "../Helmet";
 import Footer from "../Footer";
 import Bounce from "react-reveal/Bounce";
@@ -15,6 +16,7 @@ class CompoXXL extends Component {
           link={"http://chevaux.guillaumequeste.fr"}
         />
         <Header />
+        <HeaderMobile />
         <Footer />
         <div className="accueil2013">
           <div className="titreAccueil">
@@ -32,7 +34,7 @@ class CompoXXL extends Component {
               <img
                 src={require("../../img/xxl/compo/belle1.jpg")}
                 alt="belle_promesse"
-                className="imgVerticale"
+                className="imgHorizontale"
               />
               <div className="infos">
                 <h3 className="nomCheval">Belle Promesse</h3>
