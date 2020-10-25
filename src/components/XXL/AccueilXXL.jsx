@@ -30,6 +30,11 @@ class AccueilXXL extends Component {
                         </NavLink>
                     </Fade>
                     <Fade right>
+                        <NavLink to="/premiere_victoire_obstacle" className="rubrique">
+                            <h6 className="titreRubrique">1ère victoire en obstacle</h6>
+                        </NavLink>
+                    </Fade>
+                    <Fade right>
                         <NavLink to="/premiere_victoire_auteuil" className="rubrique">
                             <h6 className="titreRubrique">1ère victoire à Auteuil</h6>
                         </NavLink>
@@ -37,6 +42,11 @@ class AccueilXXL extends Component {
                     <Fade right>
                         <NavLink to="/journee_deux_victoires" className="rubrique">
                             <h6 className="titreRubrique">Journée à 2 victoires</h6>
+                        </NavLink>
+                    </Fade>
+                    <Fade right>
+                        <NavLink to="/premier_quinte_obstacle" className="rubrique">
+                            <h6 className="titreRubrique">1er Quinté en obstacle</h6>
                         </NavLink>
                     </Fade>
                     <Fade right>
