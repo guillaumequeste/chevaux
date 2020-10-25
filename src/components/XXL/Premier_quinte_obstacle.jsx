@@ -20,8 +20,9 @@ class Premier_quinte_obstacle extends Component {
         <div className="accueilPremierPartantGalop">
           <Bounce top>
             <h5 className="titrePage">1er Quinté en obstacle</h5>
-            <p className="infosPage">le 1er septembre 2020</p>
             <p className="infosPage">Belle Promesse</p>
+            <p className="infosPage">le 22 septembre 2020 à Auteuil</p>
+            <p className="infosPage">avec Baptiste Meme</p>
           </Bounce>
           <div className="photosPage">
             <Fade right>

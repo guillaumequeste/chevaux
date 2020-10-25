@@ -20,8 +20,9 @@ class Premiere_victoire_auteuil extends Component {
         <div className="accueilPremierPartantGalop">
           <Bounce top>
             <h5 className="titrePage">1ère victoire à Auteuil</h5>
-            <p className="infosPage">le 1er septembre 2020</p>
             <p className="infosPage">Belle Promesse</p>
+            <p className="infosPage">le 1er septembre 2020</p>
+            <p className="infosPage">avec Thomas Beaurain</p>
           </Bounce>
           <div className="photosPage">
             <Fade right>
