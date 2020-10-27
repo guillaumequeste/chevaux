@@ -220,14 +220,52 @@ class Belle_Promesse extends Component {
             <Fade right>
               <div className="divPhotoPage">
                 <img
-                  src={require("../../img/xxl/belle_promesse/victoire_belle10.jpg")}
-                  alt="victoire_belle10"
+                  src={require("../../img/xxl/belle_promesse/victoire_belle06.jpg")}
+                  alt="victoire_belle06"
                   className="photoPageHorizontale"
                 />
               </div>
             </Fade>
           </div>
           <div className="photosPage">
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/victoire_belle07.jpg")}
+                  alt="victoire_belle07"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/victoire_belle08.jpg")}
+                  alt="victoire_belle08"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/victoire_belle09.jpg")}
+                  alt="victoire_belle09"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="photosPage">
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/victoire_belle10.jpg")}
+                  alt="victoire_belle10"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
             <Fade right>
               <div className="divPhotoPage">
                 <img
@@ -246,11 +284,31 @@ class Belle_Promesse extends Component {
                 />
               </div>
             </Fade>
+          </div>
+          <div className="photosPage">
             <Fade right>
               <div className="divPhotoPage">
                 <img
                   src={require("../../img/xxl/belle_promesse/victoire_belle13.jpg")}
                   alt="victoire_belle13"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/victoire_belle14.jpg")}
+                  alt="victoire_belle14"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/victoire_belle15.jpg")}
+                  alt="victoire_belle15"
                   className="photoPageHorizontale"
                 />
               </div>

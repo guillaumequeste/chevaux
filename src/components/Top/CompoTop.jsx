@@ -62,6 +62,33 @@ class CompoTop extends Component {
           </Fade>
           <Fade right>
             <div to="/" className="cheval">
+              
+              <div className="infos">
+                <h3 className="nomCheval">Hola de Nappes</h3>
+                <h6 className="discipline">trot</h6>
+                <div className="divDetailsCompo">
+                  <div className="resultats">
+                    <div className="resultats2">
+                      <p className="pInfos"></p>
+                      <p className="pInfos"></p>
+                      <p className="pInfos"></p>
+                    </div>
+                  </div>
+                  <div className="divInfos">
+                    <p className="pInfos">
+                      <i>Voltigeur de Myrt</i>
+                    </p>
+                    <p className="pInfos">
+                      <i>Vespa de Nappes</i>
+                    </p>
+                    <p className="pInfos">chez Romain Derieux</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Fade>
+          <Fade right>
+            <div to="/" className="cheval">
               <img
                 src={require("../../img/top/compo/kingdor01.jpg")}
                 alt="kingdor"
