@@ -6,7 +6,10 @@ class HeaderMobile extends Component {
     render () {
         return (
             <div className="bodyHeaderMobile">
-                <div to="/" className="divHeaderMobile">
+                <div className="divHeaderMobile">
+                    <Link to="/" className="logo">
+                        <img src={require("../img/horse.png")} alt="horse" className="horse"/>
+                    </Link>
                     <Link to="/credits" className="linkHeaderMobile1">Crédits</Link>
                     <Link to="/contact" className="linkHeaderMobile2">Contact</Link>
                 </div>
