@@ -30,7 +30,7 @@ class Belle_Promesse extends Component {
                 <img
                   src={require("../../img/xxl/belle_promesse/belle01.jpg")}
                   alt="belle01"
-                  className="photoPageHorizontale"
+                  className="photoPageHorizontale photoBelle"
                 />
               </div>
             </Fade>

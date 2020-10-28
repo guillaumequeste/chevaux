@@ -481,6 +481,18 @@
     }
 }
 
+.photoBelle {
+    width: 60vw;
+    height: 30vh;
+}
+
+@media screen and (min-width: 1025px) {
+    .photoBelle {
+        width: 25vw;
+        height: 40vh;
+    }
+}
+
 .photoPageVerticale {
     width: 40vw;
     height: 30vh;
