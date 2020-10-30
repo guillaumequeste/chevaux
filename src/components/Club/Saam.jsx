@@ -11,8 +11,8 @@ class Saam extends Component {
     render () {
         return (
             <div>
-                <Helmet title={"Contact bases React"}
-                        link={"http://chevaux.guillaumequeste.fr"} />
+                <Helmet title={"Saam Chevaux"}
+                        link={"http://chevaux.guillaumequeste.fr/saam"} />
                 <Header />
                 <HeaderMobile />
                 <Footer />

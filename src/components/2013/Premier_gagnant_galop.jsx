@@ -11,8 +11,8 @@ class Premier_gagnant_galop extends Component {
     render () {
         return (
             <div>
-                <Helmet title={"Contact bases React"}
-                        link={"http://chevaux.guillaumequeste.fr"} />
+                <Helmet title={"Premier gagnant galop Chevaux"}
+                        link={"http://chevaux.guillaumequeste.fr/premier_gagnant_galop"} />
                 <Header />
                 <HeaderMobile />
                 <Footer />

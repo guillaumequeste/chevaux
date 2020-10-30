@@ -11,8 +11,8 @@ class Cristal_Pierji2015 extends Component {
     render () {
         return (
             <div>
-                <Helmet title={"Contact bases React"}
-                        link={"http://chevaux.guillaumequeste.fr"} />
+                <Helmet title={"Cristal Pierji 2015 Chevaux"}
+                        link={"http://chevaux.guillaumequeste.fr/cristal_pierji2015"} />
                 <Header />
                 <HeaderMobile />
                 <Footer />

@@ -11,8 +11,8 @@ class Al_Rassoul extends Component {
     render () {
         return (
             <div>
-                <Helmet title={"Contact bases React"}
-                        link={"http://chevaux.guillaumequeste.fr"} />
+                <Helmet title={"Al Rassoul Chevaux"}
+                        link={"http://chevaux.guillaumequeste.fr/al_rassoul"} />
                 <Header />
                 <HeaderMobile />
                 <Footer />

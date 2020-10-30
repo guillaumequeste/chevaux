@@ -11,8 +11,8 @@ class Falcolina extends Component {
     render () {
         return (
             <div>
-                <Helmet title={"Contact bases React"}
-                        link={"http://chevaux.guillaumequeste.fr"} />
+                <Helmet title={"Falcolina Chevaux"}
+                        link={"http://chevaux.guillaumequeste.fr/falcolina"} />
                 <Header />
                 <HeaderMobile />
                 <Footer />

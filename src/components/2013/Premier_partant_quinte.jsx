@@ -11,8 +11,8 @@ class Premier_partant_quinte extends Component {
     render () {
         return (
             <div>
-                <Helmet title={"Contact bases React"}
-                        link={"http://chevaux.guillaumequeste.fr"} />
+                <Helmet title={"Premier partant Quinté Chevaux"}
+                        link={"http://chevaux.guillaumequeste.fr/premier_partant_quinte"} />
                 <Header />
                 <HeaderMobile />
                 <Footer />

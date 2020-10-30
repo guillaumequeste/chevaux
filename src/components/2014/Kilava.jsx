@@ -11,8 +11,8 @@ class Kilava extends Component {
     render () {
         return (
             <div>
-                <Helmet title={"Contact bases React"}
-                        link={"http://chevaux.guillaumequeste.fr"} />
+                <Helmet title={"Kilava Chevaux"}
+                        link={"http://chevaux.guillaumequeste.fr/kilava"} />
                 <Header />
                 <HeaderMobile />
                 <Footer />

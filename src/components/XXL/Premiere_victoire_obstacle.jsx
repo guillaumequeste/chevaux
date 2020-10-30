@@ -11,8 +11,8 @@ class Premiere_victoire_obstacle extends Component {
     return (
       <div>
         <Helmet
-          title={"Contact bases React"}
-          link={"http://chevaux.guillaumequeste.fr"}
+          title={"Première victoire obstacle Chevaux"}
+          link={"http://chevaux.guillaumequeste.fr/premiere_victoire_obstacle"}
         />
         <Header />
         <HeaderMobile />

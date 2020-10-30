@@ -11,8 +11,8 @@ class Journee_deux_victoires extends Component {
     return (
       <div>
         <Helmet
-          title={"Contact bases React"}
-          link={"http://chevaux.guillaumequeste.fr"}
+          title={"Journée 2 victoires Chevaux"}
+          link={"http://chevaux.guillaumequeste.fr/journee_deux_victoires"}
         />
         <Header />
         <HeaderMobile />

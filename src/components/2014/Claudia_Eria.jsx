@@ -11,8 +11,8 @@ class Claudia_Eria extends Component {
     render () {
         return (
             <div>
-                <Helmet title={"Contact bases React"}
-                        link={"http://chevaux.guillaumequeste.fr"} />
+                <Helmet title={"Claudia Eria Chevaux"}
+                        link={"http://chevaux.guillaumequeste.fr/claudia_eria"} />
                 <Header />
                 <HeaderMobile />
                 <Footer />

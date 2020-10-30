@@ -11,8 +11,8 @@ class Unrefundable2015 extends Component {
     render () {
         return (
             <div>
-                <Helmet title={"Contact bases React"}
-                        link={"http://chevaux.guillaumequeste.fr"} />
+                <Helmet title={"Unrefundable 2015 Chevaux"}
+                        link={"http://chevaux.guillaumequeste.fr/unrefundable2015"} />
                 <Header />
                 <HeaderMobile />
                 <Footer />

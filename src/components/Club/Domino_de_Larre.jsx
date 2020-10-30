@@ -11,8 +11,8 @@ class Domino_de_Larre extends Component {
     render () {
         return (
             <div>
-                <Helmet title={"Contact bases React"}
-                        link={"http://chevaux.guillaumequeste.fr"} />
+                <Helmet title={"Domino de Larré Chevaux"}
+                        link={"http://chevaux.guillaumequeste.fr/domino_de_larre"} />
                 <Header />
                 <HeaderMobile />
                 <Footer />

@@ -11,8 +11,8 @@ class Premiere_journee_2_victoires extends Component {
     render () {
         return (
             <div>
-                <Helmet title={"Contact bases React"}
-                        link={"http://chevaux.guillaumequeste.fr"} />
+                <Helmet title={"Première journée 2 victoires Chevaux"}
+                        link={"http://chevaux.guillaumequeste.fr/premiere_journee_2_victoires"} />
                 <Header />
                 <HeaderMobile />
                 <Footer />

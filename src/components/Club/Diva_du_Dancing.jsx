@@ -11,8 +11,8 @@ class Diva_du_Dancing extends Component {
     render () {
         return (
             <div>
-                <Helmet title={"Contact bases React"}
-                        link={"http://chevaux.guillaumequeste.fr"} />
+                <Helmet title={"Diva du Dancing Chevaux"}
+                        link={"http://chevaux.guillaumequeste.fr/diva_du_dancing"} />
                 <Header />
                 <HeaderMobile />
                 <Footer />

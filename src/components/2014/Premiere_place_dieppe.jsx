@@ -11,8 +11,8 @@ class Premiere_place_dieppe extends Component {
     render () {
         return (
             <div>
-                <Helmet title={"Contact bases React"}
-                        link={"http://chevaux.guillaumequeste.fr"} />
+                <Helmet title={"Première place Dieppe Chevaux"}
+                        link={"http://chevaux.guillaumequeste.fr/premier_place_dieppe"} />
                 <Header />
                 <HeaderMobile />
                 <Footer />

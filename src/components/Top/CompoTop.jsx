@@ -12,8 +12,8 @@ class CompoTop extends Component {
     return (
       <div>
         <Helmet
-          title={"Contact bases React"}
-          link={"http://chevaux.guillaumequeste.fr"}
+          title={"Compo Top Chevaux"}
+          link={"http://chevaux.guillaumequeste.fr/compoTop"}
         />
         <Header />
         <HeaderMobile />

@@ -11,8 +11,8 @@ class Premiere_victoire_auteuil extends Component {
     return (
       <div>
         <Helmet
-          title={"Contact bases React"}
-          link={"http://chevaux.guillaumequeste.fr"}
+          title={"Première victoire Auteuil Chevaux"}
+          link={"http://chevaux.guillaumequeste.fr/premiere_victoire_auteuil"}
         />
         <Header />
         <HeaderMobile />

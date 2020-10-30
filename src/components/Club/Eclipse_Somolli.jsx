@@ -11,8 +11,8 @@ class Eclipse_Somolli extends Component {
     render () {
         return (
             <div>
-                <Helmet title={"Contact bases React"}
-                        link={"http://chevaux.guillaumequeste.fr"} />
+                <Helmet title={"Eclipse somolli Chevaux"}
+                        link={"http://chevaux.guillaumequeste.fr/eclipse_somolli"} />
                 <Header />
                 <HeaderMobile />
                 <Footer />

@@ -11,8 +11,8 @@ class Borsalino_du_Jal extends Component {
     render () {
         return (
             <div>
-                <Helmet title={"Contact bases React"}
-                        link={"http://chevaux.guillaumequeste.fr"} />
+                <Helmet title={"Borsalino du Jal Chevaux"}
+                        link={"http://chevaux.guillaumequeste.fr/borsalino_du_jal"} />
                 <Header />
                 <HeaderMobile />
                 <Footer />

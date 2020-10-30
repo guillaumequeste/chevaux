@@ -12,8 +12,8 @@ class CompoClub extends Component {
     return (
       <div>
         <Helmet
-          title={"Contact bases React"}
-          link={"http://chevaux.guillaumequeste.fr"}
+          title={"Compo Club Chevaux"}
+          link={"http://chevaux.guillaumequeste.fr/compoClub"}
         />
         <Header />
         <HeaderMobile />

@@ -12,8 +12,8 @@ class CompoXXL extends Component {
     return (
       <div>
         <Helmet
-          title={"Contact bases React"}
-          link={"http://chevaux.guillaumequeste.fr"}
+          title={"Compo XXL Chevaux"}
+          link={"http://chevaux.guillaumequeste.fr/compoXXL"}
         />
         <Header />
         <HeaderMobile />

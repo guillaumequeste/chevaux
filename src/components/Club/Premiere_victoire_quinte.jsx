@@ -11,8 +11,8 @@ class Premiere_victoire_quinte extends Component {
     render () {
         return (
             <div>
-                <Helmet title={"Contact bases React"}
-                        link={"http://chevaux.guillaumequeste.fr"} />
+                <Helmet title={"Première victoire Quinté Chevaux"}
+                        link={"http://chevaux.guillaumequeste.fr/premier_victoire_quinte"} />
                 <Header />
                 <HeaderMobile />
                 <Footer />

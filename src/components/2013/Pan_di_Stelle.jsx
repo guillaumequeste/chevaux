@@ -11,8 +11,8 @@ class Pan_di_Stelle extends Component {
     render () {
         return (
             <div>
-                <Helmet title={"Contact bases React"}
-                        link={"http://chevaux.guillaumequeste.fr"} />
+                <Helmet title={"Pan di Stelle Chevaux"}
+                        link={"http://chevaux.guillaumequeste.fr/pan_di_stelle"} />
                 <Header />
                 <HeaderMobile />
                 <Footer />

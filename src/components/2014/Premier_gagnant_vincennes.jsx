@@ -11,8 +11,8 @@ class Premier_gagnant_vincennes extends Component {
     render () {
         return (
             <div>
-                <Helmet title={"Contact bases React"}
-                        link={"http://chevaux.guillaumequeste.fr"} />
+                <Helmet title={"Premier gagnant Vincennes Chevaux"}
+                        link={"http://chevaux.guillaumequeste.fr/premier_gagnant_vincennes"} />
                 <Header />
                 <HeaderMobile />
                 <Footer />

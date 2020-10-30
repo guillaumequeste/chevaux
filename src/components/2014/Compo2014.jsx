@@ -12,8 +12,8 @@ class Compo2014 extends Component {
     return (
       <div>
         <Helmet
-          title={"Contact bases React"}
-          link={"http://chevaux.guillaumequeste.fr"}
+          title={"Compo 2014 Chevaux"}
+          link={"http://chevaux.guillaumequeste.fr/compo2014"}
         />
         <Header />
         <HeaderMobile />

@@ -11,8 +11,8 @@ class Drakkar_Delo_club extends Component {
     render () {
         return (
             <div>
-                <Helmet title={"Contact bases React"}
-                        link={"http://chevaux.guillaumequeste.fr"} />
+                <Helmet title={"Drakkar Delo Club Chevaux"}
+                        link={"http://chevaux.guillaumequeste.fr/drakkar_delo_club"} />
                 <Header />
                 <HeaderMobile />
                 <Footer />

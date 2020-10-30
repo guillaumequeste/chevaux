@@ -9,8 +9,8 @@ class Credits extends Component {
     render () {
         return (
             <div>
-                <Helmet title={"Crédits bases React"}
-                        link={"http://chevaux.guillaumequeste.fr"} />
+                <Helmet title={"Crédits Chevaux"}
+                        link={"http://chevaux.guillaumequeste.fr/credits"} />
                 <Header />
                 <HeaderMobile />
                 <Footer />

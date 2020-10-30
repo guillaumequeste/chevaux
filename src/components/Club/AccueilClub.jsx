@@ -12,8 +12,8 @@ class AccueilClub extends Component {
     render () {
         return (
             <div>
-                <Helmet title={"Contact bases React"}
-                        link={"http://chevaux.guillaumequeste.fr"} />
+                <Helmet title={"Accueil Club Chevaux"}
+                        link={"http://chevaux.guillaumequeste.fr/club"} />
                 <Header />
                 <HeaderMobile />
                 <Footer />

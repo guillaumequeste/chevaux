@@ -11,8 +11,8 @@ class Belle_Promesse extends Component {
     return (
       <div>
         <Helmet
-          title={"Belle Promesse bases React"}
-          link={"http://chevaux.guillaumequeste.fr"}
+          title={"Belle Promesse Chevaux"}
+          link={"http://chevaux.guillaumequeste.fr/belle_promesse"}
         />
         <Header />
         <HeaderMobile />

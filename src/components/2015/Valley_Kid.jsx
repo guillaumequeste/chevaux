@@ -11,8 +11,8 @@ class Valley_Kid extends Component {
     render () {
         return (
             <div>
-                <Helmet title={"Contact bases React"}
-                        link={"http://chevaux.guillaumequeste.fr"} />
+                <Helmet title={"Valley Kid Chevaux"}
+                        link={"http://chevaux.guillaumequeste.fr/valley_kid"} />
                 <Header />
                 <HeaderMobile />
                 <Footer />

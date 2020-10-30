@@ -9,7 +9,7 @@ class NotFound extends Component {
     render () {
         return (
             <div>
-                <Helmet title={"NotFound bases React"}
+                <Helmet title={"NotFound Chevaux"}
                         link={"http://decouverte.guillaumequeste.fr/notfound"} />
                 <Header />
                 <Footer />

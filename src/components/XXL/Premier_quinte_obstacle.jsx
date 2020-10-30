@@ -11,8 +11,8 @@ class Premier_quinte_obstacle extends Component {
     return (
       <div>
         <Helmet
-          title={"Contact bases React"}
-          link={"http://chevaux.guillaumequeste.fr"}
+          title={"Premier Quinté obstacle Chevaux"}
+          link={"http://chevaux.guillaumequeste.fr/premier_quinte_obstacle"}
         />
         <Header />
         <HeaderMobile />

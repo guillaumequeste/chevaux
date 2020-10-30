@@ -11,8 +11,8 @@ class Baldi_Star extends Component {
     render () {
         return (
             <div>
-                <Helmet title={"Contact bases React"}
-                        link={"http://chevaux.guillaumequeste.fr"} />
+                <Helmet title={"Baldi Star Chevaux"}
+                        link={"http://chevaux.guillaumequeste.fr/baldi_star"} />
                 <Header />
                 <HeaderMobile />
                 <Footer />

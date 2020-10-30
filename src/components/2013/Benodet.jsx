@@ -11,8 +11,8 @@ class Benodet extends Component {
     render () {
         return (
             <div>
-                <Helmet title={"Contact bases React"}
-                        link={"http://chevaux.guillaumequeste.fr"} />
+                <Helmet title={"Bénodet Chevaux"}
+                        link={"http://chevaux.guillaumequeste.fr/benodet"} />
                 <Header />
                 <HeaderMobile />
                 <Footer />

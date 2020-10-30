@@ -12,8 +12,8 @@ class AccueilXXL extends Component {
     render () {
         return (
             <div>
-                <Helmet title={"Contact bases React"}
-                        link={"http://chevaux.guillaumequeste.fr"} />
+                <Helmet title={"Accueil XXL Chevaux"}
+                        link={"http://chevaux.guillaumequeste.fr/xxl"} />
                 <Header />
                 <HeaderMobile />
                 <Footer />

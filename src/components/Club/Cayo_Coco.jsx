@@ -11,8 +11,8 @@ class Cayo_Coco extends Component {
     render () {
         return (
             <div>
-                <Helmet title={"Contact bases React"}
-                        link={"http://chevaux.guillaumequeste.fr"} />
+                <Helmet title={"Cayo Coco Chevaux"}
+                        link={"http://chevaux.guillaumequeste.fr/cayo_coco"} />
                 <Header />
                 <HeaderMobile />
                 <Footer />

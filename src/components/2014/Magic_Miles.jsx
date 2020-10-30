@@ -11,8 +11,8 @@ class Magic_Miles extends Component {
     render () {
         return (
             <div>
-                <Helmet title={"Contact bases React"}
-                        link={"http://chevaux.guillaumequeste.fr"} />
+                <Helmet title={"Magic Miles Chevaux"}
+                        link={"http://chevaux.guillaumequeste.fr/magic_miles"} />
                 <Header />
                 <HeaderMobile />
                 <Footer />

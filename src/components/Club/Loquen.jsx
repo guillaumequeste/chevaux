@@ -11,8 +11,8 @@ class Loquen extends Component {
     render () {
         return (
             <div>
-                <Helmet title={"Contact bases React"}
-                        link={"http://chevaux.guillaumequeste.fr"} />
+                <Helmet title={"Loquen Chevaux"}
+                        link={"http://chevaux.guillaumequeste.fr/loquen"} />
                 <Header />
                 <HeaderMobile />
                 <Footer />

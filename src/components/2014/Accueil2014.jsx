@@ -12,8 +12,8 @@ class Accueil2014 extends Component {
     render () {
         return (
             <div>
-                <Helmet title={"Contact bases React"}
-                        link={"http://chevaux.guillaumequeste.fr"} />
+                <Helmet title={"Accueil 2014 Chevaux"}
+                        link={"http://chevaux.guillaumequeste.fr/2014"} />
                 <Header />
                 <HeaderMobile />
                 <Footer />
