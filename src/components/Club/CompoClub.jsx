@@ -30,7 +30,7 @@ class CompoClub extends Component {
             </Bounce>
           </div>
           <Fade right>
-            <div to="/" className="cheval">
+            <div className="cheval">
               <img
                 src={require("../../img/club/compo/al1.jpg")}
                 alt="al_rassoul"
@@ -61,7 +61,7 @@ class CompoClub extends Component {
             </div>
           </Fade>
           <Fade right>
-            <div to="/" className="cheval">
+            <div className="cheval">
               <img
                 src={require("../../img/club/compo/cayo2.jpg")}
                 alt="cayo_coco"
@@ -92,7 +92,7 @@ class CompoClub extends Component {
             </div>
           </Fade>
           <Fade right>
-            <div to="/" className="cheval">
+            <div className="cheval">
               <img
                 src={require("../../img/club/compo/cristal2.jpeg")}
                 alt="cristal_pierji"
@@ -123,7 +123,7 @@ class CompoClub extends Component {
             </div>
           </Fade>
           <Fade right>
-            <div to="/" className="cheval">
+            <div className="cheval">
               <img
                 src={require("../../img/club/compo/dalkelef1.jpg")}
                 alt="dalkelef"
@@ -153,7 +153,7 @@ class CompoClub extends Component {
             </div>
           </Fade>
           <Fade right>
-            <div to="/" className="cheval">
+            <div className="cheval">
               <img
                 src={require("../../img/club/compo/diva1.jpg")}
                 alt="diva_du_dancing"
@@ -184,7 +184,7 @@ class CompoClub extends Component {
             </div>
           </Fade>
           <Fade right>
-            <div to="/" className="cheval">
+            <div className="cheval">
               <img
                 src={require("../../img/club/compo/django1.jpg")}
                 alt="django_gibus"
@@ -215,7 +215,7 @@ class CompoClub extends Component {
             </div>
           </Fade>
           <Fade right>
-            <div to="/" className="cheval">
+            <div className="cheval">
               <img
                 src={require("../../img/club/compo/domino1.jpg")}
                 alt="domino_de_larre"
@@ -246,7 +246,7 @@ class CompoClub extends Component {
             </div>
           </Fade>
           <Fade right>
-            <div to="/" className="cheval">
+            <div className="cheval">
               <img
                 src={require("../../img/club/compo/drakkar1.jpg")}
                 alt="drakkar_delo"
@@ -276,7 +276,7 @@ class CompoClub extends Component {
             </div>
           </Fade>
           <Fade right>
-            <div to="/" className="cheval">
+            <div className="cheval">
               <img
                 src={require("../../img/club/compo/eclipse1.jpg")}
                 alt="eclipse_somolli"
@@ -307,7 +307,7 @@ class CompoClub extends Component {
             </div>
           </Fade>
           <Fade right>
-            <div to="/" className="cheval">
+            <div className="cheval">
               <img
                 src={require("../../img/club/compo/envergure1.jpg")}
                 alt="envergure"
@@ -338,7 +338,7 @@ class CompoClub extends Component {
             </div>
           </Fade>
           <Fade right>
-            <div to="/" className="cheval">
+            <div className="cheval">
               <img
                 src={require("../../img/club/compo/jurisprudance1.jpg")}
                 alt="jurisprudance"
@@ -369,7 +369,7 @@ class CompoClub extends Component {
             </div>
           </Fade>
           <Fade right>
-            <div to="/" className="cheval">
+            <div className="cheval">
               <img
                 src={require("../../img/club/compo/loquen1.jpg")}
                 alt="loquen"
@@ -400,7 +400,7 @@ class CompoClub extends Component {
             </div>
           </Fade>
           <Fade right>
-            <div to="/" className="cheval">
+            <div className="cheval">
               <img
                 src={require("../../img/club/compo/mysaan1.jpg")}
                 alt="mysaan"
@@ -430,7 +430,7 @@ class CompoClub extends Component {
             </div>
           </Fade>
           <Fade right>
-            <div to="/" className="cheval">
+            <div className="cheval">
               <img
                 src={require("../../img/club/compo/mysoul2.png")}
                 alt="my_soul"
@@ -460,7 +460,7 @@ class CompoClub extends Component {
             </div>
           </Fade>
           <Fade right>
-            <div to="/" className="cheval">
+            <div className="cheval">
               <img
                 src={require("../../img/club/compo/saam1.jpg")}
                 alt="saam"
@@ -491,7 +491,7 @@ class CompoClub extends Component {
             </div>
           </Fade>
           <Fade right>
-            <div to="/" className="cheval">
+            <div className="cheval">
               <img
                 src={require("../../img/club/compo/storm_katy1.jpg")}
                 alt="storm_katy"
@@ -521,7 +521,7 @@ class CompoClub extends Component {
             </div>
           </Fade>
           <Fade right>
-            <div to="/" className="cheval">
+            <div className="cheval">
               <img
                 src={require("../../img/club/compo/wabba1.jpg")}
                 alt="wabba"

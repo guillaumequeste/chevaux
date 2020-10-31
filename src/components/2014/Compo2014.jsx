@@ -59,7 +59,7 @@ class Compo2014 extends Component {
             </div>
           </Fade>
           <Fade right>
-            <div to="/" className="cheval">
+            <div className="cheval">
               <img
                 src={require("../../img/2014/compo/auteur1.jpg")}
                 alt="auteur"
@@ -90,7 +90,7 @@ class Compo2014 extends Component {
             </div>
           </Fade>
           <Fade right>
-            <div to="/" className="cheval">
+            <div className="cheval">
               <img
                 src={require("../../img/2014/compo/baldi1.jpg")}
                 alt="baldi_star"
@@ -121,7 +121,7 @@ class Compo2014 extends Component {
             </div>
           </Fade>
           <Fade right>
-            <div to="/" className="cheval">
+            <div className="cheval">
               <img
                 src={require("../../img/2014/compo/borsalino1.jpg")}
                 alt="borsalino_du_jal"
@@ -152,7 +152,7 @@ class Compo2014 extends Component {
             </div>
           </Fade>
           <Fade right>
-            <div to="/" className="cheval">
+            <div className="cheval">
               <img
                 src={require("../../img/2014/compo/bowmore1.jpg")}
                 alt="bowmore"
@@ -183,7 +183,7 @@ class Compo2014 extends Component {
             </div>
           </Fade>
           <Fade right>
-            <div to="/" className="cheval">
+            <div className="cheval">
               <img
                 src={require("../../img/2014/compo/claudia1.jpg")}
                 alt="claudia_eria"
@@ -213,7 +213,7 @@ class Compo2014 extends Component {
             </div>
           </Fade>
           <Fade right>
-            <div to="/" className="cheval">
+            <div className="cheval">
               <img
                 src={require("../../img/2014/compo/kilava1.jpg")}
                 alt="kilava"
@@ -244,7 +244,7 @@ class Compo2014 extends Component {
             </div>
           </Fade>
           <Fade right>
-            <div to="/" className="cheval">
+            <div className="cheval">
               <img
                 src={require("../../img/2014/compo/magic1.jpg")}
                 alt="magic_miles"
@@ -275,7 +275,7 @@ class Compo2014 extends Component {
             </div>
           </Fade>
           <Fade right>
-            <div to="/" className="cheval">
+            <div className="cheval">
               <img
                 src={require("../../img/2014/compo/place1.jpg")}
                 alt="place_des_ternes"
@@ -305,7 +305,7 @@ class Compo2014 extends Component {
             </div>
           </Fade>
           <Fade right>
-            <div to="/" className="cheval">
+            <div className="cheval">
               <img
                 src={require("../../img/2014/compo/pont1.jpg")}
                 alt="pont_marie"
@@ -336,7 +336,7 @@ class Compo2014 extends Component {
             </div>
           </Fade>
           <Fade right>
-            <div to="/" className="cheval">
+            <div className="cheval">
               <img
                 src={require("../../img/2014/compo/race1.jpg")}
                 alt="race_for_fame"
@@ -367,7 +367,7 @@ class Compo2014 extends Component {
             </div>
           </Fade>
           <Fade right>
-            <div to="/" className="cheval">
+            <div className="cheval">
               <img
                 src={require("../../img/2014/compo/unrefundable1.jpg")}
                 alt="unrefundable"

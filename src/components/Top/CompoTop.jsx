@@ -30,7 +30,7 @@ class CompoTop extends Component {
             </Bounce>
           </div>
           <Fade right>
-            <div to="/" className="cheval">
+            <div className="cheval">
               <img
                 src={require("../../img/top/compo/highlands01.jpg")}
                 alt="highlands_d_allier"
@@ -61,8 +61,12 @@ class CompoTop extends Component {
             </div>
           </Fade>
           <Fade right>
-            <div to="/" className="cheval">
-              
+            <div className="cheval">
+              <img
+                src={require("../../img/top/compo/hola01.jpg")}
+                alt="hola_de_nappes"
+                className="imgHorizontale"
+              />
               <div className="infos">
                 <h3 className="nomCheval">Hola de Nappes</h3>
                 <h6 className="discipline">trot</h6>
@@ -88,7 +92,7 @@ class CompoTop extends Component {
             </div>
           </Fade>
           <Fade right>
-            <div to="/" className="cheval">
+            <div className="cheval">
               <img
                 src={require("../../img/top/compo/kingdor01.jpg")}
                 alt="kingdor"
