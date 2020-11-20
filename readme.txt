@@ -29,3 +29,7 @@
     <link href="/static/css/2.99f68705.chunk.css" rel="stylesheet">
     <link href="/static/css/main.c890fa15.chunk.css" rel="stylesheet">
 </head>
+
+:root {
+    --background-color: rgb(194, 150, 100);
+}
