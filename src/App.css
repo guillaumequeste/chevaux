@@ -45,6 +45,8 @@
 
 .casaque {
     width: 10vh;
+    margin-bottom: 15%;
+    filter: drop-shadow(15px 4px 4px rgb(109, 109, 109));
 }
 
 .casaque:hover {
@@ -83,10 +85,10 @@
 
 .casaqueAccueil {
     width: 50px;
+    filter: drop-shadow(15px 4px 4px rgb(109, 109, 109));
 }
 
 .rubrique {
-    border: solid 1px white;
     border-radius: 5px;
     width: 70%;
     height: 10vh;
@@ -94,6 +96,8 @@
     display: flex;
     margin-bottom: 2%;
     color: white;
+    background-color: rgb(165, 117, 62);
+    box-shadow: 10px 5px 5px rgb(109, 109, 109);
 }
 
 .rubrique:hover {
@@ -120,6 +124,8 @@
     margin-bottom: 2%;
     color: white;
     display: flex;
+    background-color: rgb(165, 117, 62);
+    box-shadow: 10px 5px 5px rgb(109, 109, 109);
 }
 
 @media screen and (min-width: 1025px) {
@@ -319,6 +325,7 @@
 .casaqueFooter {
     margin: auto;
     height: 80%;
+    filter: drop-shadow(10px 4px 4px rgb(109, 109, 109));
 }
 
 
@@ -480,6 +487,7 @@
     width: 80vw;
     height: 30vh;
     border-radius: 5px;
+    box-shadow: 10px 5px 5px rgb(109, 109, 109);
 }
 
 @media screen and (min-width: 1025px) {
@@ -505,6 +513,7 @@
     width: 40vw;
     height: 30vh;
     border-radius: 5px;
+    box-shadow: 10px 5px 5px rgb(109, 109, 109);
 }
 
 @media screen and (min-width: 1025px) {
