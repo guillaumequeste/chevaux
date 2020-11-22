@@ -1,12 +1,15 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
-
 class Footer extends Component {
+    constructor(props) {
+        super(props);
+       
+    }
     render () {
         return (
             <div className="bodyFooter">
-                <Link to="/2013" className="divFooter">
+                <Link to="/2013" className={`divFooter ${this.props.ecurie2013 == true ? 'ecStyle' : ''}`}>
                     <div className="linkFooter">
                         <span className="colorLinkFooter">
                             <img src={require("../img/2013/casaque2013.png")} alt="casaque2013footer" className="casaqueFooter"/>

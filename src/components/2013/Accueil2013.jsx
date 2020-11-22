@@ -8,7 +8,9 @@ import Fade from 'react-reveal/Fade'
 import { NavLink } from "react-router-dom";
 
 class Accueil2013 extends Component {
-  
+    constructor(props) {
+        super(props);
+    }
     render () {
         return (
             <div>
@@ -16,7 +18,7 @@ class Accueil2013 extends Component {
                         link={"http://chevaux.guillaumequeste.fr/2013"} />
                 <Header />
                 <HeaderMobile />
-                <Footer />
+                <Footer ecurie2013={true}/>
                 <div className="accueil2013">
                     <div className="titreAccueil">
                         <Bounce top>
