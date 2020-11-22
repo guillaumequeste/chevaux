@@ -17,7 +17,7 @@ class CompoXXL extends Component {
         />
         <Header />
         <HeaderMobile />
-        <Footer />
+        <Footer ecurieXXL={true}/>
         <div className="accueil2013">
           <div className="titreAccueil">
             <Bounce top>

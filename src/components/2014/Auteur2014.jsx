@@ -15,7 +15,7 @@ class Auteur2014 extends Component {
                         link={"http://chevaux.guillaumequeste.fr/auteur2014"} />
                 <Header />
                 <HeaderMobile />
-                <Footer />
+                <Footer ecurie2014={true}/>
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
                         <h5 className="titrePage">Auteur</h5>

@@ -15,7 +15,7 @@ class Loquen extends Component {
                         link={"http://chevaux.guillaumequeste.fr/loquen"} />
                 <Header />
                 <HeaderMobile />
-                <Footer />
+                <Footer ecurieClub={true}/>
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
                         <h5 className="titrePage">Loquen</h5>

@@ -15,7 +15,7 @@ class Saam extends Component {
                         link={"http://chevaux.guillaumequeste.fr/saam"} />
                 <Header />
                 <HeaderMobile />
-                <Footer />
+                <Footer ecurieClub={true}/>
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
                         <h5 className="titrePage">Saam</h5>

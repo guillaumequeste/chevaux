@@ -15,7 +15,7 @@ class Claudia_Eria extends Component {
                         link={"http://chevaux.guillaumequeste.fr/claudia_eria"} />
                 <Header />
                 <HeaderMobile />
-                <Footer />
+                <Footer ecurie2014={true}/>
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
                         <h5 className="titrePage">Claudia Eria</h5>

@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 class Footer extends Component {
     constructor(props) {
         super(props);
-       
     }
     render () {
         return (
@@ -16,35 +15,35 @@ class Footer extends Component {
                         </span>
                     </div>
                 </Link>
-                <Link to="/2014" className="divFooter">
+                <Link to="/2014" className={`divFooter ${this.props.ecurie2014 == true ? 'ecStyle' : ''}`}>
                     <div className="linkFooter">
                         <span className="colorLinkFooter">
                             <img src={require("../img/2014/casaque2014.png")} alt="casaque2014footer" className="casaqueFooter"/>
                         </span>
                     </div>
                 </Link>
-                <Link to="/2015" className="divFooter">
+                <Link to="/2015" className={`divFooter ${this.props.ecurie2015 == true ? 'ecStyle' : ''}`}>
                     <div className="linkFooter">
                         <span className="colorLinkFooter">
                             <img src={require("../img/2015/casaque2015.png")} alt="casaque2015footer" className="casaqueFooter"/>
                         </span>
                     </div>
                 </Link>
-                <Link to="/club" className="divFooter">
+                <Link to="/club" className={`divFooter ${this.props.ecurieClub == true ? 'ecStyle' : ''}`}>
                     <div className="linkFooter">
                         <span className="colorLinkFooter">
                             <img src={require("../img/club/casaqueClub.png")} alt="casaqueClubfooter" className="casaqueFooter"/>
                         </span>
                     </div>
                 </Link>
-                <Link to="/xxl" className="divFooter">
+                <Link to="/xxl" className={`divFooter ${this.props.ecurieXXL == true ? 'ecStyle' : ''}`}>
                     <div className="linkFooter">
                         <span className="colorLinkFooter">
                             <img src={require("../img/xxl/casaqueXXL.png")} alt="casaqueXXLfooter" className="casaqueFooter"/>
                         </span>
                     </div>
                 </Link>
-                <Link to="/top" className="divFooter">
+                <Link to="/top" className={`divFooter ${this.props.ecurieTop == true ? 'ecStyle' : ''}`}>
                     <div className="linkFooter">
                         <span className="colorLinkFooter">
                             <img src={require("../img/top/casaqueTop.png")} alt="casaqueTopfooter" className="casaqueFooter"/>

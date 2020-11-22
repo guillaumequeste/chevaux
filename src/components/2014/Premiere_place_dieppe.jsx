@@ -15,7 +15,7 @@ class Premiere_place_dieppe extends Component {
                         link={"http://chevaux.guillaumequeste.fr/premier_place_dieppe"} />
                 <Header />
                 <HeaderMobile />
-                <Footer />
+                <Footer ecurie2014={true}/>
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
                         <h5 className="titrePage">1ère place à Dieppe</h5>

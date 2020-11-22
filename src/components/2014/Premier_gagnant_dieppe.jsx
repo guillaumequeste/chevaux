@@ -15,7 +15,7 @@ class Premier_gagnant_dieppe extends Component {
                         link={"http://chevaux.guillaumequeste.fr/premier_gagnant_dieppe"} />
                 <Header />
                 <HeaderMobile />
-                <Footer />
+                <Footer ecurie2014={true}/>
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
                         <h5 className="titrePage">1ere gagnant à Dieppe</h5>

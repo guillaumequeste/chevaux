@@ -17,7 +17,7 @@ class CompoClub extends Component {
         />
         <Header />
         <HeaderMobile />
-        <Footer />
+        <Footer ecurieClub={true}/>
         <div className="accueil2013">
           <div className="titreAccueil">
             <Bounce top>

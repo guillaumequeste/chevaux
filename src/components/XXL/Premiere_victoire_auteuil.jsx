@@ -16,7 +16,7 @@ class Premiere_victoire_auteuil extends Component {
         />
         <Header />
         <HeaderMobile />
-        <Footer />
+        <Footer ecurieXXL={true}/>
         <div className="accueilPremierPartantGalop">
           <Bounce top>
             <h5 className="titrePage">1ère victoire à Auteuil</h5>

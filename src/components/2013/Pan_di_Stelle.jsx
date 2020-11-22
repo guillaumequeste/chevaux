@@ -15,7 +15,7 @@ class Pan_di_Stelle extends Component {
                         link={"http://chevaux.guillaumequeste.fr/pan_di_stelle"} />
                 <Header />
                 <HeaderMobile />
-                <Footer />
+                <Footer ecurie2013={true}/>
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
                         <h5 className="titrePage">Pan di Stelle</h5>

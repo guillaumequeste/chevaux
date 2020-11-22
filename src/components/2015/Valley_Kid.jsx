@@ -15,7 +15,7 @@ class Valley_Kid extends Component {
                         link={"http://chevaux.guillaumequeste.fr/valley_kid"} />
                 <Header />
                 <HeaderMobile />
-                <Footer />
+                <Footer ecurie2015={true}/>
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
                         <h5 className="titrePage">Valley Kid</h5>

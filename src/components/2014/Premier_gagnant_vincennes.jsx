@@ -15,7 +15,7 @@ class Premier_gagnant_vincennes extends Component {
                         link={"http://chevaux.guillaumequeste.fr/premier_gagnant_vincennes"} />
                 <Header />
                 <HeaderMobile />
-                <Footer />
+                <Footer ecurie2014={true}/>
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
                         <h5 className="titrePage">1ere gagnant à Vincennes</h5>

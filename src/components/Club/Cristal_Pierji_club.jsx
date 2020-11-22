@@ -15,7 +15,7 @@ class Cristal_Pierji_club extends Component {
                         link={"http://chevaux.guillaumequeste.fr/cristal_pierji_club"} />
                 <Header />
                 <HeaderMobile />
-                <Footer />
+                <Footer ecurieClub={true}/>
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
                         <h5 className="titrePage">Cristal Pierji</h5>

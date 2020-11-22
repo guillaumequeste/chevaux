@@ -15,7 +15,7 @@ class Unrefundable2014 extends Component {
                         link={"http://chevaux.guillaumequeste.fr/unrefundable2014"} />
                 <Header />
                 <HeaderMobile />
-                <Footer />
+                <Footer ecurie2014={true}/>
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
                         <h5 className="titrePage">Unrefundable</h5>

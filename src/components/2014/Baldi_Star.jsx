@@ -15,7 +15,7 @@ class Baldi_Star extends Component {
                         link={"http://chevaux.guillaumequeste.fr/baldi_star"} />
                 <Header />
                 <HeaderMobile />
-                <Footer />
+                <Footer ecurie2014={true}/>
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
                         <h5 className="titrePage">Baldi Star</h5>

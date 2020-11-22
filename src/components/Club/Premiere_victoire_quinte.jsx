@@ -15,7 +15,7 @@ class Premiere_victoire_quinte extends Component {
                         link={"http://chevaux.guillaumequeste.fr/premier_victoire_quinte"} />
                 <Header />
                 <HeaderMobile />
-                <Footer />
+                <Footer ecurieClub={true}/>
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
                         <h5 className="titrePage">1ère victoire dans un Quinté+</h5>

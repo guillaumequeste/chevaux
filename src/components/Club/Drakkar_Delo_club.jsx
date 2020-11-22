@@ -15,7 +15,7 @@ class Drakkar_Delo_club extends Component {
                         link={"http://chevaux.guillaumequeste.fr/drakkar_delo_club"} />
                 <Header />
                 <HeaderMobile />
-                <Footer />
+                <Footer ecurieClub={true}/>
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
                         <h5 className="titrePage">Drakkar Delo</h5>

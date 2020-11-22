@@ -15,7 +15,7 @@ class Al_Rassoul extends Component {
                         link={"http://chevaux.guillaumequeste.fr/al_rassoul"} />
                 <Header />
                 <HeaderMobile />
-                <Footer />
+                <Footer ecurieClub={true}/>
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
                         <h5 className="titrePage">Al Rassoul</h5>

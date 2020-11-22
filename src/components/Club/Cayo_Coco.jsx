@@ -15,7 +15,7 @@ class Cayo_Coco extends Component {
                         link={"http://chevaux.guillaumequeste.fr/cayo_coco"} />
                 <Header />
                 <HeaderMobile />
-                <Footer />
+                <Footer ecurieClub={true}/>
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
                         <h5 className="titrePage">Cayo Coco</h5>

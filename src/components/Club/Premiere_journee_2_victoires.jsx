@@ -15,7 +15,7 @@ class Premiere_journee_2_victoires extends Component {
                         link={"http://chevaux.guillaumequeste.fr/premiere_journee_2_victoires"} />
                 <Header />
                 <HeaderMobile />
-                <Footer />
+                <Footer ecurieClub={true}/>
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
                         <h5 className="titrePage">1ère journée avec 2 victoires</h5>

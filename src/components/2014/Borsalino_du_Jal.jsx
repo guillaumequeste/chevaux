@@ -15,7 +15,7 @@ class Borsalino_du_Jal extends Component {
                         link={"http://chevaux.guillaumequeste.fr/borsalino_du_jal"} />
                 <Header />
                 <HeaderMobile />
-                <Footer />
+                <Footer ecurie2014={true}/>
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
                         <h5 className="titrePage">Borsalino du Kal</h5>

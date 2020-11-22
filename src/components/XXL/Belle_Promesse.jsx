@@ -16,7 +16,7 @@ class Belle_Promesse extends Component {
         />
         <Header />
         <HeaderMobile />
-        <Footer />
+        <Footer ecurieXXL={true}/>
         <div className="accueilPremierPartantGalop">
           <Bounce top>
             <h5 className="titrePage">Belle Promesse</h5>

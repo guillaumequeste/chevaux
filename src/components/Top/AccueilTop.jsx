@@ -16,7 +16,7 @@ class AccueilTop extends Component {
                         link={"http://chevaux.guillaumequeste.fr/top"} />
                 <Header />
                 <HeaderMobile />
-                <Footer />
+                <Footer ecurieTop={true}/>
                 <div className="accueil2013">
                     <div className="titreAccueil">
                         <Bounce top>

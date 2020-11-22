@@ -15,7 +15,7 @@ class Premier_gagnant_longchamp extends Component {
                         link={"http://chevaux.guillaumequeste.fr/premier_gagnant_longchamp"} />
                 <Header />
                 <HeaderMobile />
-                <Footer />
+                <Footer ecurie2013={true}/>
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
                         <h5 className="titrePage">1er gagnant à Longchamp</h5>

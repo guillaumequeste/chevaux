@@ -15,7 +15,7 @@ class Diva_du_Dancing extends Component {
                         link={"http://chevaux.guillaumequeste.fr/diva_du_dancing"} />
                 <Header />
                 <HeaderMobile />
-                <Footer />
+                <Footer ecurieClub={true}/>
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
                         <h5 className="titrePage">Diva du Dancing</h5>

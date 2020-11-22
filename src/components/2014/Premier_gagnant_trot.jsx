@@ -15,7 +15,7 @@ class Premier_gagnant_trot extends Component {
                         link={"http://chevaux.guillaumequeste.fr/premier_gagnant_trot"} />
                 <Header />
                 <HeaderMobile />
-                <Footer />
+                <Footer ecurie2014={true}/>
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
                         <h5 className="titrePage">1er gagnant au trot</h5>

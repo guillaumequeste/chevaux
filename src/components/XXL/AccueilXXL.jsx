@@ -16,7 +16,7 @@ class AccueilXXL extends Component {
                         link={"http://chevaux.guillaumequeste.fr/xxl"} />
                 <Header />
                 <HeaderMobile />
-                <Footer />
+                <Footer ecurieXXL={true}/>
                 <div className="accueil2013">
                     <div className="titreAccueil">
                         <Bounce top>

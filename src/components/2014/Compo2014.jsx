@@ -17,7 +17,7 @@ class Compo2014 extends Component {
         />
         <Header />
         <HeaderMobile />
-        <Footer />
+        <Footer ecurie2014={true}/>
         <div className="accueil2013">
           <div className="titreAccueil">
             <Bounce top>

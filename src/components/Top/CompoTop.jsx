@@ -17,7 +17,7 @@ class CompoTop extends Component {
         />
         <Header />
         <HeaderMobile />
-        <Footer />
+        <Footer ecurieTop={true}/>
         <div className="accueil2013">
           <div className="titreAccueil">
             <Bounce top>

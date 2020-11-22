@@ -15,7 +15,7 @@ class Domino_de_Larre extends Component {
                         link={"http://chevaux.guillaumequeste.fr/domino_de_larre"} />
                 <Header />
                 <HeaderMobile />
-                <Footer />
+                <Footer ecurieClub={true}/>
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
                         <h5 className="titrePage">Domino de Larré</h5>

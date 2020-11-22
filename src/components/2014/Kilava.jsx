@@ -15,7 +15,7 @@ class Kilava extends Component {
                         link={"http://chevaux.guillaumequeste.fr/kilava"} />
                 <Header />
                 <HeaderMobile />
-                <Footer />
+                <Footer ecurie2014={true}/>
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
                         <h5 className="titrePage">Kilava</h5>

@@ -15,7 +15,7 @@ class Falcolina extends Component {
                         link={"http://chevaux.guillaumequeste.fr/falcolina"} />
                 <Header />
                 <HeaderMobile />
-                <Footer />
+                <Footer ecurie2013={true}/>
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
                         <h5 className="titrePage">Falcolina</h5>

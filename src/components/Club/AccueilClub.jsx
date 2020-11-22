@@ -16,7 +16,7 @@ class AccueilClub extends Component {
                         link={"http://chevaux.guillaumequeste.fr/club"} />
                 <Header />
                 <HeaderMobile />
-                <Footer />
+                <Footer ecurieClub={true}/>
                 <div className="accueil2013">
                     <div className="titreAccueil">
                         <Bounce top>

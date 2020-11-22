@@ -310,6 +310,10 @@
     border-right: solid 1px white;
 }
 
+.ecStyle {
+    background-color: rgb(146, 93, 43);
+}
+
 .linkFooter {
     margin: auto;
     color: white;
@@ -541,8 +545,4 @@
         width: 18vw;
         height: 40vh;
     }
-}
-
-.ecStyle {
-    background-color: white;
 }

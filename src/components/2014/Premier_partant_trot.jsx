@@ -15,7 +15,7 @@ class Premier_partant_trot extends Component {
                         link={"http://chevaux.guillaumequeste.fr/premier_partant_trot"} />
                 <Header />
                 <HeaderMobile />
-                <Footer />
+                <Footer ecurie2014={true}/>
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
                         <h5 className="titrePage">1er partant au trot</h5>

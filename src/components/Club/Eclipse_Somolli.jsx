@@ -15,7 +15,7 @@ class Eclipse_Somolli extends Component {
                         link={"http://chevaux.guillaumequeste.fr/eclipse_somolli"} />
                 <Header />
                 <HeaderMobile />
-                <Footer />
+                <Footer ecurieClub={true}/>
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
                         <h5 className="titrePage">Eclipse Somolli</h5>
