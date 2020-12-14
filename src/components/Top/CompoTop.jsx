@@ -31,7 +31,11 @@ class CompoTop extends Component {
           </div>
           <Fade right>
             <div className="cheval">
-              
+              <img
+                src={require("../../img/top/compo/apita01.jpg")}
+                alt="apita"
+                className="imgHorizontale"
+              />
               <div className="infos">
                 <h3 className="nomCheval">Apita</h3>
                 <h6 className="discipline">plat</h6>
