@@ -31,7 +31,7 @@ class AccueilClub extends Component {
                     </Fade>
                     <Fade right>
                         <NavLink to="/premiere_victoire_quinte" className="rubrique">
-                            <h6 className="titreRubrique">1ère victoire dans un Qinté+</h6>
+                            <h6 className="titreRubrique">1ère victoire dans un Quinté+</h6>
                         </NavLink>
                     </Fade>
                     <Fade right>
