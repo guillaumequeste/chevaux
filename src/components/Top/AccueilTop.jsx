@@ -29,6 +29,11 @@ class AccueilTop extends Component {
                             <h6 className="titreRubrique">Compo</h6>
                         </NavLink>
                     </Fade>
+                    <Fade right>
+                        <NavLink to="/premiere_victoire_listed" className="rubrique">
+                            <h6 className="titreRubrique">Première victoire de Listed</h6>
+                        </NavLink>
+                    </Fade>
                 </div>
             </div>
         )

@@ -68,6 +68,7 @@ import Premier_quinte_obstacle from './components/XXL/Premier_quinte_obstacle'
 import Belle_Promesse from './components/XXL/Belle_Promesse'
 
 import CompoTop from './components/Top/CompoTop'
+import Premiere_victoire_listed from './components/Top/Premiere_victoire_listed'
 
 import Credits from './components/Credits'
 import Contact from './components/Contact'
@@ -136,6 +137,7 @@ const Root = () => (
             <Route path='/belle_promesse' component={Belle_Promesse}/>
 
             <Route path='/compoTop' component={CompoTop}/>
+            <Route path='/premiere_victoire_listed' component={Premiere_victoire_listed}/>
         
             <Route path='/credits' component={Credits}/>
             <Route path='/contact' component={Contact}/>
