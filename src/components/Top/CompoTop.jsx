@@ -63,6 +63,37 @@ class CompoTop extends Component {
           <Fade right>
             <div className="cheval">
               <img
+                src={require("../../img/top/compo/boken01.jpg")}
+                alt="boken"
+                className="imgVerticale"
+              />
+              <div className="infos">
+                <h3 className="nomCheval">Boken</h3>
+                <h6 className="discipline">plat</h6>
+                <div className="divDetailsCompo">
+                  <div className="resultats">
+                    <div className="resultats2">
+                      <p className="pInfos"></p>
+                      <p className="pInfos"></p>
+                      <p className="pInfos"></p>
+                    </div>
+                  </div>
+                  <div className="divInfos">
+                    <p className="pInfos">
+                      <i>Kendargent</i>
+                    </p>
+                    <p className="pInfos">
+                      <i>Baia Chope</i>
+                    </p>
+                    <p className="pInfos">chez Ludovic Gadbin</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Fade>
+          <Fade right>
+            <div className="cheval">
+              <img
                 src={require("../../img/top/compo/highlands01.jpg")}
                 alt="highlands_d_allier"
                 className="imgHorizontale"
