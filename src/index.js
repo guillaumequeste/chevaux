@@ -74,8 +74,11 @@ import Credits from './components/Credits'
 import Contact from './components/Contact'
 import NotFound from './components/NotFound'
 
+import ScrollToTop from './components/ScrollToTop'
+
 const Root = () => (
     <Router>
+        <ScrollToTop />
         <Switch>
             <Route exact path='/' component={App}/>
 
