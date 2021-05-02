@@ -510,7 +510,6 @@
 
 .photoPageHorizontale {
     width: 80vw;
-    height: 30vh;
     border-radius: 5px;
     box-shadow: 10px 5px 5px rgb(109, 109, 109);
 }
@@ -518,25 +517,21 @@
 @media screen and (min-width: 1025px) {
     .photoPageHorizontale {
         width: 30vw;
-        height: 40vh;
     }
 }
 
 .photoBelle {
     width: 60vw;
-    height: 30vh;
 }
 
 @media screen and (min-width: 1025px) {
     .photoBelle {
         width: 25vw;
-        height: 40vh;
     }
 }
 
 .photoPageVerticale {
     width: 40vw;
-    height: 30vh;
     border-radius: 5px;
     box-shadow: 10px 5px 5px rgb(109, 109, 109);
 }
@@ -544,6 +539,5 @@
 @media screen and (min-width: 1025px) {
     .photoPageVerticale {
         width: 18vw;
-        height: 40vh;
     }
 }
