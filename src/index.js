@@ -6,8 +6,8 @@ import * as serviceWorker from './serviceWorker'
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
-import $ from 'jquery'
-import Popper from 'popper.js'
+/*import $ from 'jquery'*/
+/*import Popper from 'popper.js'*/
 import 'bootstrap/dist/js/bootstrap.bundle.min'
 
 import Accueil2013 from './components/2013/Accueil2013'

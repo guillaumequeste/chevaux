@@ -21,10 +21,11 @@ class Credits extends Component {
             <a
               href="https://www.facebook.com/Passioncourseshippiq-1538046549819119"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <h5 className="textContact">Passion Courses Hippiques</h5>
             </a>
-            <a href="https://www.equidia.fr" target="_blank">
+            <a href="https://www.equidia.fr" target="_blank" rel="noopener noreferrer">
               <h5 className="textContact">Equidia</h5>
             </a>
             <h5>Pierre Virly (Petrus photo)</h5>

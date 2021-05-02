@@ -8,9 +8,7 @@ import Fade from 'react-reveal/Fade'
 import { NavLink } from "react-router-dom";
 
 class Accueil2013 extends Component {
-    constructor(props) {
-        super(props);
-    }
+  
     render () {
         return (
             <div>

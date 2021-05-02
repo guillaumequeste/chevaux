@@ -5,7 +5,6 @@ import Helmet from "../Helmet";
 import Footer from "../Footer";
 import Bounce from "react-reveal/Bounce";
 import Fade from "react-reveal/Fade";
-import { NavLink } from "react-router-dom";
 
 class Compo2013 extends Component {
   render() {

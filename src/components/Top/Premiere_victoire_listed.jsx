@@ -16,7 +16,7 @@ class Premiere_victoire_listed extends Component {
         />
         <Header />
         <HeaderMobile />
-        <Footer ecurie2013={true} />
+        <Footer ecurieTop={true} />
         <div className="accueilPremierPartantGalop">
           <Bounce top>
             <h5 className="titrePage">1ère victoire de Listed</h5>

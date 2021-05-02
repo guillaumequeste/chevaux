@@ -5,7 +5,6 @@ import Helmet from "../Helmet";
 import Footer from "../Footer";
 import Bounce from "react-reveal/Bounce";
 import Fade from "react-reveal/Fade";
-import { NavLink } from "react-router-dom";
 
 class CompoXXL extends Component {
   render() {
@@ -38,7 +37,7 @@ class CompoXXL extends Component {
               />
               <div className="infos">
                 <h3 className="nomCheval">Belle Promesse</h3>
-                <h6 className="discipline"></h6>
+                <h6 className="discipline">obstacle</h6>
                 <div className="divDetailsCompo">
                   <div className="resultats">
                     <div className="resultats2">
@@ -69,7 +68,7 @@ class CompoXXL extends Component {
               />
               <div className="infos">
                 <h3 className="nomCheval">Borénis</h3>
-                <h6 className="discipline"></h6>
+                <h6 className="discipline">obstacle</h6>
                 <div className="divDetailsCompo">
                   <div className="resultats">
                     <div className="resultats2">
@@ -100,7 +99,7 @@ class CompoXXL extends Component {
               />
               <div className="infos">
                 <h3 className="nomCheval">Eclair Etincelle</h3>
-                <h6 className="discipline"></h6>
+                <h6 className="discipline">obstacle</h6>
                 <div className="divDetailsCompo">
                   <div className="resultats">
                     <div className="resultats2">
@@ -131,7 +130,7 @@ class CompoXXL extends Component {
               />
               <div className="infos">
                 <h3 className="nomCheval">Elcond'Or Forlonge</h3>
-                <h6 className="discipline"></h6>
+                <h6 className="discipline">obstacle</h6>
                 <div className="divDetailsCompo">
                   <div className="resultats">
                     <div className="resultats2">
@@ -164,7 +163,7 @@ class CompoXXL extends Component {
               />
               <div className="infos">
                 <h3 className="nomCheval">Escort'groove</h3>
-                <h6 className="discipline"></h6>
+                <h6 className="discipline">obstacle</h6>
                 <div className="divDetailsCompo">
                   <div className="resultats">
                     <div className="resultats2">
@@ -197,7 +196,7 @@ class CompoXXL extends Component {
               />
               <div className="infos">
                 <h3 className="nomCheval">Everybodywantsme</h3>
-                <h6 className="discipline"></h6>
+                <h6 className="discipline">obstacle</h6>
                 <div className="divDetailsCompo">
                   <div className="resultats">
                     <div className="resultats2">
@@ -228,7 +227,7 @@ class CompoXXL extends Component {
               />
               <div className="infos">
                 <h3 className="nomCheval">Gaby Oh Gaby</h3>
-                <h6 className="discipline"></h6>
+                <h6 className="discipline">obstacle</h6>
                 <div className="divDetailsCompo">
                   <div className="resultats">
                     <div className="resultats2">
@@ -259,7 +258,7 @@ class CompoXXL extends Component {
               />
               <div className="infos">
                 <h3 className="nomCheval">Galante d'Arthel</h3>
-                <h6 className="discipline"></h6>
+                <h6 className="discipline">obstacle</h6>
                 <div className="divDetailsCompo">
                   <div className="resultats">
                     <div className="resultats2">
@@ -290,7 +289,7 @@ class CompoXXL extends Component {
               />
               <div className="infos">
                 <h3 className="nomCheval">Gaspacho's</h3>
-                <h6 className="discipline"></h6>
+                <h6 className="discipline">obstacle</h6>
                 <div className="divDetailsCompo">
                   <div className="resultats">
                     <div className="resultats2">
@@ -321,7 +320,7 @@ class CompoXXL extends Component {
               />
               <div className="infos">
                 <h3 className="nomCheval">Glasgow Allen</h3>
-                <h6 className="discipline"></h6>
+                <h6 className="discipline">obstacle</h6>
                 <div className="divDetailsCompo">
                   <div className="resultats">
                     <div className="resultats2">
@@ -352,7 +351,7 @@ class CompoXXL extends Component {
               />
               <div className="infos">
                 <h3 className="nomCheval">Gueule de Loup</h3>
-                <h6 className="discipline"></h6>
+                <h6 className="discipline">obstacle</h6>
                 <div className="divDetailsCompo">
                   <div className="resultats">
                     <div className="resultats2">
@@ -383,7 +382,7 @@ class CompoXXL extends Component {
               />
               <div className="infos">
                 <h3 className="nomCheval">Joly And Bach</h3>
-                <h6 className="discipline"></h6>
+                <h6 className="discipline">obstacle</h6>
                 <div className="divDetailsCompo">
                   <div className="resultats">
                     <div className="resultats2">
@@ -414,7 +413,7 @@ class CompoXXL extends Component {
               />
               <div className="infos">
                 <h3 className="nomCheval">Korum</h3>
-                <h6 className="discipline"></h6>
+                <h6 className="discipline">obstacle</h6>
                 <div className="divDetailsCompo">
                   <div className="resultats">
                     <div className="resultats2">
@@ -447,7 +446,7 @@ class CompoXXL extends Component {
               />
               <div className="infos">
                 <h3 className="nomCheval">Master Gold</h3>
-                <h6 className="discipline"></h6>
+                <h6 className="discipline">obstacle</h6>
                 <div className="divDetailsCompo">
                   <div className="resultats">
                     <div className="resultats2">
