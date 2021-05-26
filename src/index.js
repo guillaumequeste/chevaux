@@ -65,7 +65,10 @@ import Premiere_victoire_obstacle from './components/XXL/Premiere_victoire_obsta
 import Premiere_victoire_auteuil from './components/XXL/Premiere_victoire_auteuil'
 import Journee_deux_victoires from './components/XXL/Journee_deux_victoires'
 import Premier_quinte_obstacle from './components/XXL/Premier_quinte_obstacle'
+import Belle_Promesse_Listed from './components/XXL/Belle_Promesse_Listed'
+import Master_Gold_Listed from './components/XXL/Master_Gold_Listed'
 import Belle_Promesse from './components/XXL/Belle_Promesse'
+import Master_Gold from './components/XXL/Master_Gold'
 
 import CompoTop from './components/Top/CompoTop'
 import Premiere_victoire_listed from './components/Top/Premiere_victoire_listed'
@@ -137,7 +140,10 @@ const Root = () => (
             <Route path='/premiere_victoire_auteuil' component={Premiere_victoire_auteuil}/>
             <Route path='/journee_deux_victoires' component={Journee_deux_victoires}/>
             <Route path='/premier_quinte_obstacle' component={Premier_quinte_obstacle}/>
+            <Route path='/belle_promesse_listed' component={Belle_Promesse_Listed}/>
+            <Route path='/master_gold_listed' component={Master_Gold_Listed}/>
             <Route path='/belle_promesse' component={Belle_Promesse}/>
+            <Route path='/master_gold' component={Master_Gold}/>
 
             <Route path='/compoTop' component={CompoTop}/>
             <Route path='/premiere_victoire_listed' component={Premiere_victoire_listed}/>

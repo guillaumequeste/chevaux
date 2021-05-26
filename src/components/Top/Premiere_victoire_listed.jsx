@@ -23,6 +23,7 @@ class Premiere_victoire_listed extends Component {
             <p className="infosPage">Highlands d'Allier</p>
             <p className="infosPage">le 10 janvier 2021 à Cagnes-sur-Mer</p>
             <p className="infosPage">avec Johnny Charron</p>
+            <p className="infosPage">Prix Christian de l'Hermite - Grand Steeple-Chase des 4 ans</p>
           </Bounce>
           <div className="photosPage">
             <Fade right>
