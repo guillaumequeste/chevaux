@@ -304,6 +304,15 @@ class Master_Gold extends Component {
                 />
               </div>
             </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/master_gold/master05.jpg")}
+                  alt="master05"
+                  className="photoPageVerticale"
+                />
+              </div>
+            </Fade>
           </div>
         </div>
       </div>
