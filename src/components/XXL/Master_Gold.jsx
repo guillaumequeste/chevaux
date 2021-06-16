@@ -20,8 +20,8 @@ class Master_Gold extends Component {
         <div className="accueilPremierPartantGalop">
           <Bounce top>
             <h5 className="titrePage">Master Gold</h5>
-            <p className="infosPage">10 courses</p>
-            <p className="infosPage">5 places</p>
+            <p className="infosPage">11 courses</p>
+            <p className="infosPage">6 places</p>
             <p className="infosPage">Placé de Listed</p>
           </Bounce>
           <div className="photosPage">
