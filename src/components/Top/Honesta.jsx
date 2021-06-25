@@ -30,6 +30,73 @@ class Honesta extends Component {
                 <img
                   src={require("../../img/top/honesta/honesta01.jpg")}
                   alt="honesta01"
+                  className="photoPageVerticale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/top/honesta/honesta02.jpg")}
+                  alt="honesta02"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/top/honesta/honesta03.jpg")}
+                  alt="honesta03"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="photosPage">
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/top/honesta/honesta04.jpg")}
+                  alt="honesta04"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/top/honesta/honesta05.jpg")}
+                  alt="honesta05"
+                  className="photoPageVerticale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/top/honesta/honesta06.jpg")}
+                  alt="honesta06"
+                  className="photoPageVerticale"
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="photosPage">
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/top/honesta/honesta07.jpg")}
+                  alt="honesta07"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/top/honesta/honesta08.jpg")}
+                  alt="honesta08"
                   className="photoPageHorizontale"
                 />
               </div>
