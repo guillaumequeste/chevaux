@@ -35,47 +35,47 @@ class AccueilXXL extends Component {
             </NavLink>
           </Fade>
           <Fade right>
-            <NavLink to="/premiere_victoire_obstacle" className="rubrique">
+            <NavLink to="/premiere_victoire_obstacle" className="rubrique border-black">
               <h6 className="titreRubrique">1ère victoire en obstacle</h6>
             </NavLink>
           </Fade>
           <Fade right>
-            <NavLink to="/premiere_victoire_auteuil" className="rubrique">
+            <NavLink to="/premiere_victoire_auteuil" className="rubrique border-black">
               <h6 className="titreRubrique">1ère victoire à Auteuil</h6>
             </NavLink>
           </Fade>
           <Fade right>
-            <NavLink to="/journee_deux_victoires" className="rubrique">
+            <NavLink to="/journee_deux_victoires" className="rubrique border-black">
               <h6 className="titreRubrique">Journée à 2 victoires</h6>
             </NavLink>
           </Fade>
           <Fade right>
-            <NavLink to="/premier_quinte_obstacle" className="rubrique">
+            <NavLink to="/premier_quinte_obstacle" className="rubrique border-black">
               <h6 className="titreRubrique">1er Quinté en obstacle</h6>
             </NavLink>
           </Fade>
           <Fade right>
-            <NavLink to="/belle_promesse_groupeIII" className="rubrique">
+            <NavLink to="/belle_promesse_groupeIII" className="rubrique border-black">
               <h6 className="titreRubrique">Victoire de Belle Promesse dans un Groupe III</h6>
             </NavLink>
           </Fade>
           <Fade right>
-            <NavLink to="/belle_promesse_listed" className="rubrique">
+            <NavLink to="/belle_promesse_listed" className="rubrique border-black">
               <h6 className="titreRubrique">Victoire de Belle Promesse dans une Listed</h6>
             </NavLink>
           </Fade>
           <Fade right>
-            <NavLink to="/master_gold_listed" className="rubrique">
+            <NavLink to="/master_gold_listed" className="rubrique border-black">
               <h6 className="titreRubrique">2ème place de Master Gold dans une Listed</h6>
             </NavLink>
           </Fade>
           <Fade right>
-            <NavLink to="/belle_promesse" className="rubrique">
+            <NavLink to="/belle_promesse" className="rubrique border-white">
               <h6 className="titreRubrique">Belle Promesse</h6>
             </NavLink>
           </Fade>
           <Fade right>
-            <NavLink to="/master_gold" className="rubrique">
+            <NavLink to="/master_gold" className="rubrique border-white">
               <h6 className="titreRubrique">Master Gold</h6>
             </NavLink>
           </Fade>
