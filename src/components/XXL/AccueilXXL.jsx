@@ -75,6 +75,21 @@ class AccueilXXL extends Component {
             </NavLink>
           </Fade>
           <Fade right>
+            <NavLink to="/galante" className="rubrique border-white">
+              <h6 className="titreRubrique">Galante d'Arthel</h6>
+            </NavLink>
+          </Fade>
+          <Fade right>
+            <NavLink to="/joly" className="rubrique border-white">
+              <h6 className="titreRubrique">Joly And Bach</h6>
+            </NavLink>
+          </Fade>
+          <Fade right>
+            <NavLink to="/korum" className="rubrique border-white">
+              <h6 className="titreRubrique">Korum</h6>
+            </NavLink>
+          </Fade>
+          <Fade right>
             <NavLink to="/master_gold" className="rubrique border-white">
               <h6 className="titreRubrique">Master Gold</h6>
             </NavLink>

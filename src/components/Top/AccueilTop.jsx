@@ -39,6 +39,21 @@ class AccueilTop extends Component {
               <h6 className="titreRubrique">Première victoire de Listed</h6>
             </NavLink>
           </Fade>
+          <Fade right>
+            <NavLink to="/highlands" className="rubrique border-white">
+              <h6 className="titreRubrique">Highlands d'Allier</h6>
+            </NavLink>
+          </Fade>
+          <Fade right>
+            <NavLink to="/hola" className="rubrique border-white">
+              <h6 className="titreRubrique">Hola de Nappes</h6>
+            </NavLink>
+          </Fade>
+          <Fade right>
+            <NavLink to="/honesta" className="rubrique border-white">
+              <h6 className="titreRubrique">Honesta</h6>
+            </NavLink>
+          </Fade>
         </div>
       </div>
     );

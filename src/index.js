@@ -69,10 +69,16 @@ import Belle_Promesse_GroupeIII from './components/XXL/Belle_Promesse_GroupeIII'
 import Belle_Promesse_Listed from './components/XXL/Belle_Promesse_Listed'
 import Master_Gold_Listed from './components/XXL/Master_Gold_Listed'
 import Belle_Promesse from './components/XXL/Belle_Promesse'
+import Galante from './components/XXL/Galante'
+import Joly from './components/XXL/Joly'
+import Korum from './components/XXL/Korum'
 import Master_Gold from './components/XXL/Master_Gold'
 
 import CompoTop from './components/Top/CompoTop'
 import Premiere_victoire_listed from './components/Top/Premiere_victoire_listed'
+import Highlands from './components/Top/Highlands'
+import Hola from './components/Top/Hola'
+import Honesta from './components/Top/Honesta'
 
 import Credits from './components/Credits'
 import Contact from './components/Contact'
@@ -145,10 +151,16 @@ const Root = () => (
             <Route path='/belle_promesse_listed' component={Belle_Promesse_Listed}/>
             <Route path='/master_gold_listed' component={Master_Gold_Listed}/>
             <Route path='/belle_promesse' component={Belle_Promesse}/>
+            <Route path='/galante' component={Galante}/>
+            <Route path='/joly' component={Joly}/>
+            <Route path='/korum' component={Korum}/>
             <Route path='/master_gold' component={Master_Gold}/>
 
             <Route path='/compoTop' component={CompoTop}/>
             <Route path='/premiere_victoire_listed' component={Premiere_victoire_listed}/>
+            <Route path='/highlands' component={Highlands}/>
+            <Route path='/hola' component={Hola}/>
+            <Route path='/honesta' component={Honesta}/>
         
             <Route path='/credits' component={Credits}/>
             <Route path='/contact' component={Contact}/>
