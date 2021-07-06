@@ -16,7 +16,7 @@ class Honesta extends Component {
         />
         <Header />
         <HeaderMobile />
-        <Footer ecurieXXL={true}/>
+        <Footer ecurieTop={true}/>
         <div className="accueilPremierPartantGalop">
           <Bounce top>
             <h5 className="titrePage">Honesta</h5>

@@ -16,11 +16,11 @@ class Highlands extends Component {
         />
         <Header />
         <HeaderMobile />
-        <Footer ecurieXXL={true}/>
+        <Footer ecurieTop={true}/>
         <div className="accueilPremierPartantGalop">
           <Bounce top>
             <h5 className="titrePage">Highlands d'Allier</h5>
-            <p className="infosPage">6 courses</p>
+            <p className="infosPage">7 courses</p>
             <p className="infosPage">2 victoires</p>
             <p className="infosPage">3 places</p>
           </Bounce>
@@ -126,6 +126,15 @@ class Highlands extends Component {
                 <img
                   src={require("../../img/top/highlands/highlands11.jpg")}
                   alt="highlands11"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/top/highlands/highlands12.jpg")}
+                  alt="highlands12"
                   className="photoPageHorizontale"
                 />
               </div>
