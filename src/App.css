@@ -129,6 +129,42 @@
 }
 
 
+/* Bilan ----------------------------------------------------------------------- */
+
+.divBilan {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 93vh;
+    background-color: var(--background-color);
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.result {
+    margin: auto;
+    margin: 4% 0;
+}
+
+@media screen and (min-width: 1025px) {
+    .result {
+        margin: auto;
+    }
+}
+
+.pReussite {
+    margin: 0;
+    text-align: center;
+}
+
+.reussite {
+    text-align: center;
+    font-style: italic;
+    border-radius: 5px;
+    margin: 0;
+}
+
+
 /* Compo ----------------------------------------------------------------------- */
 
 .cheval {
@@ -404,11 +440,33 @@
 }
 
 .logo {
-    width: 60%;
+    width: 55%;
 }
 
 .horse {
     height: 6vh;
+}
+
+.linkHeaderMobile3 {
+    color: white;
+    width: 5%;
+    line-height: 7vh;
+    text-align: right;
+    font-size: 1rem;
+    font-family: 'Parisienne', cursive, sans-serif;
+    font-weight: bold;
+    color: var(--font-navbar-color);
+}
+
+.linkHeaderMobile3:hover {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 540px) {
+    .linkHeaderMobile3 {
+        font-size: 1rem;
+    }
 }
 
 .linkHeaderMobile1 {

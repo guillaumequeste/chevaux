@@ -80,6 +80,7 @@ import Highlands from './components/Top/Highlands'
 import Hola from './components/Top/Hola'
 import Honesta from './components/Top/Honesta'
 
+import Bilan from './components/Bilan'
 import Credits from './components/Credits'
 import Contact from './components/Contact'
 import NotFound from './components/NotFound'
@@ -162,6 +163,7 @@ const Root = () => (
             <Route path='/hola' component={Hola}/>
             <Route path='/honesta' component={Honesta}/>
         
+            <Route path='/bilan' component={Bilan}/>
             <Route path='/credits' component={Credits}/>
             <Route path='/contact' component={Contact}/>
             <Route path='/notfound' component={NotFound}/>
