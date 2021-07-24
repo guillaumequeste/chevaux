@@ -21,8 +21,8 @@ class Master_Gold extends Component {
           <Bounce top>
             <h5 className="titrePage">Master Gold</h5>
             <p className="infosPage">11 courses</p>
-            <p className="infosPage">6 places</p>
-            <p className="infosPage">Placé de Listed</p>
+            <p className="infosPage">1 victoire de Listed</p>
+            <p className="infosPage">5 places</p>
           </Bounce>
           <div className="photosPage">
             <Fade right>

@@ -19,7 +19,7 @@ class Master_Gold_Listed extends Component {
         <Footer ecurieXXL={true}/>
         <div className="accueilPremierPartantGalop">
           <Bounce top>
-            <h5 className="titrePage">2ème place de Master Gold dans une Listed</h5>
+            <h5 className="titrePage">Victoire de Master Gold dans une Listed (sur tapis vert)</h5>
             <p className="infosPage">le 23 mai 2021 à Auteuil</p>
             <p className="infosPage">avec Etienne Capdet</p>
             <p className="infosPage">Prix Tanerko</p>

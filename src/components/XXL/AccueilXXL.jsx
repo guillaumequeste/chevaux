@@ -66,7 +66,7 @@ class AccueilXXL extends Component {
           </Fade>
           <Fade right>
             <NavLink to="/master_gold_listed" className="rubrique border-black">
-              <h6 className="titreRubrique">2ème place de Master Gold dans une Listed</h6>
+              <h6 className="titreRubrique">Victoire de Master Gold dans une Listed</h6>
             </NavLink>
           </Fade>
           <Fade right>
