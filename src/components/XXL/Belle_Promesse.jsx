@@ -24,7 +24,7 @@ class Belle_Promesse extends Component {
             <p className="infosPage">3 victoires</p>
             <p className="infosPage">2 places</p>
             <p className="infosPage">Gagnante de Listed</p>
-            <p className="infosPage">Double placée de Groupe III</p>
+            <p className="infosPage">Gagnante et placée de Groupe III</p>
           </Bounce>
           <div className="photosPage">
             <Fade right>

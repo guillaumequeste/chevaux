@@ -20,7 +20,7 @@ class Highlands extends Component {
         <div className="accueilPremierPartantGalop">
           <Bounce top>
             <h5 className="titrePage">Highlands d'Allier</h5>
-            <p className="infosPage">7 courses</p>
+            <p className="infosPage">8 courses</p>
             <p className="infosPage">2 victoires</p>
             <p className="infosPage">3 places</p>
           </Bounce>

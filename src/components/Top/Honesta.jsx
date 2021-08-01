@@ -20,9 +20,9 @@ class Honesta extends Component {
         <div className="accueilPremierPartantGalop">
           <Bounce top>
             <h5 className="titrePage">Honesta</h5>
-            <p className="infosPage">4 courses</p>
+            <p className="infosPage">5 courses</p>
             <p className="infosPage"></p>
-            <p className="infosPage">3 places</p>
+            <p className="infosPage">4 places</p>
           </Bounce>
           <div className="photosPage">
             <Fade right>
@@ -117,6 +117,35 @@ class Honesta extends Component {
                 <img
                   src={require("../../img/top/honesta/honesta10.jpg")}
                   alt="honesta10"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/top/honesta/honesta_saint_malo01.jpg")}
+                  alt="honesta_saint_malo01"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/top/honesta/honesta_saint_malo02.jpg")}
+                  alt="honesta_saint_malo02"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="photosPage">
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/top/honesta/honesta_saint_malo03.jpg")}
+                  alt="honesta_saint_malo03"
                   className="photoPageHorizontale"
                 />
               </div>
