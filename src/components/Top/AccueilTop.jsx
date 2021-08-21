@@ -40,7 +40,7 @@ class AccueilTop extends Component {
             </NavLink>
           </Fade>
           <Fade right>
-            <NavLink to="/boken" className="rubrique border-black">
+            <NavLink to="/boken" className="rubrique border-white">
               <h6 className="titreRubrique">Boken</h6>
             </NavLink>
           </Fade>
