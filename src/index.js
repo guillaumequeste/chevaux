@@ -76,6 +76,7 @@ import Master_Gold from './components/XXL/Master_Gold'
 
 import CompoTop from './components/Top/CompoTop'
 import Premiere_victoire_listed from './components/Top/Premiere_victoire_listed'
+import Boken from './components/Top/Boken'
 import Highlands from './components/Top/Highlands'
 import Hola from './components/Top/Hola'
 import Honesta from './components/Top/Honesta'
@@ -159,6 +160,7 @@ const Root = () => (
 
             <Route path='/compoTop' component={CompoTop}/>
             <Route path='/premiere_victoire_listed' component={Premiere_victoire_listed}/>
+            <Route path='/boken' component={Boken}/>
             <Route path='/highlands' component={Highlands}/>
             <Route path='/hola' component={Hola}/>
             <Route path='/honesta' component={Honesta}/>

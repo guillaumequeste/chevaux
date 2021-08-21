@@ -72,9 +72,9 @@ class CompoTop extends Component {
                 <div className="divDetailsCompo">
                   <div className="resultats">
                     <div className="resultats2">
-                      <p className="pInfos">6 courses</p>
+                      <p className="pInfos">7 courses</p>
                       <p className="pInfos"></p>
-                      <p className="pInfos">3 places</p>
+                      <p className="pInfos">4 places</p>
                     </div>
                   </div>
                   <div className="divInfos">

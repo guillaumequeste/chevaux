@@ -20,7 +20,7 @@ class Cristal_Pierji2015 extends Component {
                     <Bounce top>
                         <h5 className="titrePage">Cristal Pierji</h5>
                         <p className="infosPage">11 courses</p>
-                        <p className="infosPage">1 victoire</p>
+                        <p className="infosPage">3 victoires</p>
                         <p className="infosPage">5 places</p>
                     </Bounce>
                     <div className="photosPage">

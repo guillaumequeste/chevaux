@@ -40,6 +40,11 @@ class AccueilTop extends Component {
             </NavLink>
           </Fade>
           <Fade right>
+            <NavLink to="/boken" className="rubrique border-black">
+              <h6 className="titreRubrique">Boken</h6>
+            </NavLink>
+          </Fade>
+          <Fade right>
             <NavLink to="/highlands" className="rubrique border-white">
               <h6 className="titreRubrique">Highlands d'Allier</h6>
             </NavLink>
