@@ -20,7 +20,7 @@ class Honesta extends Component {
         <div className="accueilPremierPartantGalop">
           <Bounce top>
             <h5 className="titrePage">Honesta</h5>
-            <p className="infosPage">5 courses</p>
+            <p className="infosPage">6 courses</p>
             <p className="infosPage"></p>
             <p className="infosPage">4 places</p>
           </Bounce>
