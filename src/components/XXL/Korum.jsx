@@ -20,7 +20,7 @@ class Korum extends Component {
         <div className="accueilPremierPartantGalop">
           <Bounce top>
             <h5 className="titrePage">Korum</h5>
-            <p className="infosPage">12 courses</p>
+            <p className="infosPage">13 courses</p>
             <p className="infosPage">2 victoires</p>
             <p className="infosPage">6 places</p>
           </Bounce>
