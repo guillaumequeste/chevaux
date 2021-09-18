@@ -20,9 +20,9 @@ class Belle_Promesse extends Component {
         <div className="accueilPremierPartantGalop">
           <Bounce top>
             <h5 className="titrePage">Belle Promesse</h5>
-            <p className="infosPage">14 courses</p>
+            <p className="infosPage">15 courses</p>
             <p className="infosPage">6 victoires</p>
-            <p className="infosPage">4 places</p>
+            <p className="infosPage">5 places</p>
             <p className="infosPage">Gagnante de Listed</p>
             <p className="infosPage">Gagnante et placée de Groupe III</p>
           </Bounce>
@@ -700,6 +700,122 @@ class Belle_Promesse extends Component {
                   src={require("../../img/xxl/belle_promesse/belle41.jpg")}
                   alt="belle41"
                   className="photoPageVerticale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/bellea02.jpg")}
+                  alt="bellea02"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/bellea03.jpg")}
+                  alt="bellea03"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="photosPage">
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/bellea03b.jpg")}
+                  alt="bellea03b"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/bellea04.jpg")}
+                  alt="bellea04"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/bellea05.jpg")}
+                  alt="bellea05"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="photosPage">
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/bellea05b.jpg")}
+                  alt="bellea05b"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/bellea06.jpg")}
+                  alt="bellea06"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/bellea07.jpg")}
+                  alt="bellea07"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="photosPage">
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/bellea07b.jpg")}
+                  alt="bellea07b"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/bellea08.jpg")}
+                  alt="bellea08"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/bellea09.jpg")}
+                  alt="bellea09"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="photosPage">
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/bellea10.jpg")}
+                  alt="bellea10"
+                  className="photoPageHorizontale"
                 />
               </div>
             </Fade>
