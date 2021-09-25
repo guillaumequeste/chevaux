@@ -20,8 +20,8 @@ class Boken extends Component {
         <div className="accueilPremierPartantGalop">
           <Bounce top>
             <h5 className="titrePage">Boken</h5>
-            <p className="infosPage">7 courses</p>
-            <p className="infosPage"></p>
+            <p className="infosPage">8 courses</p>
+            <p className="infosPage">1 victoire</p>
             <p className="infosPage">4 places</p>
           </Bounce>
           <div className="photosPage">
@@ -106,6 +106,46 @@ class Boken extends Component {
                 <img
                   src={require("../../img/top/boken/boken_course08.jpg")}
                   alt="boken_course08"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="photosPage">
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/top/boken/boken_course09.jpg")}
+                  alt="boken_course09"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/top/boken/boken_course10.jpg")}
+                  alt="boken_course10"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/top/boken/boken_course11.jpg")}
+                  alt="boken_course11"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="photosPage">
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/top/boken/boken_course12.jpg")}
+                  alt="boken_course12"
                   className="photoPageHorizontale"
                 />
               </div>
