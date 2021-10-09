@@ -20,8 +20,8 @@ class Hola extends Component {
         <div className="accueilPremierPartantGalop">
           <Bounce top>
             <h5 className="titrePage">Hola de Nappes</h5>
-            <p className="infosPage">12 courses</p>
-            <p className="infosPage"></p>
+            <p className="infosPage">13 courses</p>
+            <p className="infosPage">1 victoire</p>
             <p className="infosPage">6 places</p>
           </Bounce>
           <div className="photosPage">
@@ -126,6 +126,44 @@ class Hola extends Component {
                 <img
                   src={require("../../img/top/hola/hola11.jpg")}
                   alt="hola11"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/top/hola/hola_marseille01.jpg")}
+                  alt="hola_marseille01"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="photosPage">
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/top/hola/hola_marseille02.jpg")}
+                  alt="hola_marseille02"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/top/hola/hola_marseille03.jpg")}
+                  alt="hola_marseille03"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/top/hola/hola_marseille04.jpg")}
+                  alt="hola_marseille04"
                   className="photoPageHorizontale"
                 />
               </div>
