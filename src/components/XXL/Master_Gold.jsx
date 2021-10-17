@@ -20,7 +20,7 @@ class Master_Gold extends Component {
         <div className="accueilPremierPartantGalop">
           <Bounce top>
             <h5 className="titrePage">Master Gold</h5>
-            <p className="infosPage">12 courses</p>
+            <p className="infosPage">13 courses</p>
             <p className="infosPage">1 victoire de Listed</p>
             <p className="infosPage">5 places</p>
           </Bounce>
@@ -310,6 +310,35 @@ class Master_Gold extends Component {
                   src={require("../../img/xxl/master_gold/master05.jpg")}
                   alt="master05"
                   className="photoPageVerticale"
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="photosPage">
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/master_gold/master161021_01.jpg")}
+                  alt="master161021_01"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/master_gold/master161021_02.jpg")}
+                  alt="master161021_02"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/master_gold/master161021_03.jpg")}
+                  alt="master161021_03"
+                  className="photoPageHorizontale"
                 />
               </div>
             </Fade>
