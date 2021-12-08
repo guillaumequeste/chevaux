@@ -20,7 +20,7 @@ class Boken extends Component {
         <div className="accueilPremierPartantGalop">
           <Bounce top>
             <h5 className="titrePage">Boken</h5>
-            <p className="infosPage">9 courses</p>
+            <p className="infosPage">10 courses</p>
             <p className="infosPage">1 victoire</p>
             <p className="infosPage">5 places</p>
           </Bounce>
