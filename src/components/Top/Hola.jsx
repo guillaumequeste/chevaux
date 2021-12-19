@@ -20,9 +20,9 @@ class Hola extends Component {
         <div className="accueilPremierPartantGalop">
           <Bounce top>
             <h5 className="titrePage">Hola de Nappes</h5>
-            <p className="infosPage">16 courses</p>
+            <p className="infosPage">17 courses</p>
             <p className="infosPage">2 victoires</p>
-            <p className="infosPage">6 places</p>
+            <p className="infosPage">7 places</p>
           </Bounce>
           <div className="photosPage">
             <Fade right>
@@ -213,6 +213,44 @@ class Hola extends Component {
                 <img
                   src={require("../../img/top/hola/hola_enghien05.jpg")}
                   alt="hola_enghien05"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/top/hola/hola_vincennes01.jpg")}
+                  alt="hola_vincennes01"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="photosPage">
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/top/hola/hola_vincennes02.jpg")}
+                  alt="hola_vincennes02"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/top/hola/hola_vincennes03.jpg")}
+                  alt="hola_vincennes03"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/top/hola/hola_vincennes04.jpg")}
+                  alt="hola_vincennes04"
                   className="photoPageHorizontale"
                 />
               </div>
