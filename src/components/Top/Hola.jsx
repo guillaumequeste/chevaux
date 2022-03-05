@@ -20,8 +20,8 @@ class Hola extends Component {
         <div className="accueilPremierPartantGalop">
           <Bounce top>
             <h5 className="titrePage">Hola de Nappes</h5>
-            <p className="infosPage">20 courses</p>
-            <p className="infosPage">2 victoires</p>
+            <p className="infosPage">21 courses</p>
+            <p className="infosPage">3 victoires</p>
             <p className="infosPage">10 places</p>
           </Bounce>
           <div className="photosPage">
@@ -338,6 +338,46 @@ class Hola extends Component {
                 <img
                   src={require("../../img/top/hola/hola_31012022_05.jpg")}
                   alt="hola_31012022_05"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="photosPage">
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/top/hola/hola_04032022_01.jpg")}
+                  alt="hola_04032022_01"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/top/hola/hola_04032022_02.jpg")}
+                  alt="hola_04032022_02"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/top/hola/hola_04032022_03.jpg")}
+                  alt="hola_04032022_03"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="photosPage">
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/top/hola/hola_04032022_04.jpg")}
+                  alt="hola_04032022_04"
                   className="photoPageHorizontale"
                 />
               </div>
