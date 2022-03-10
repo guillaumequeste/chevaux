@@ -6,13 +6,13 @@ import Footer from "../Footer";
 import Bounce from "react-reveal/Bounce";
 import Fade from "react-reveal/Fade";
 
-class Belle_Promesse_GroupeIII extends Component {
+class Belle_Promesse_Victoire_GroupeIII extends Component {
   render() {
     return (
       <div>
         <Helmet
-          title={"Belle Promesse victoire Listed Chevaux"}
-          link={"http://chevaux.guillaumequeste.fr/belle_promesse_listed"}
+          title={"Belle Promesse victoire victoire groupe III Chevaux"}
+          link={"http://chevaux.guillaumequeste.fr/belle_promesse_victoire_groupeIII"}
         />
         <Header />
         <HeaderMobile />
@@ -523,4 +523,4 @@ class Belle_Promesse_GroupeIII extends Component {
   }
 }
 
-export default Belle_Promesse_GroupeIII;
+export default Belle_Promesse_Victoire_GroupeIII;

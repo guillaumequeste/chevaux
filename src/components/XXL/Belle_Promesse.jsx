@@ -20,9 +20,9 @@ class Belle_Promesse extends Component {
         <div className="accueilPremierPartantGalop">
           <Bounce top>
             <h5 className="titrePage">Belle Promesse</h5>
-            <p className="infosPage">15 courses</p>
+            <p className="infosPage">16 courses</p>
             <p className="infosPage">6 victoires</p>
-            <p className="infosPage">5 places</p>
+            <p className="infosPage">6 places</p>
             <p className="infosPage">Gagnante de Listed</p>
             <p className="infosPage">Gagnante et placée de Groupe III</p>
           </Bounce>
@@ -815,6 +815,44 @@ class Belle_Promesse extends Component {
                 <img
                   src={require("../../img/xxl/belle_promesse/bellea10.jpg")}
                   alt="bellea10"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/place_belle_groupe01.jpg")}
+                  alt="place_belle_groupe01"
+                  className="photoPageVerticale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/place_belle_groupe02.jpg")}
+                  alt="place_belle_groupe02"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="photosPage">
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/place_belle_groupe03.jpg")}
+                  alt="place_belle_groupe03"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/place_belle_groupe04.jpg")}
+                  alt="place_belle_groupe04"
                   className="photoPageHorizontale"
                 />
               </div>

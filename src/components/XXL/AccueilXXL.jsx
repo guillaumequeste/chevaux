@@ -55,8 +55,13 @@ class AccueilXXL extends Component {
             </NavLink>
           </Fade>
           <Fade right>
-            <NavLink to="/belle_promesse_groupeIII" className="rubrique border-black">
+            <NavLink to="/belle_promesse_victoire_groupeIII" className="rubrique border-black">
               <h6 className="titreRubrique">Victoire de Belle Promesse dans un Groupe III</h6>
+            </NavLink>
+          </Fade>
+          <Fade right>
+            <NavLink to="/belle_promesse_place_groupeIII" className="rubrique border-black">
+              <h6 className="titreRubrique">5ème place de Belle Promesse dans un Groupe III</h6>
             </NavLink>
           </Fade>
           <Fade right>
