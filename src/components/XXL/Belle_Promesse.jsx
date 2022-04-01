@@ -20,7 +20,7 @@ class Belle_Promesse extends Component {
         <div className="accueilPremierPartantGalop">
           <Bounce top>
             <h5 className="titrePage">Belle Promesse</h5>
-            <p className="infosPage">16 courses</p>
+            <p className="infosPage">17 courses</p>
             <p className="infosPage">6 victoires</p>
             <p className="infosPage">6 places</p>
             <p className="infosPage">Gagnante de Listed</p>
@@ -853,6 +853,209 @@ class Belle_Promesse extends Component {
                 <img
                   src={require("../../img/xxl/belle_promesse/place_belle_groupe04.jpg")}
                   alt="place_belle_groupe04"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/belle_promesse_27032022_01.jpg")}
+                  alt="belle_promesse_27032022_01"
+                  className="photoPageVerticale"
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="photosPage">
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/belle_promesse_27032022_02.jpg")}
+                  alt="belle_promesse_27032022_02"
+                  className="photoPageVerticale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/belle_promesse_27032022_03.jpg")}
+                  alt="belle_promesse_27032022_03"
+                  className="photoPageVerticale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/belle_promesse_27032022_04.jpg")}
+                  alt="belle_promesse_27032022_04"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="photosPage">
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/belle_promesse_27032022_05.jpg")}
+                  alt="belle_promesse_27032022_05"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/belle_promesse_27032022_06.jpg")}
+                  alt="belle_promesse_27032022_06"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/belle_promesse_27032022_07.jpg")}
+                  alt="belle_promesse_27032022_07"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="photosPage">
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/belle_promesse_27032022_08.jpg")}
+                  alt="belle_promesse_27032022_08"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/belle_promesse_27032022_09.jpg")}
+                  alt="belle_promesse_27032022_09"
+                  className="photoPageVerticale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/belle_promesse_27032022_10.jpg")}
+                  alt="belle_promesse_27032022_10"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="photosPage">
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/belle_promesse_27032022_11.jpg")}
+                  alt="belle_promesse_27032022_11"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/belle_promesse_27032022_12.jpg")}
+                  alt="belle_promesse_27032022_12"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/belle_promesse_27032022_13.jpg")}
+                  alt="belle_promesse_27032022_13"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="photosPage">
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/belle_promesse_27032022_14.jpg")}
+                  alt="belle_promesse_27032022_14"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/belle_promesse_27032022_15.jpg")}
+                  alt="belle_promesse_27032022_15"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/belle_promesse_27032022_16.jpg")}
+                  alt="belle_promesse_27032022_16"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="photosPage">
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/belle_promesse_27032022_17.jpg")}
+                  alt="belle_promesse_27032022_17"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/belle_promesse_27032022_18.jpg")}
+                  alt="belle_promesse_27032022_18"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/belle_promesse_27032022_19.jpg")}
+                  alt="belle_promesse_27032022_19"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="photosPage">
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/belle_promesse_27032022_20.jpg")}
+                  alt="belle_promesse_27032022_20"
+                  className="photoPageVerticale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/belle_promesse_27032022_21.jpg")}
+                  alt="belle_promesse_27032022_21"
                   className="photoPageHorizontale"
                 />
               </div>
