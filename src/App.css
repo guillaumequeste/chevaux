@@ -28,7 +28,6 @@
 .ligne {
     display: flex;
     height: calc(100% / 4);
-    padding-top: 5%;
 }
 
 .case {

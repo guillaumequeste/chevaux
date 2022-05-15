@@ -56,6 +56,20 @@ const App = () => (
           </div>
         </Link>
       </div>
+      <div className="ligne">
+        <Link to="/lady_wrung" className="case">
+          <div className="ecurie">
+            
+            <p className="nomEcurie">Lady Wrung</p>
+          </div>
+        </Link>
+        <Link to="/jo_way_de_nappes" className="case">
+          <div className="ecurie">
+           
+            <p className="nomEcurie">Jo Way de Nappes</p>
+          </div>
+        </Link>
+      </div>
   </div>
   </>
 )
