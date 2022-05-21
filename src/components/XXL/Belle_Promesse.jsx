@@ -1112,6 +1112,26 @@ class Belle_Promesse extends Component {
             <Fade right>
               <div className="divPhotoPage">
                 <img
+                  src={require("../../img/xxl/belle_promesse/belle_14052022_01a.jpg")}
+                  alt="belle_14052022_01a"
+                  className="photoPageVerticale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/belle_promesse/belle_14052022_01b.jpg")}
+                  alt="belle_14052022_01b"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="photosPage">
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
                   src={require("../../img/xxl/belle_promesse/belle_14052022_02.jpg")}
                   alt="belle_14052022_02"
                   className="photoPageHorizontale"
@@ -1127,8 +1147,6 @@ class Belle_Promesse extends Component {
                 />
               </div>
             </Fade>
-          </div>
-          <div className="photosPage">
             <Fade right>
               <div className="divPhotoPage">
                 <img
@@ -1138,6 +1156,8 @@ class Belle_Promesse extends Component {
                 />
               </div>
             </Fade>
+          </div>
+          <div className="photosPage">
             <Fade right>
               <div className="divPhotoPage">
                 <img

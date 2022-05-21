@@ -20,8 +20,8 @@ class Master_Gold extends Component {
         <div className="accueilPremierPartantGalop">
           <Bounce top>
             <h5 className="titrePage">Master Gold</h5>
-            <p className="infosPage">14 courses</p>
-            <p className="infosPage">1 victoire de Listed</p>
+            <p className="infosPage">15 courses</p>
+            <p className="infosPage">2 victoires dont 1 Listed</p>
             <p className="infosPage">5 places</p>
           </Bounce>
           <div className="photosPage">
@@ -338,6 +338,46 @@ class Master_Gold extends Component {
                 <img
                   src={require("../../img/xxl/master_gold/master161021_03.jpg")}
                   alt="master161021_03"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="photosPage">
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/master_gold/master_20052022_01.jpg")}
+                  alt="master_20052022_01"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/master_gold/master_20052022_02.jpg")}
+                  alt="master_20052022_02"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/master_gold/master_20052022_03.jpg")}
+                  alt="master_20052022_03"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="photosPage">
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/master_gold/master_20052022_04.jpg")}
+                  alt="master_20052022_04"
                   className="photoPageHorizontale"
                 />
               </div>
