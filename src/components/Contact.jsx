@@ -24,7 +24,7 @@ class Contact extends Component {
             <br></br>
             <h5 className="textContact">guillaume.queste@laposte.net</h5>
             <br></br>
-            <h6>dernière mise à jour : 21 mai 2022</h6>
+            <h6>dernière mise à jour : 5 juin 2022</h6>
           </div>
         </div>
       </div>
