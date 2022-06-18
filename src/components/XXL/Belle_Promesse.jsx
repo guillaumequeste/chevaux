@@ -20,7 +20,7 @@ class Belle_Promesse extends Component {
         <div className="accueilPremierPartantGalop">
           <Bounce top>
             <h5 className="titrePage">Belle Promesse</h5>
-            <p className="infosPage">18 courses</p>
+            <p className="infosPage">19 courses</p>
             <p className="infosPage">7 victoires</p>
             <p className="infosPage">6 places</p>
             <p className="infosPage">Gagnante de Listed</p>
