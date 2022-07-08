@@ -20,8 +20,8 @@ class Galante extends Component {
         <div className="accueilPremierPartantGalop">
           <Bounce top>
             <h5 className="titrePage">Galante d'Arthel</h5>
-            <p className="infosPage">14 courses</p>
-            <p className="infosPage">2 victoires</p>
+            <p className="infosPage">15 courses</p>
+            <p className="infosPage">3 victoires</p>
             <p className="infosPage">8 places</p>
           </Bounce>
           <div className="photosPage">
@@ -164,6 +164,64 @@ class Galante extends Component {
                 <img
                   src={require("../../img/xxl/galante/galante15.jpg")}
                   alt="galante15"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="photosPage">
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/galante/galante02072022_01.jpg")}
+                  alt="galante02072022_01"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/galante/galante02072022_02.jpg")}
+                  alt="galante02072022_02"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/galante/galante02072022_03.jpg")}
+                  alt="galante02072022_01"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="photosPage">
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/galante/galante02072022_04.jpg")}
+                  alt="galante02072022_04"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/galante/galante02072022_05.jpg")}
+                  alt="galante02072022_05"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/galante/galante02072022_06.jpg")}
+                  alt="galante02072022_06"
                   className="photoPageHorizontale"
                 />
               </div>
