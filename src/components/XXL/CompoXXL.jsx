@@ -450,9 +450,9 @@ class CompoXXL extends Component {
                 <div className="divDetailsCompo">
                   <div className="resultats">
                     <div className="resultats2">
-                      <p className="pInfos">17 courses</p>
+                      <p className="pInfos">18 courses</p>
                       <p className="pInfos">2 victoires</p>
-                      <p className="pInfos">6 places</p>
+                      <p className="pInfos">7 places</p>
                     </div>
                   </div>
                   <div className="divInfos">
