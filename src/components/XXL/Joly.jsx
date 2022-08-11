@@ -20,7 +20,7 @@ class Joly extends Component {
         <div className="accueilPremierPartantGalop">
           <Bounce top>
             <h5 className="titrePage">Joly And Bach</h5>
-            <p className="infosPage">9 courses</p>
+            <p className="infosPage">10 courses</p>
             <p className="infosPage">2 victoires</p>
             <p className="infosPage">3 places</p>
           </Bounce>
