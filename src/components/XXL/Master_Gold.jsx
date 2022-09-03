@@ -20,8 +20,8 @@ class Master_Gold extends Component {
         <div className="accueilPremierPartantGalop">
           <Bounce top>
             <h5 className="titrePage">Master Gold</h5>
-            <p className="infosPage">18 courses</p>
-            <p className="infosPage">2 victoires dont 1 Listed</p>
+            <p className="infosPage">19 courses</p>
+            <p className="infosPage">3 victoires dont 1 Listed</p>
             <p className="infosPage">7 places</p>
           </Bounce>
           <div className="photosPage">
@@ -388,6 +388,35 @@ class Master_Gold extends Component {
                   src={require("../../img/xxl/master_gold/master04062022.jpg")}
                   alt="master04062022"
                   className="photoPageVerticale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/master_gold/master_la_roche_posay_01.jpg")}
+                  alt="master_la_roche_posay_01"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="photosPage">
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/master_gold/master_la_roche_posay_02.jpg")}
+                  alt="master_la_roche_posay_02"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/master_gold/master_la_roche_posay_03.jpg")}
+                  alt="master_la_roche_posay_03"
+                  className="photoPageHorizontale"
                 />
               </div>
             </Fade>
