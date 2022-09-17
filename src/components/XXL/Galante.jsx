@@ -20,7 +20,7 @@ class Galante extends Component {
         <div className="accueilPremierPartantGalop">
           <Bounce top>
             <h5 className="titrePage">Galante d'Arthel</h5>
-            <p className="infosPage">17 courses</p>
+            <p className="infosPage">18 courses</p>
             <p className="infosPage">3 victoires</p>
             <p className="infosPage">9 places</p>
           </Bounce>
@@ -222,6 +222,17 @@ class Galante extends Component {
                 <img
                   src={require("../../img/xxl/galante/galante02072022_06.jpg")}
                   alt="galante02072022_06"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="photosPage">
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/galante/galante_vittel.jpg")}
+                  alt="galante_vittel"
                   className="photoPageHorizontale"
                 />
               </div>
