@@ -130,6 +130,15 @@ class Korum extends Component {
                 />
               </div>
             </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/korum/korum_reforme.jpg")}
+                  alt="korum_reforme"
+                  className="photoPageVerticale"
+                />
+              </div>
+            </Fade>
           </div>
         </div>
       </div>
