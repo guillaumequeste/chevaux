@@ -143,12 +143,21 @@
 .result {
     margin: auto;
     margin: 4% 0;
+    color: black;
+    font-size: 0.8em;
 }
 
 @media screen and (min-width: 1025px) {
     .result {
         margin: auto;
     }
+}
+
+.total {
+    background-color : rgb(167, 114, 53);
+    margin :0;
+    padding : 2% 0;
+    color: white;
 }
 
 .pReussite {
@@ -162,6 +171,21 @@
     border-radius: 5px;
     margin: 0;
 }
+
+.span_casaque_bilan {
+    padding-right : 2vw;
+}
+
+.casaque_bilan {
+    width: 4vw;
+}
+
+@media screen and (min-width: 1025px) {
+    .casaque_bilan {
+        width: 2vw;
+    }
+}
+
 
 
 /* Compo ----------------------------------------------------------------------- */
