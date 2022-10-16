@@ -13,6 +13,9 @@ class HeaderMobile extends Component {
               className="horse"
             />
           </Link>
+          <Link to="/hippodromes" className="linkHeaderMobile4">
+            H
+          </Link>
           <Link to="/bilan" className="linkHeaderMobile3">
             B+
           </Link>

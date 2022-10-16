@@ -87,6 +87,16 @@ class Header extends Component {
                   exact
                   activeClassName="active"
                   className="nav-link"
+                  to="/hippodromes"
+                >
+                  Hippodromes
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink
+                  exact
+                  activeClassName="active"
+                  className="nav-link"
                   to="/bilan"
                 >
                   B+

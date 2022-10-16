@@ -82,6 +82,9 @@ import Highlands from './components/Top/Highlands'
 import Hola from './components/Top/Hola'
 import Honesta from './components/Top/Honesta'
 
+import AccueilHippodromes from './components/Hippodromes/AccueilHippodromes'
+import Nord from './components/Hippodromes/Nord'
+
 import Bilan from './components/Bilan'
 import Credits from './components/Credits'
 import Contact from './components/Contact'
@@ -167,6 +170,9 @@ const Root = () => (
             <Route path='/hola' component={Hola}/>
             <Route path='/honesta' component={Honesta}/>
         
+            <Route path='/hippodromes' component={AccueilHippodromes}/>
+            <Route path='/nord' component={Nord}/>
+
             <Route path='/bilan' component={Bilan}/>
             <Route path='/credits' component={Credits}/>
             <Route path='/contact' component={Contact}/>
