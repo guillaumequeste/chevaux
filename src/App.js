@@ -65,7 +65,7 @@ const App = () => (
         </Link>
         <Link to="/jo_way_de_nappes" className="case">
           <div className="ecurie">
-           
+          <img src={require("./img/jo/casaqueJo.png")} alt="casaqueJo" className="casaque"/>
             <p className="nomEcurie">Jo Way de Nappes</p>
           </div>
         </Link>
