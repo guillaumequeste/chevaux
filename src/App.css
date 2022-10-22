@@ -562,6 +562,28 @@
 
 /* Hippodromes -------------------------------------------------------------- */
 
+.accueilHippodrome {
+    min-height: 93vh;
+    width: 100%;
+    background-color: var(--background-color);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10vh;
+    text-align: -webkit-center;
+}
+
+.titreAccueilHippodrome {
+    text-align: center;
+    padding: 2% 0 2% 0;
+}
+
+.regionHippodrome {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
 .hippodrome {
     border: solid 1px white;
     border-radius: 5px;

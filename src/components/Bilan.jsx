@@ -23,7 +23,7 @@ class Bilan extends Component {
       courses_xxl: 127,
       victoires_xxl: 18,
       places_xxl: 51,
-      courses_top: 59,
+      courses_top: 60,
       victoires_top: 6,
       places_top: 25,
       courses_autres: 2,
@@ -225,6 +225,7 @@ class Bilan extends Component {
             <p className="pReussite">
               <span className="span_casaque_bilan">
                 <img src={require("../img/lady/casaqueLady.png")} alt="casaqueLady" className="casaque_bilan"/>
+                <img src={require("../img/jo/casaqueJo.png")} alt="casaqueJo" className="casaque_bilan"/>
               </span>
               <strong>Autres</strong> : {this.state.courses_autres} courses,{" "}
               {this.state.victoires_autres} victoire, {this.state.places_autres}{" "}

@@ -26,7 +26,7 @@ class AccueilHippodromes extends Component {
             </Fade>
 
             <Fade right>
-                <NavLink to="/compo2013" className="rubrique border-black">
+                <NavLink to="/belgique" className="rubrique border-black">
                     <h6 className="titreRubrique">Belgique</h6>
                 </NavLink>
             </Fade>
@@ -38,13 +38,13 @@ class AccueilHippodromes extends Component {
             </Fade>
 
             <Fade right>
-                <NavLink to="/compo2013" className="rubrique border-black">
+                <NavLink to="/basse_normandie" className="rubrique border-black">
                     <h6 className="titreRubrique">Basse-Normandie</h6>
                 </NavLink>
             </Fade>
 
             <Fade right>
-                <NavLink to="/compo2013" className="rubrique border-black">
+                <NavLink to="/ile_de_france_haute_normandie" className="rubrique border-black">
                     <h6 className="titreRubrique">Ile-de-France & Haute-Normandie</h6>
                 </NavLink>
             </Fade>

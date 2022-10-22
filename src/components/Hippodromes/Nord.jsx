@@ -17,8 +17,14 @@ class Nord extends Component {
         <Header />
         <HeaderMobile />
         <Footer ecurie2013={true}/>
-        <div className="accueil2013">
+        <div className="accueilHippodrome">
           
+          <div className="titreAccueilHippodrome">
+            <Bounce top>
+              <h5 className="regionHippodrome">Nord</h5>
+            </Bounce>
+          </div>
+
           <Fade right>
             <div className="hippodrome">
               <img
@@ -129,6 +135,49 @@ class Nord extends Component {
             </div>
           </Fade>
 
+          <Fade right>
+            <div className="hippodrome">
+              <img
+                src={require("../../img/hippodromes/le_touquet.jpg")}
+                alt="le_touquet"
+                className="imgHorizontale"
+              />
+              <div className="infosHippodromes">
+                <h3 className="nomHippodrome">Le Touquet</h3>
+                <h6 className="pInfosHippodrome">
+                  <div className="divHippodrome">Piste en herbe</div>
+                  <div className="divHippodrome">Corde à droite</div>
+                  <div className="divHippodrome">1 800 m</div>
+                  <div className="divHippodrome">Hauts de France</div>
+                  <div className="divHippodrome">Pas-de-Calais</div>
+                  <div className="divHippodrome">Le Touquet-Paris-Plage</div>
+                  <div className="divHippodrome">Hippodrome de la Canche</div>
+                </h6>
+              </div>
+            </div>
+          </Fade>
+
+          <Fade right>
+            <div className="hippodrome">
+              <img
+                src={require("../../img/hippodromes/saint-omer.jpg")}
+                alt="saint-omer"
+                className="imgHorizontale"
+              />
+              <div className="infosHippodromes">
+                <h3 className="nomHippodrome">Saint-Omer</h3>
+                <h6 className="pInfosHippodrome">
+                  <div className="divHippodrome">Piste cendrée</div>
+                  <div className="divHippodrome">Corde à gauche</div>
+                  <div className="divHippodrome">1 000 m</div>
+                  <div className="divHippodrome">Hauts de France</div>
+                  <div className="divHippodrome">Pas-de-Calais</div>
+                  <div className="divHippodrome">Saint-Omer</div>
+                  <div className="divHippodrome">Hippodrome des Bruyères</div>
+                </h6>
+              </div>
+            </div>
+          </Fade>
           
         </div>
       </div>
