@@ -16,7 +16,7 @@ class Nord extends Component {
         />
         <Header />
         <HeaderMobile />
-        <Footer ecurie2013={true}/>
+        <Footer />
         <div className="accueilHippodrome">
           
           <div className="titreAccueilHippodrome">

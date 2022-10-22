@@ -579,9 +579,21 @@
 }
 
 .regionHippodrome {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     font-family: 'Hind Siliguri', sans-serif;
+    padding-top: 2vh;
+}
+
+@media screen and (min-width: 600px) {
+    .regionHippodrome {
+        font-size: 2em;
+        padding-top: 0;
+    }
+}
+
+.nomListe {
+    font-size: 1.5em;
 }
 
 .hippodrome {
@@ -615,7 +627,7 @@
     color: white;
     display: flex;
     flex-direction: column;
-    padding: 10vh 0;
+    padding: 2vh 0 10vh 0;
     text-align: -webkit-center;
 }
 

@@ -5,6 +5,7 @@ import Helmet from "../Helmet";
 import Footer from "../Footer";
 import Fade from "react-reveal/Fade";
 import { NavLink } from "react-router-dom";
+import Bounce from "react-reveal/Bounce";
 
 class AccueilHippodromes extends Component {
   render() {
@@ -18,9 +19,15 @@ class AccueilHippodromes extends Component {
         <HeaderMobile />
         <Footer />
         <div className="divHippodromes">
+
+            <div className="titreAccueilHippodrome">
+                <Bounce top>
+                <h5 className="regionHippodrome">56 hippodromes visités</h5>
+                </Bounce>
+            </div>
             
             <Fade right>
-                <NavLink to="/compo2013" className="rubrique border-white">
+                <NavLink to="/liste_hippodromes" className="rubrique border-white">
                     <h6 className="titreRubrique">Liste</h6>
                 </NavLink>
             </Fade>
@@ -56,37 +63,37 @@ class AccueilHippodromes extends Component {
             </Fade>
 
             <Fade right>
-                <NavLink to="/compo2013" className="rubrique border-black">
+                <NavLink to="/ouest" className="rubrique border-black">
                     <h6 className="titreRubrique">Ouest</h6>
                 </NavLink>
             </Fade>
 
             <Fade right>
-                <NavLink to="/compo2013" className="rubrique border-black">
+                <NavLink to="/anjou_maine_centre_ouest" className="rubrique border-black">
                     <h6 className="titreRubrique">Anjou-Maine-Centre-Ouest</h6>
                 </NavLink>
             </Fade>
 
             <Fade right>
-                <NavLink to="/compo2013" className="rubrique border-black">
+                <NavLink to="/centre_est" className="rubrique border-black">
                     <h6 className="titreRubrique">Centre-Est</h6>
                 </NavLink>
             </Fade>
 
             <Fade right>
-                <NavLink to="/compo2013" className="rubrique border-black">
+                <NavLink to="/sud_ouest" className="rubrique border-black">
                     <h6 className="titreRubrique">Sud-Ouest</h6>
                 </NavLink>
             </Fade>
 
             <Fade right>
-                <NavLink to="/compo2013" className="rubrique border-black">
+                <NavLink to="/sud_est" className="rubrique border-black">
                     <h6 className="titreRubrique">Sud-Est</h6>
                 </NavLink>
             </Fade>
 
             <Fade right>
-                <NavLink to="/compo2013" className="rubrique border-black">
+                <NavLink to="/corse" className="rubrique border-black">
                     <h6 className="titreRubrique">Corse</h6>
                 </NavLink>
             </Fade>

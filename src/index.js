@@ -83,11 +83,18 @@ import Hola from './components/Top/Hola'
 import Honesta from './components/Top/Honesta'
 
 import AccueilHippodromes from './components/Hippodromes/AccueilHippodromes'
+import ListeHippodromes from './components/Hippodromes/ListeHippodromes'
 import Belgique from './components/Hippodromes/Belgique'
 import Nord from './components/Hippodromes/Nord'
 import Basse_Normandie from './components/Hippodromes/Basse_Normandie'
 import Ile_de_France_Haute_Normandie from './components/Hippodromes/Ile_de_France_Haute_Normandie'
 import Est from './components/Hippodromes/Est'
+import Ouest from './components/Hippodromes/Ouest'
+import Anjou_Maine_Centre_Ouest from './components/Hippodromes/Anjou_Maine_Centre_Ouest'
+import Centre_Est from './components/Hippodromes/Centre_Est'
+import Sud_Ouest from './components/Hippodromes/Sud_Ouest'
+import Sud_Est from './components/Hippodromes/Sud_Est'
+import Corse from './components/Hippodromes/Corse'
 
 import Bilan from './components/Bilan'
 import Credits from './components/Credits'
@@ -175,11 +182,18 @@ const Root = () => (
             <Route path='/honesta' component={Honesta}/>
         
             <Route path='/hippodromes' component={AccueilHippodromes}/>
+            <Route path='/liste_hippodromes' component={ListeHippodromes}/>
             <Route path='/belgique' component={Belgique}/>
             <Route path='/nord' component={Nord}/>
             <Route path='/basse_normandie' component={Basse_Normandie}/>
             <Route path='/ile_de_france_haute_normandie' component={Ile_de_France_Haute_Normandie}/>
             <Route path='/est' component={Est}/>
+            <Route path='/ouest' component={Ouest}/>
+            <Route path='/anjou_maine_centre_ouest' component={Anjou_Maine_Centre_Ouest}/>
+            <Route path='/centre_est' component={Centre_Est}/>
+            <Route path='/sud_ouest' component={Sud_Ouest}/>
+            <Route path='/sud_est' component={Sud_Est}/>
+            <Route path='/corse' component={Corse}/>
 
             <Route path='/bilan' component={Bilan}/>
             <Route path='/credits' component={Credits}/>
