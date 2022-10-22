@@ -178,6 +178,33 @@ class Anjou_Maine_Centre_Ouest extends Component {
               </div>
             </div>
           </Fade>
+
+          <div className="nomListe">Beaupréau</div>
+          <div className="nomListe">Château-du-Loir</div>
+          <div className="nomListe">Chinon</div>
+          <div className="nomListe">Durtal</div>
+          <div className="nomListe">Ecommoy</div>
+          <div className="nomListe">Jallais</div>
+          <div className="nomListe">La Chartre-sur-le-Loir</div>
+          <div className="nomListe">La Roche-Posay</div>
+          <div className="nomListe">Le Mans</div>
+          <div className="nomListe">Mamers</div>
+          <div className="nomListe">Méral</div>
+          <div className="nomListe">Molières</div>
+          <div className="nomListe">Mondoubleau</div>
+          <div className="nomListe">Montmirail</div>
+          <div className="nomListe">Neuillé Pont Pierre</div>
+          <div className="nomListe">Nuillé-sur-Vicoin</div>
+          <div className="nomListe">Rochefort-sur-Loire</div>
+          <div className="nomListe">Sablé sur Sarthe</div>
+          <div className="nomListe">Saint-Ouen-des-Toits</div>
+          <div className="nomListe">Saint-Pierre-la-Cour</div>
+          <div className="nomListe">Saumur</div>
+          <div className="nomListe">Savigny-sur-Braye</div>
+          <div className="nomListe">Senonnes-Pouancé</div>
+          <div className="nomListe">Sillé-le-Guillaume</div>
+          <div className="nomListe">Tours Chambray</div>
+          <div className="nomListe">Vibraye</div>
           
         </div>
       </div>

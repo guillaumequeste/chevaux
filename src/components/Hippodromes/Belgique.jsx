@@ -46,6 +46,9 @@ class Belgique extends Component {
               </div>
             </div>
           </Fade>
+
+          <div className="nomListe">Ostende</div>
+          <div className="nomListe">Waregem</div>
           
         </div>
       </div>

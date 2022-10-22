@@ -530,6 +530,8 @@ class Ile_de_France_Haute_Normandie extends Component {
               </div>
             </div>
           </Fade>
+
+          <div className="nomListe">Orléans</div>
           
         </div>
       </div>

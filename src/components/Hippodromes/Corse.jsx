@@ -25,7 +25,10 @@ class Corse extends Component {
             </Bounce>
           </div>
 
-          
+          <div className="nomListe">Ajaccio</div>
+          <div className="nomListe">Biguglia</div>
+          <div className="nomListe">Prunelli di Fiumorbu</div>
+          <div className="nomListe">Zonza</div>
           
         </div>
       </div>

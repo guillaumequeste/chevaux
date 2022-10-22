@@ -310,6 +310,25 @@ class Basse_Normandie extends Component {
               </div>
             </div>
           </Fade>
+
+          <div className="nomListe">Agon-Coutainville</div>
+          <div className="nomListe">Alençon</div>
+          <div className="nomListe">Avranches</div>
+          <div className="nomListe">Bagnoles-de-l'Orne</div>
+          <div className="nomListe">Bourigny</div>
+          <div className="nomListe">Bréhal</div>
+          <div className="nomListe">Carentan-les-Marais</div>
+          <div className="nomListe">Cherbourg-en-Cotentin</div>
+          <div className="nomListe">Domfront-en-Poiraie</div>
+          <div className="nomListe">Genêts</div>
+          <div className="nomListe">Jullouville les Pins</div>
+          <div className="nomListe">Le Pin au Haras</div>
+          <div className="nomListe">Le Sap</div>
+          <div className="nomListe">Moulins-la-Marche</div>
+          <div className="nomListe">Portbail</div>
+          <div className="nomListe">Sainte-Marie-du-Mont</div>
+          <div className="nomListe">Valognes</div>
+          <div className="nomListe">Villedieu-les-Poêles</div>
           
         </div>
       </div>

@@ -25,7 +25,22 @@ class Centre_Est extends Component {
             </Bounce>
           </div>
 
-          
+          <div className="nomListe">Aix-les-Bains</div>
+          <div className="nomListe">Châteauroux</div>
+          <div className="nomListe">Châtillon-sur-Chalaronne</div>
+          <div className="nomListe">Cluny</div>
+          <div className="nomListe">Divonne-les-Bains</div>
+          <div className="nomListe">Feurs</div>
+          <div className="nomListe">Julliange</div>
+          <div className="nomListe">La Clayette</div>
+          <div className="nomListe">Lignières-en-Berry</div>
+          <div className="nomListe">Lyon la Soie</div>
+          <div className="nomListe">Lyon Parilly</div>
+          <div className="nomListe">Montluçon - Néris les Bains</div>
+          <div className="nomListe">Moulins</div>
+          <div className="nomListe">Paray-le-Monial</div>
+          <div className="nomListe">Saint-Galmier</div>
+          <div className="nomListe">Vichy</div>
           
         </div>
       </div>

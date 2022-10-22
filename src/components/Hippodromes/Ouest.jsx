@@ -90,6 +90,51 @@ class Ouest extends Component {
               </div>
             </div>
           </Fade>
+
+          <div className="nomListe">Blain</div>
+          <div className="nomListe">Carhaix</div>
+          <div className="nomListe">Challans</div>
+          <div className="nomListe">Châteaubriant</div>
+          <div className="nomListe">Cordemais</div>
+          <div className="nomListe">Corlay (Petit Paris)</div>
+          <div className="nomListe">Dinan</div>
+          <div className="nomListe">Erbray</div>
+          <div className="nomListe">Fougères</div>
+          <div className="nomListe">Grand Fougeray</div>
+          <div className="nomListe">Guer Coëtquidan</div>
+          <div className="nomListe">Guerlesquin</div>
+          <div className="nomListe">Guingamp</div>
+          <div className="nomListe">Josselin</div>
+          <div className="nomListe">La Gacilly</div>
+          <div className="nomListe">Guerche-de-Bretagne</div>
+          <div className="nomListe">La Roche-sur-Yon</div>
+          <div className="nomListe">Landivisiau</div>
+          <div className="nomListe">Le Pertre</div>
+          <div className="nomListe">Les Sables d'Olonne</div>
+          <div className="nomListe">Loudéac</div>
+          <div className="nomListe">Luçon</div>
+          <div className="nomListe">Machecoul</div>
+          <div className="nomListe">Mauron</div>
+          <div className="nomListe">Morlaix-St Pol</div>
+          <div className="nomListe">Niort</div>
+          <div className="nomListe">Plessé</div>
+          <div className="nomListe">Plestin-les-Grèves</div>
+          <div className="nomListe">Ploërmel</div>
+          <div className="nomListe">Ploubalay-Lancieux</div>
+          <div className="nomListe">Plouescat</div>
+          <div className="nomListe">Pontchâteau</div>
+          <div className="nomListe">Pontivy</div>
+          <div className="nomListe">Pornichet</div>
+          <div className="nomListe">Questembert</div>
+          <div className="nomListe">Redon</div>
+          <div className="nomListe">Rostrenen</div>
+          <div className="nomListe">Saint Brieuc</div>
+          <div className="nomListe">Saint-Jean-de-Monts</div>
+          <div className="nomListe">Savenay</div>
+          <div className="nomListe">Thouars</div>
+          <div className="nomListe">Vannes</div>
+          <div className="nomListe">Vertou</div>
+          <div className="nomListe">Vitré</div>
           
         </div>
       </div>

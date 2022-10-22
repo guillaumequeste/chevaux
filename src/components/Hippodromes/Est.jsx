@@ -68,6 +68,13 @@ class Est extends Component {
               </div>
             </div>
           </Fade>
+
+          <div className="nomListe">Châlons-en-Champagne</div>
+          <div className="nomListe">Montier-en-Der</div>
+          <div className="nomListe">Nancy</div>
+          <div className="nomListe">Vesoul</div>
+          <div className="nomListe">Vittel</div>
+          <div className="nomListe">Wissembourg</div>
           
         </div>
       </div>

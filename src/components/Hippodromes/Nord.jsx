@@ -178,6 +178,9 @@ class Nord extends Component {
               </div>
             </div>
           </Fade>
+
+          <div className="nomListe">Berck-sur-Mer</div>
+          <div className="nomListe">Laon</div>
           
         </div>
       </div>
