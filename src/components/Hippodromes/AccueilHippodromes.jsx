@@ -50,7 +50,7 @@ class AccueilHippodromes extends Component {
             </Fade>
 
             <Fade right>
-                <NavLink to="/compo2013" className="rubrique border-black">
+                <NavLink to="/est" className="rubrique border-black">
                     <h6 className="titreRubrique">Est</h6>
                 </NavLink>
             </Fade>

@@ -87,6 +87,7 @@ import Belgique from './components/Hippodromes/Belgique'
 import Nord from './components/Hippodromes/Nord'
 import Basse_Normandie from './components/Hippodromes/Basse_Normandie'
 import Ile_de_France_Haute_Normandie from './components/Hippodromes/Ile_de_France_Haute_Normandie'
+import Est from './components/Hippodromes/Est'
 
 import Bilan from './components/Bilan'
 import Credits from './components/Credits'
@@ -178,6 +179,7 @@ const Root = () => (
             <Route path='/nord' component={Nord}/>
             <Route path='/basse_normandie' component={Basse_Normandie}/>
             <Route path='/ile_de_france_haute_normandie' component={Ile_de_France_Haute_Normandie}/>
+            <Route path='/est' component={Est}/>
 
             <Route path='/bilan' component={Bilan}/>
             <Route path='/credits' component={Credits}/>
