@@ -96,6 +96,10 @@ import Sud_Ouest from './components/Hippodromes/Sud_Ouest'
 import Sud_Est from './components/Hippodromes/Sud_Est'
 import Corse from './components/Hippodromes/Corse'
 
+import Jo_Way from './components/Jo_Way/Jo_Way'
+
+import Ecurie from './components/Ecurie/Ecurie'
+
 import Bilan from './components/Bilan'
 import Credits from './components/Credits'
 import Contact from './components/Contact'
@@ -194,6 +198,10 @@ const Root = () => (
             <Route path='/sud_ouest' component={Sud_Ouest}/>
             <Route path='/sud_est' component={Sud_Est}/>
             <Route path='/corse' component={Corse}/>
+
+            <Route path='/jo_way' component={Jo_Way}/>
+
+            <Route path='/ecurie' component={Ecurie}/>
 
             <Route path='/bilan' component={Bilan}/>
             <Route path='/credits' component={Credits}/>

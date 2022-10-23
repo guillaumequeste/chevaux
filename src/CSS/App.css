@@ -684,6 +684,58 @@
 
 
 
+/* Jo Way de Nappes -------------------------------------------------------------- */
+
+.accueilJo {
+    min-height: 93vh;
+    width: 100%;
+    background-color: var(--background-color);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10vh;
+    text-align: -webkit-center;
+}
+
+.titreAccueilJo {
+    text-align: center;
+    padding: 2% 0 2% 0;
+}
+
+.casaqueAccueilJo {
+    width: 50px;
+    filter: drop-shadow(15px 4px 4px rgb(109, 109, 109));
+}
+
+
+.anneeJo {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.casaqueAccueil {
+    width: 50px;
+    filter: drop-shadow(15px 4px 4px rgb(109, 109, 109));
+}
+
+.imgJo {
+    text-align: center;
+}
+
+.jo01 {
+    width: 60vw;
+
+}
+
+@media screen and (min-width: 768px) {
+    .jo01 {
+        width: 30vw;
+    }
+}
+
+
+
 /* Not Found -------------------------------------------------------------- */
 
 .notFound {

@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './CSS/App.css';
 import Header from './components/Header'
 import HeaderMobile from './components/HeaderMobile'
 import Footer from './components/Footer'
@@ -35,7 +35,7 @@ const App = () => (
             <p className="nomEcurie">2015</p>
           </div>
         </Link>
-        <Link to="/club" className="case caseClub">
+        <Link to="/club" className="case">
           <div className="ecurie">
             <img src={require("./img/club/casaqueClub.png")} alt="casaqueClub" className="casaque"/>
             <p className="nomEcurie">Club</p>
@@ -43,13 +43,13 @@ const App = () => (
         </Link>
       </div>
       <div className="ligne">
-        <Link to="/xxl" className="case caseXXL">
+        <Link to="/xxl" className="case">
           <div className="ecurie">
             <img src={require("./img/xxl/casaqueXXL.png")} alt="casaqueXXL" className="casaque"/>
             <p className="nomEcurie">XXL</p>
           </div>
         </Link>
-        <Link to="/top" className="case caseTop">
+        <Link to="/top" className="case">
           <div className="ecurie">
             <img src={require("./img/top/casaqueTop.png")} alt="casaqueTop" className="casaque"/>
             <p className="nomEcurie">Top</p>
@@ -63,10 +63,10 @@ const App = () => (
             <p className="nomEcurie">Lady Wrung</p>
           </div>
         </Link>
-        <Link to="/jo_way_de_nappes" className="case">
+        <Link to="/jo_way" className="case">
           <div className="ecurie">
           <img src={require("./img/jo/casaqueJo.png")} alt="casaqueJo" className="casaque"/>
-            <p className="nomEcurie">Jo Way de Nappes</p>
+            <p className="nomEcurie">Jo Way</p>
           </div>
         </Link>
       </div>
