@@ -70,6 +70,7 @@ class ListeHippodromes extends Component {
             <div className="nomListe">Meslay-du-Maine</div>
             <div className="nomListe">Mons</div>
             <div className="nomListe">Nantes</div>
+            <div className="nomListe">Nort-sur-Erdre</div>
             <div className="nomListe">Rambouillet</div>
             <div className="nomListe">Rânes</div>
             <div className="nomListe">Reims</div>

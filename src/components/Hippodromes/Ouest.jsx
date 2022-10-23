@@ -72,6 +72,28 @@ class Ouest extends Component {
           <Fade right>
             <div className="hippodrome">
               <img
+                src={require("../../img/hippodromes/nort_sur_erdre.jpg")}
+                alt="nort_sur_erdre"
+                className="imgHorizontale"
+              />
+              <div className="infosHippodromes">
+                <h3 className="nomHippodrome">Nort-sur-Erdre</h3>
+                <h6 className="pInfosHippodrome">
+                  <div className="divHippodrome">Piste en herbe</div>
+                  <div className="divHippodrome">Corde à gauche</div>
+                  <div className="divHippodrome">1 400 m</div>
+                  <div className="divHippodrome">Pays de la Loire</div>
+                  <div className="divHippodrome">Loire-Atlantique</div>
+                  <div className="divHippodrome">Nort-sur-Erdre</div>
+                  <div className="divHippodrome">Hippodrome de Beaumont</div>
+                </h6>
+              </div>
+            </div>
+          </Fade>
+
+          <Fade right>
+            <div className="hippodrome">
+              <img
                 src={require("../../img/hippodromes/saint-malo.jpg")}
                 alt="saint-malo"
                 className="imgHorizontale"
