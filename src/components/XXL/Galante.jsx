@@ -20,9 +20,9 @@ class Galante extends Component {
         <div className="accueilPremierPartantGalop">
           <Bounce top>
             <h5 className="titrePage">Galante d'Arthel</h5>
-            <p className="infosPage">19 courses</p>
+            <p className="infosPage">20 courses</p>
             <p className="infosPage">3 victoires</p>
-            <p className="infosPage">10 places</p>
+            <p className="infosPage">11 places</p>
           </Bounce>
           <div className="photosPage">
             <Fade right>
