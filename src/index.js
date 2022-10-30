@@ -100,6 +100,8 @@ import Jo_Way from './components/Jo_Way/Jo_Way'
 
 import Ecurie from './components/Ecurie/Ecurie'
 
+import AccueilLady from './components/Lady/AccueilLady'
+
 import Bilan from './components/Bilan'
 import Credits from './components/Credits'
 import Contact from './components/Contact'
@@ -202,6 +204,8 @@ const Root = () => (
             <Route path='/jo_way' component={Jo_Way}/>
 
             <Route path='/ecurie' component={Ecurie}/>
+
+            <Route path='/lady_wrung' component={AccueilLady}/>            
 
             <Route path='/bilan' component={Bilan}/>
             <Route path='/credits' component={Credits}/>
