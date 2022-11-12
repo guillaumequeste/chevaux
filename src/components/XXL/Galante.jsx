@@ -20,8 +20,8 @@ class Galante extends Component {
         <div className="accueilPremierPartantGalop">
           <Bounce top>
             <h5 className="titrePage">Galante d'Arthel</h5>
-            <p className="infosPage">20 courses</p>
-            <p className="infosPage">3 victoires</p>
+            <p className="infosPage">21 courses</p>
+            <p className="infosPage">4 victoires</p>
             <p className="infosPage">11 places</p>
           </Bounce>
           <div className="photosPage">
@@ -233,6 +233,35 @@ class Galante extends Component {
                 <img
                   src={require("../../img/xxl/galante/galante_vittel.jpg")}
                   alt="galante_vittel"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/galante/galante_paray_06112022_01.jpg")}
+                  alt="galante_paray_06112022_01"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/galante/galante_paray_06112022_02.jpg")}
+                  alt="galante_paray_06112022_02"
+                  className="photoPageHorizontale"
+                />
+              </div>
+            </Fade>
+          </div>
+          <div className="photosPage">
+            <Fade right>
+              <div className="divPhotoPage">
+                <img
+                  src={require("../../img/xxl/galante/galante_paray_06112022_03.jpg")}
+                  alt="galante_paray_06112022_03"
                   className="photoPageHorizontale"
                 />
               </div>

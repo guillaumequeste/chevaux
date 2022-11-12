@@ -20,15 +20,18 @@ class Bilan extends Component {
       courses_rmc: 290,
       victoires_rmc: 20,
       places_rmc: 142,
-      courses_xxl: 128,
-      victoires_xxl: 18,
+      courses_xxl: 129,
+      victoires_xxl: 19,
       places_xxl: 52,
       courses_top: 62,
       victoires_top: 6,
       places_top: 25,
-      courses_autres: 2,
-      victoires_autres: 0,
-      places_autres: 0
+      courses_jo: 1,
+      victoires_jo: 0,
+      places_jo: 0,
+      courses_lady: 1,
+      victoires_lady: 0,
+      places_lady: 0
     };
   }
 
@@ -46,7 +49,8 @@ class Bilan extends Component {
       this.state.courses_rmc +
       this.state.courses_xxl +
       this.state.courses_top +
-      this.state.courses_autres;
+      this.state.courses_jo +
+      this.state.courses_lady;
     const total_victoires =
       this.state.victoires_2013 +
       this.state.victoires_2014 +
@@ -54,7 +58,8 @@ class Bilan extends Component {
       this.state.victoires_rmc +
       this.state.victoires_xxl +
       this.state.victoires_top +
-      this.state.victoires_autres;
+      this.state.victoires_jo +
+      this.state.victoires_lady;
     const total_places =
       this.state.places_2013 +
       this.state.places_2014 +
@@ -62,7 +67,8 @@ class Bilan extends Component {
       this.state.places_rmc +
       this.state.places_xxl +
       this.state.places_top +
-      this.state.places_autres;
+      this.state.places_jo +
+      this.state.places_lady;
     return (
       <div>
         <Helmet
@@ -224,24 +230,46 @@ class Bilan extends Component {
           <div className="result">
             <p className="pReussite">
               <span className="span_casaque_bilan">
-                <img src={require("../img/lady/casaqueLady.png")} alt="casaqueLady" className="casaque_bilan"/>
-                <img src={require("../img/jo/casaqueJo.png")} alt="casaqueJo" className="casaque_bilan"/>
+                <img src={require("../img/lady/casaqueLady.png")} alt="casaqueJo" className="casaque_bilan"/>
               </span>
-              <strong>Autres</strong> : {this.state.courses_autres} courses,{" "}
-              {this.state.victoires_autres} victoire, {this.state.places_autres}{" "}
+              <strong>Lady Wrung</strong> : {this.state.courses_lady} courses,{" "}
+              {this.state.victoires_lady} victoire, {this.state.places_lady}{" "}
               places
             </p>
             <p className="reussite">
               {reussite(
-                this.state.victoires_autres,
-                this.state.places_autres,
-                this.state.courses_autres
+                this.state.victoires_lady,
+                this.state.places_lady,
+                this.state.courses_lady
               )}
               % de réussite (
-              {reussite_gagne(this.state.victoires_autres, this.state.courses_autres)}
+              {reussite_gagne(this.state.victoires_lady, this.state.courses_lady)}
               % à la gagne)
             </p>
           </div>
+
+          <div className="result">
+            <p className="pReussite">
+              <span className="span_casaque_bilan">
+                <img src={require("../img/jo/casaqueJo.png")} alt="casaqueJo" className="casaque_bilan"/>
+              </span>
+              <strong>Jo Way de Nappes</strong> : {this.state.courses_jo} courses,{" "}
+              {this.state.victoires_jo} victoire, {this.state.places_jo}{" "}
+              places
+            </p>
+            <p className="reussite">
+              {reussite(
+                this.state.victoires_jo,
+                this.state.places_jo,
+                this.state.courses_jo
+              )}
+              % de réussite (
+              {reussite_gagne(this.state.victoires_jo, this.state.courses_jo)}
+              % à la gagne)
+            </p>
+          </div>
+
+          
 
         </div>
         <Footer />
