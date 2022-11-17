@@ -29,9 +29,9 @@ class Bilan extends Component {
       courses_jo: 1,
       victoires_jo: 0,
       places_jo: 0,
-      courses_lady: 1,
+      courses_lady: 2,
       victoires_lady: 0,
-      places_lady: 0
+      places_lady: 1
     };
   }
 
@@ -234,7 +234,7 @@ class Bilan extends Component {
               </span>
               <strong>Lady Wrung</strong> : {this.state.courses_lady} courses,{" "}
               {this.state.victoires_lady} victoire, {this.state.places_lady}{" "}
-              places
+              place
             </p>
             <p className="reussite">
               {reussite(
@@ -253,7 +253,7 @@ class Bilan extends Component {
               <span className="span_casaque_bilan">
                 <img src={require("../img/jo/casaqueJo.png")} alt="casaqueJo" className="casaque_bilan"/>
               </span>
-              <strong>Jo Way de Nappes</strong> : {this.state.courses_jo} courses,{" "}
+              <strong>Jo Way de Nappes</strong> : {this.state.courses_jo} course,{" "}
               {this.state.victoires_jo} victoire, {this.state.places_jo}{" "}
               places
             </p>
