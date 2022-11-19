@@ -14,7 +14,7 @@ class LadyEntrainement extends Component {
         
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
-                        <h1 className="titreLady">Lady à l'entraînement</h1>
+                        <h1 className="titreLady">Lady sur les pistes</h1>
                     </Bounce>
 
                     <Link to="/" className="accueilApp">
