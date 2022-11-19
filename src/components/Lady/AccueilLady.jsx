@@ -37,7 +37,7 @@ class AccueilLady extends Component {
                         </div>
 
                         <div className="divMenu">
-                            <Link to="/" className="linkImg">
+                            <Link to="/lady_entrainement" className="linkImg">
                                 <img
                                     src={require("../../img/lady/entrainement_lady.jpg")}
                                     alt="entrainement_lady"
@@ -47,7 +47,7 @@ class AccueilLady extends Component {
                         </div>
 
                         <div className="divMenu">
-                            <Link to="/" className="linkImg">
+                            <Link to="/lady_courses" className="linkImg">
                                 <img
                                     src={require("../../img/lady/courses_lady.jpg")}
                                     alt="courses_lady"
