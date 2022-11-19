@@ -12,7 +12,7 @@ class LadyEntrainement extends Component {
                 <Helmet title={"Lady Wrung entraînement"}
                         link={"http://chevaux.guillaumequeste.fr/lady_entrainement"} />
         
-                <div className="accueilPremierPartantGalop">
+                <div className="accueilPremierPartantGalop2">
                     <Bounce top>
                         <h1 className="titreLady">Lady sur les pistes</h1>
                     </Bounce>
