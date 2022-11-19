@@ -17,8 +17,7 @@
 .accueilApp {
   position: absolute;
   top: 1%;
-  left: 1%;
-    
+  left: 1%;  
 }
 
 .horseLady {
@@ -97,5 +96,76 @@
 @media screen and (min-width: 1025px) {
     .img_fiche_lady {
         width: 25%;
+    }
+}
+
+
+
+/* Lady écurie ------------------------------------------------------------------ */
+
+.accueilPremierPartantGalop {
+    min-height: 93vh;
+    width: 100%;
+    background-color: var(--backgroundLady-color);
+    color: white;
+    padding-bottom: 10vh;
+    font-family: 'Lato', sans-serif;
+}
+
+.retour {
+    position: absolute;
+    top: 1%;
+    right: 1%;  
+    color: white;
+    font-size: 1em;
+  }
+
+.titreLady {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    padding: 5% 0 5% 0;
+}
+
+.infosPage {
+    text-align: center;
+}
+
+.photosPage {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1025px) {
+    .photosPage {
+        flex-direction: row;
+    }
+}
+
+.divPhotoPage {
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.photoPageHorizontale {
+    width: 80vw;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgb(109, 109, 109);
+}
+
+@media screen and (min-width: 1025px) {
+    .photoPageHorizontale {
+        width: 30vw;
+    }
+}
+
+.photoPageVerticale {
+    width: 40vw;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgb(109, 109, 109);
+}
+
+@media screen and (min-width: 1025px) {
+    .photoPageVerticale {
+        width: 18vw;
     }
 }

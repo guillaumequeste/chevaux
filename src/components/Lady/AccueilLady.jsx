@@ -27,7 +27,7 @@ class AccueilLady extends Component {
 
                     <div className="menu">
                         <div className="divMenu">
-                            <Link to="/" className="linkImg">
+                            <Link to="/lady_ecurie" className="linkImg">
                                 <img
                                     src={require("../../img/lady/ecurie_lady.jpg")}
                                     alt="ecurie_lady"
