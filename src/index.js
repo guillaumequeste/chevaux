@@ -104,6 +104,7 @@ import AccueilLady from './components/Lady/AccueilLady'
 import LadyEcurie from './components/Lady/LadyEcurie'
 import LadyEntrainement from './components/Lady/LadyEntrainement'
 import LadyCourses from './components/Lady/LadyCourses'
+import LadyFiche from './components/Lady/LadyFiche'
 
 import Bilan from './components/Bilan'
 import Credits from './components/Credits'
@@ -212,6 +213,7 @@ const Root = () => (
             <Route path='/lady_ecurie' component={LadyEcurie}/>            
             <Route path='/lady_entrainement' component={LadyEntrainement}/> 
             <Route path='/lady_courses' component={LadyCourses}/> 
+            <Route path='/lady_fiche' component={LadyFiche}/> 
 
             <Route path='/bilan' component={Bilan}/>
             <Route path='/credits' component={Credits}/>

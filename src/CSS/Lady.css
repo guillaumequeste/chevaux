@@ -169,3 +169,21 @@
         width: 18vw;
     }
 }
+
+.infosLady {
+    color: white;
+    text-align: center;
+    padding: 5% 0 5% 0;
+}
+
+.photoPageVerticaleFiche {
+    width: 70vw;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgb(109, 109, 109);
+}
+
+@media screen and (min-width: 1025px) {
+    .photoPageVerticaleFiche {
+        width: 34vw;
+    }
+}
