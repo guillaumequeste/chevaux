@@ -14,7 +14,7 @@ class LadyFiche extends Component {
         
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
-                        <h1 className="titreLady">Lady infos</h1>
+                        <h1 className="titreLadyFiche">Lady infos</h1>
                     </Bounce>
 
                     <Link to="/" className="accueilApp">
