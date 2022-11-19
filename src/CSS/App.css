@@ -135,6 +135,7 @@
     flex-direction: column;
     width: 100vw;
     min-height: 93vh;
+    padding-bottom: 10%;
     background-color: var(--background-color);
     font-family: 'Lato', sans-serif;
     color: white;

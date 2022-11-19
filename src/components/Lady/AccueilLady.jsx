@@ -1,8 +1,5 @@
 import React, { Component } from "react";
 import Helmet from "../Helmet";
-import Bounce from "react-reveal/Bounce";
-import Fade from "react-reveal/Fade";
-import { NavLink } from "react-router-dom";
 import '../../CSS/Lady.css';
 import { Link } from "react-router-dom";
 
@@ -16,6 +13,10 @@ class AccueilLady extends Component {
                 />
                 <div className="accueilLady">
 
+                    <div className='titreAccueilLady'>
+                        <h1>Lady Wrung</h1>
+                    </div>
+
                     <Link to="/" className="accueilApp">
                         <img
                             src={require("../../img/horse.png")}
@@ -24,30 +25,47 @@ class AccueilLady extends Component {
                         />
                     </Link>
 
-                    <div className='titreAccueilLady'>
-                        <h1>Lady Wrung</h1>
-                    </div>
-
                     <div className="menu">
-                        <div className="img_menu"> 
-                            <img
-                                src={require("../../img/lady/ecurie_lady.jpg")}
-                                alt="ecurie_lady"
-                                className="img_ecurie_lady"
-                                />
-                        </div>
-                
-                        <div className="img_menu2"> 
-                            <img
-                                src={require("../../img/lady/courses_lady.jpg")}
-                                alt="courses_lady"
-                                className="img_courses_lady"
-                                />
+                        <div className="divMenu">
+                            <Link to="/" className="linkImg">
+                                <img
+                                    src={require("../../img/lady/ecurie_lady.jpg")}
+                                    alt="ecurie_lady"
+                                    className="img_ecurie_lady"
+                                 />
+                            </Link> 
                         </div>
 
-                        
-                    </div>
+                        <div className="divMenu">
+                            <Link to="/" className="linkImg">
+                                <img
+                                    src={require("../../img/lady/entrainement_lady.jpg")}
+                                    alt="entrainement_lady"
+                                    className="img_entrainement_lady"
+                                 />
+                            </Link> 
+                        </div>
 
+                        <div className="divMenu">
+                            <Link to="/" className="linkImg">
+                                <img
+                                    src={require("../../img/lady/courses_lady.jpg")}
+                                    alt="courses_lady"
+                                    className="img_courses_lady"
+                                 />
+                            </Link> 
+                        </div>
+
+                        <div className="divMenu">
+                            <Link to="/" className="linkImg">
+                                <img
+                                    src={require("../../img/lady/fiche_lady.JPG")}
+                                    alt="fiche_lady"
+                                    className="img_fiche_lady"
+                                 />
+                            </Link> 
+                        </div>
+                    </div>    
                 </div>
             </div>
         );
