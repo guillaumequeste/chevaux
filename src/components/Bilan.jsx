@@ -26,7 +26,7 @@ class Bilan extends Component {
       courses_top: 65,
       victoires_top: 6,
       places_top: 25,
-      courses_jo: 2,
+      courses_jo: 3,
       victoires_jo: 0,
       places_jo: 0,
       courses_lady: 2,
@@ -253,7 +253,7 @@ class Bilan extends Component {
               <span className="span_casaque_bilan">
                 <img src={require("../img/jo/casaqueJo.png")} alt="casaqueJo" className="casaque_bilan"/>
               </span>
-              <strong>Jo Way de Nappes</strong> : {this.state.courses_jo} course,{" "}
+              <strong>Jo Way de Nappes</strong> : {this.state.courses_jo} courses,{" "}
               {this.state.victoires_jo} victoire, {this.state.places_jo}{" "}
               places
             </p>
