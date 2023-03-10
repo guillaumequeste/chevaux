@@ -134,9 +134,9 @@ class CompoTop extends Component {
                 <div className="divDetailsCompo">
                   <div className="resultats">
                     <div className="resultats2">
-                      <p className="pInfos">31 courses</p>
+                      <p className="pInfos">32 courses</p>
                       <p className="pInfos">3 victoires</p>
-                      <p className="pInfos">11 places</p>
+                      <p className="pInfos">12 places</p>
                     </div>
                   </div>
                   <div className="divInfos">

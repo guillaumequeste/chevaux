@@ -20,9 +20,9 @@ class Hola extends Component {
         <div className="accueilPremierPartantGalop">
           <Bounce top>
             <h5 className="titrePage">Hola de Nappes</h5>
-            <p className="infosPage">31 courses</p>
+            <p className="infosPage">32 courses</p>
             <p className="infosPage">3 victoires</p>
-            <p className="infosPage">11 places</p>
+            <p className="infosPage">12 places</p>
           </Bounce>
           <div className="photosPage">
             <Fade right>
