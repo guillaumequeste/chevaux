@@ -32,6 +32,7 @@ class ListeHippodromes extends Component {
             <div className="nomListe">Argentan</div>
             <div className="nomListe">Arras</div>
             <div className="nomListe">Auteuil</div>
+            <div className="nomListe">Avignon</div>
             <div className="nomListe">Bacqueville-en-Caux</div>
             <div className="nomListe">Bernay</div>
             <div className="nomListe">Bihorel</div>

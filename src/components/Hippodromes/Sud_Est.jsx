@@ -25,7 +25,28 @@ class Sud_Est extends Component {
             </Bounce>
           </div>
 
-          <div className="nomListe">Avignon</div>
+          <Fade right>
+            <div className="hippodrome">
+              <img
+                src={require("../../img/hippodromes/avignon.jpg")}
+                alt="avignon"
+                className="imgHorizontale"
+              />
+              <div className="infosHippodromes">
+                <h3 className="nomHippodrome">Avignon</h3>
+                <h6 className="pInfosHippodrome">
+                  <div className="divHippodrome">Piste en herbe</div>
+                  <div className="divHippodrome">Corde à gauche</div>
+                  <div className="divHippodrome">1 460 m</div>
+                  <div className="divHippodrome">Provence-Alpes-Côte d'Azur</div>
+                  <div className="divHippodrome">Vaucluse</div>
+                  <div className="divHippodrome">Le Pontet</div>
+                  <div className="divHippodrome">HippodromeRoberty</div>
+                </h6>
+              </div>
+            </div>
+          </Fade>
+
           <div className="nomListe">Bollène</div>
           <div className="nomListe">Cagnes-sur-Mer</div>
           <div className="nomListe">Carpentras</div>
