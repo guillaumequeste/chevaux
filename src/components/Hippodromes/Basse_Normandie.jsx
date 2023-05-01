@@ -226,6 +226,28 @@ class Basse_Normandie extends Component {
           <Fade right>
             <div className="hippodrome">
               <img
+                src={require("../../img/hippodromes/le_pin_au_haras.jpg")}
+                alt="le_pin_au_haras"
+                className="imgHorizontale"
+              />
+              <div className="infosHippodromes">
+                <h3 className="nomHippodrome">Le Pin-au-Haras</h3>
+                <h6 className="pInfosHippodrome">
+                  <div className="divHippodrome">Piste en herbe</div>
+                  <div className="divHippodrome">Corde à droite</div>
+                  <div className="divHippodrome">2 000 m</div>
+                  <div className="divHippodrome">Basse-Normandie</div>
+                  <div className="divHippodrome">Orne</div>
+                  <div className="divHippodrome">Argentan</div>
+                  <div className="divHippodrome">Hippodrome de la bergerie</div>
+                </h6>
+              </div>
+            </div>
+          </Fade>
+
+          <Fade right>
+            <div className="hippodrome">
+              <img
                 src={require("../../img/hippodromes/lisieux.jpg")}
                 alt="lisieux"
                 className="imgHorizontale"
@@ -322,7 +344,6 @@ class Basse_Normandie extends Component {
           <div className="nomListe">Domfront-en-Poiraie</div>
           <div className="nomListe">Genêts</div>
           <div className="nomListe">Jullouville les Pins</div>
-          <div className="nomListe">Le Pin au Haras</div>
           <div className="nomListe">Le Sap</div>
           <div className="nomListe">Moulins-la-Marche</div>
           <div className="nomListe">Portbail</div>
