@@ -38,8 +38,8 @@ class Jo_Way extends Component {
                 />
             </div>
 
-            <p>8 courses</p>
-            <p>1 place</p> 
+            <p>9 courses</p>
+            <p>2 places</p> 
         </div>
       </div>
     );
