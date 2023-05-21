@@ -28,6 +28,28 @@ class Est extends Component {
           <Fade right>
             <div className="hippodrome">
               <img
+                src={require("../../img/hippodromes/nancy.jpg")}
+                alt="nancy"
+                className="imgHorizontale"
+              />
+              <div className="infosHippodromes">
+                <h3 className="nomHippodrome">Nancy</h3>
+                <h6 className="pInfosHippodrome">
+                  <div className="divHippodrome">Piste en herbe et cendrée</div>
+                  <div className="divHippodrome">Corde à droite</div>
+                  <div className="divHippodrome">1 600 m</div>
+                  <div className="divHippodrome">Grand Est</div>
+                  <div className="divHippodrome">Meurthe-et-Moselle</div>
+                  <div className="divHippodrome">Nancy</div>
+                  <div className="divHippodrome">Hippodrome de Nancy-Brabois</div>
+                </h6>
+              </div>
+            </div>
+          </Fade>
+          
+          <Fade right>
+            <div className="hippodrome">
+              <img
                 src={require("../../img/hippodromes/reims.jpg")}
                 alt="reims"
                 className="imgHorizontale"
@@ -71,7 +93,6 @@ class Est extends Component {
 
           <div className="nomListe">Châlons-en-Champagne</div>
           <div className="nomListe">Montier-en-Der</div>
-          <div className="nomListe">Nancy</div>
           <div className="nomListe">Vesoul</div>
           <div className="nomListe">Vittel</div>
           <div className="nomListe">Wissembourg</div>
