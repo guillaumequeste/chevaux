@@ -22,7 +22,7 @@ class AccueilHippodromes extends Component {
 
             <div className="titreAccueilHippodrome">
                 <Bounce top>
-                <h5 className="regionHippodrome">60 hippodromes visités</h5>
+                <h5 className="regionHippodrome">61 hippodromes visités</h5>
                 </Bounce>
             </div>
             

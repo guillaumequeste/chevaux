@@ -305,7 +305,29 @@ class Basse_Normandie extends Component {
                   <div className="divHippodrome">Basse-Normandie</div>
                   <div className="divHippodrome">Calvados</div>
                   <div className="divHippodrome">Caen - Lisieux</div>
-                  <div className="divHippodrome">Hippodrome de Saint-Pierre-sur-Dives</div>
+                  <div className="divHippodrome">Hippodrome de la Dives</div>
+                </h6>
+              </div>
+            </div>
+          </Fade>
+
+          <Fade right>
+            <div className="hippodrome">
+              <img
+                src={require("../../img/hippodromes/villedieu_les_poeles.jpg")}
+                alt="villedieu_les_poeles"
+                className="imgHorizontale"
+              />
+              <div className="infosHippodromes">
+                <h3 className="nomHippodrome">Villedieu-les-Poêles</h3>
+                <h6 className="pInfosHippodrome">
+                  <div className="divHippodrome">Piste en sable</div>
+                  <div className="divHippodrome">Corde à droite</div>
+                  <div className="divHippodrome">800 m</div>
+                  <div className="divHippodrome">Basse-Normandie</div>
+                  <div className="divHippodrome">Manche</div>
+                  <div className="divHippodrome">Villedieu-les-Poêles-Rouffigny</div>
+                  <div className="divHippodrome">Hippodrome de Sautchevreuil</div>
                 </h6>
               </div>
             </div>
@@ -349,7 +371,6 @@ class Basse_Normandie extends Component {
           <div className="nomListe">Portbail</div>
           <div className="nomListe">Sainte-Marie-du-Mont</div>
           <div className="nomListe">Valognes</div>
-          <div className="nomListe">Villedieu-les-Poêles</div>
           
         </div>
       </div>
