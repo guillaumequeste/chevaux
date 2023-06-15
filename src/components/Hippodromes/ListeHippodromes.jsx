@@ -56,11 +56,13 @@ class ListeHippodromes extends Component {
             <div className="nomListe">Granville</div>
             <div className="nomListe">La Capelle</div>
             <div className="nomListe">La Ferté-Vidame</div>
+            <div className="nomListe">Laon</div>
             <div className="nomListe">Laval</div>
             <div className="nomListe">Le Croisé-Laroche</div>
             <div className="nomListe">Le Lion d'Angers</div>
             <div className="nomListe">Le Mont-Saint-Michel</div>
             <div className="nomListe">Le Neubourg</div>
+            <div className="nomListe">Le Pin au Haras</div>
             <div className="nomListe">Le Touquet</div>
             <div className="nomListe">Les Andelys</div>
             <div className="nomListe">Lisieux</div>
@@ -70,6 +72,7 @@ class ListeHippodromes extends Component {
             <div className="nomListe">Maure-de-Bretagne</div>
             <div className="nomListe">Meslay-du-Maine</div>
             <div className="nomListe">Mons</div>
+            <div className="nomListe">Nancy</div>
             <div className="nomListe">Nantes</div>
             <div className="nomListe">Nort-sur-Erdre</div>
             <div className="nomListe">Rambouillet</div>
@@ -82,6 +85,7 @@ class ListeHippodromes extends Component {
             <div className="nomListe">Saint-Pierre-sur-Dives</div>
             <div className="nomListe">Segré</div>
             <div className="nomListe">Strasbourg</div>
+            <div className="nomListe">Villedieu-les-Poêles</div>
             <div className="nomListe">Vincennes</div>
             <div className="nomListe">Vire</div>
     

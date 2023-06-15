@@ -116,6 +116,28 @@ class Nord extends Component {
           <Fade right>
             <div className="hippodrome">
               <img
+                src={require("../../img/hippodromes/laon.jpg")}
+                alt="laon"
+                className="imgHorizontale"
+              />
+              <div className="infosHippodromes">
+                <h3 className="nomHippodrome">Laon</h3>
+                <h6 className="pInfosHippodrome">
+                  <div className="divHippodrome">Piste cendrée</div>
+                  <div className="divHippodrome">Corde à gauche</div>
+                  <div className="divHippodrome">1 300 m</div>
+                  <div className="divHippodrome">Hauts de France</div>
+                  <div className="divHippodrome">Aisne</div>
+                  <div className="divHippodrome">Laon</div>
+                  <div className="divHippodrome">Hippodrome d'Ardon</div>
+                </h6>
+              </div>
+            </div>
+          </Fade>
+
+          <Fade right>
+            <div className="hippodrome">
+              <img
                 src={require("../../img/hippodromes/le_croise.jpg")}
                 alt="le_croise"
                 className="imgHorizontale"
@@ -180,7 +202,6 @@ class Nord extends Component {
           </Fade>
 
           <div className="nomListe">Berck-sur-Mer</div>
-          <div className="nomListe">Laon</div>
           
         </div>
       </div>
