@@ -26,7 +26,7 @@ class Bilan extends Component {
       courses_top: 67,
       victoires_top: 6,
       places_top: 26,
-      courses_jo: 14,
+      courses_jo: 15,
       victoires_jo: 0,
       places_jo: 4,
       courses_lady: 2,
