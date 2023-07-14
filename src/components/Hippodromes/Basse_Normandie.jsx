@@ -50,6 +50,28 @@ class Basse_Normandie extends Component {
           <Fade right>
             <div className="hippodrome">
               <img
+                src={require("../../img/hippodromes/bagnoles_de_l'orne.jpg")}
+                alt="bagnoles_de_l_orne"
+                className="imgHorizontale"
+              />
+              <div className="infosHippodromes">
+                <h3 className="nomHippodrome">Bagnoles-de-l'Orne</h3>
+                <h6 className="pInfosHippodrome">
+                  <div className="divHippodrome">Piste en herbe</div>
+                  <div className="divHippodrome">Corde à droite</div>
+                  <div className="divHippodrome">1 075 m</div>
+                  <div className="divHippodrome">Basse-Normandie</div>
+                  <div className="divHippodrome">Orne</div>
+                  <div className="divHippodrome">Bagnoles-de-l'Orne</div>
+                  <div className="divHippodrome">Hippodrome de Bagnoles de l'Orne</div>
+                </h6>
+              </div>
+            </div>
+          </Fade>
+
+          <Fade right>
+            <div className="hippodrome">
+              <img
                 src={require("../../img/hippodromes/cabourg.jpg")}
                 alt="cabourg"
                 className="imgHorizontale"
@@ -282,7 +304,7 @@ class Basse_Normandie extends Component {
                   <div className="divHippodrome">1 055 m</div>
                   <div className="divHippodrome">Basse-Normandie</div>
                   <div className="divHippodrome">Orne</div>
-                  <div className="divHippodrome">Argentan</div>
+                  <div className="divHippodrome">Rânes</div>
                   <div className="divHippodrome">Hippodrome de Rânes</div>
                 </h6>
               </div>
@@ -304,7 +326,7 @@ class Basse_Normandie extends Component {
                   <div className="divHippodrome">1 000 m</div>
                   <div className="divHippodrome">Basse-Normandie</div>
                   <div className="divHippodrome">Calvados</div>
-                  <div className="divHippodrome">Caen - Lisieux</div>
+                  <div className="divHippodrome">Saint-Pierre-en-Auge</div>
                   <div className="divHippodrome">Hippodrome de la Dives</div>
                 </h6>
               </div>
