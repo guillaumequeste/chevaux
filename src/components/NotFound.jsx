@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Header from './Header'
-import Footer from './Footer'
 import Helmet from './Helmet'
 import { Link } from "react-router-dom"
 
@@ -12,7 +11,6 @@ class NotFound extends Component {
                 <Helmet title={"NotFound Chevaux"}
                         link={"http://decouverte.guillaumequeste.fr/notfound"} />
                 <Header />
-                <Footer />
                 <div className="notFound">
                     <div className="divNotFound">
                         <div>

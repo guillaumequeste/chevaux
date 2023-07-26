@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Header from "../Header";
 import HeaderMobile from "../HeaderMobile";
 import Helmet from "../Helmet";
-import Footer from "../Footer";
 import Bounce from "react-reveal/Bounce";
 import Fade from "react-reveal/Fade";
 
@@ -16,7 +15,6 @@ class Master_Gold_Listed extends Component {
         />
         <Header />
         <HeaderMobile />
-        <Footer ecurieXXL={true}/>
         <div className="accueilPremierPartantGalop">
           <Bounce top>
             <h5 className="titrePage">Victoire de Master Gold dans une Listed (sur tapis vert)</h5>

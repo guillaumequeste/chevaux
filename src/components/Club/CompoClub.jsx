@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Header from "../Header";
 import HeaderMobile from '../HeaderMobile'
 import Helmet from "../Helmet";
-import Footer from "../Footer";
 import Bounce from "react-reveal/Bounce";
 import Fade from "react-reveal/Fade";
 
@@ -16,7 +15,6 @@ class CompoClub extends Component {
         />
         <Header />
         <HeaderMobile />
-        <Footer ecurieClub={true}/>
         <div className="accueil2013">
           <div className="titreAccueil">
             <Bounce top>

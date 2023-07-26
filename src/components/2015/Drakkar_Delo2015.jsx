@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Header from '../Header'
 import HeaderMobile from '../HeaderMobile'
 import Helmet from '../Helmet'
-import Footer from '../Footer'
 import Bounce from 'react-reveal/Bounce'
 import Fade from 'react-reveal/Fade'
 
@@ -15,7 +14,6 @@ class Drakkar_Delo2015 extends Component {
                         link={"http://chevaux.guillaumequeste.fr/drakkar_delo2015"} />
                 <Header />
                 <HeaderMobile />
-                <Footer ecurie2015={true}/>
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
                         <h5 className="titrePage">Drakkar Delo</h5>

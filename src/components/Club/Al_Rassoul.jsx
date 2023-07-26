@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Header from '../Header'
 import HeaderMobile from '../HeaderMobile'
 import Helmet from '../Helmet'
-import Footer from '../Footer'
 import Bounce from 'react-reveal/Bounce'
 import Fade from 'react-reveal/Fade'
 
@@ -15,7 +14,6 @@ class Al_Rassoul extends Component {
                         link={"http://chevaux.guillaumequeste.fr/al_rassoul"} />
                 <Header />
                 <HeaderMobile />
-                <Footer ecurieClub={true}/>
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
                         <h5 className="titrePage">Al Rassoul</h5>

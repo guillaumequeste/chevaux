@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Header from "../Header";
 import HeaderMobile from "../HeaderMobile";
 import Helmet from "../Helmet";
-import Footer from "../Footer";
 import Fade from "react-reveal/Fade";
 import { NavLink } from "react-router-dom";
 import Bounce from "react-reveal/Bounce";
@@ -17,7 +16,6 @@ class AccueilHippodromes extends Component {
         />
         <Header />
         <HeaderMobile />
-        <Footer />
         <div className="divHippodromes">
 
             <div className="titreAccueilHippodrome">

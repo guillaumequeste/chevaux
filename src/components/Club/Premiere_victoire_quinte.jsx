@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Header from '../Header'
 import HeaderMobile from '../HeaderMobile'
 import Helmet from '../Helmet'
-import Footer from '../Footer'
 import Bounce from 'react-reveal/Bounce'
 import Fade from 'react-reveal/Fade'
 
@@ -15,7 +14,6 @@ class Premiere_victoire_quinte extends Component {
                         link={"http://chevaux.guillaumequeste.fr/premier_victoire_quinte"} />
                 <Header />
                 <HeaderMobile />
-                <Footer ecurieClub={true}/>
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
                         <h5 className="titrePage">1ère victoire dans un Quinté+</h5>

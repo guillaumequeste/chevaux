@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Header from "./Header";
 import HeaderMobile from "./HeaderMobile";
 import Helmet from "./Helmet";
-import Footer from "./Footer";
 
 class Bilan extends Component {
   constructor(props) {
@@ -77,7 +76,6 @@ class Bilan extends Component {
         />
         <Header />
         <HeaderMobile />
-        <Footer />
         <div className="divBilan">
 
           <div className="result total">
@@ -272,7 +270,6 @@ class Bilan extends Component {
           
 
         </div>
-        <Footer />
       </div>
     );
   }

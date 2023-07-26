@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Header from "./Header";
 import HeaderMobile from "./HeaderMobile";
 import Helmet from "./Helmet";
-import Footer from "./Footer";
 
 class Credits extends Component {
   render() {
@@ -14,7 +13,6 @@ class Credits extends Component {
         />
         <Header />
         <HeaderMobile />
-        <Footer />
         <div className="divCredits">
           <div className="divCredits2">
             <h5>Jérôme Ju</h5>
@@ -31,7 +29,6 @@ class Credits extends Component {
             <h5>Pierre Virly (Petrus photo)</h5>
           </div>
         </div>
-        <Footer />
       </div>
     );
   }

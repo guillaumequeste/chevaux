@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Header from "../Header";
 import HeaderMobile from "../HeaderMobile";
 import Helmet from "../Helmet";
-import Footer from "../Footer";
 import Bounce from "react-reveal/Bounce";
 import Fade from "react-reveal/Fade";
 import { NavLink } from "react-router-dom";
@@ -17,7 +16,6 @@ class Jo_Way extends Component {
         />
         <Header />
         <HeaderMobile />
-        <Footer ecurie2013={true} />
         <div className="accueilJo">
           <div className="titreAccueilJo">
             <Bounce top>

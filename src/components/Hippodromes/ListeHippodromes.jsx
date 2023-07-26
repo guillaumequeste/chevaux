@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Header from "../Header";
 import HeaderMobile from '../HeaderMobile'
 import Helmet from "../Helmet";
-import Footer from "../Footer";
 import Bounce from "react-reveal/Bounce";
 
 class ListeHippodromes extends Component {
@@ -15,7 +14,6 @@ class ListeHippodromes extends Component {
         />
         <Header />
         <HeaderMobile />
-        <Footer />
         <div className="accueilHippodrome">
           
           <div className="titreAccueilHippodrome">

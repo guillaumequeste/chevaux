@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Header from "./Header";
 import HeaderMobile from "./HeaderMobile";
 import Helmet from "./Helmet";
-import Footer from "./Footer";
 
 class Contact extends Component {
   render() {
@@ -14,7 +13,6 @@ class Contact extends Component {
         />
         <Header />
         <HeaderMobile />
-        <Footer />
         <div className="divContact">
           <div className="divContact2">
             <p className="textContact">Site créé par Guillaume Queste :</p>

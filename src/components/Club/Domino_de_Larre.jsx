@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Header from '../Header'
 import HeaderMobile from '../HeaderMobile'
 import Helmet from '../Helmet'
-import Footer from '../Footer'
 import Bounce from 'react-reveal/Bounce'
 import Fade from 'react-reveal/Fade'
 
@@ -15,7 +14,6 @@ class Domino_de_Larre extends Component {
                         link={"http://chevaux.guillaumequeste.fr/domino_de_larre"} />
                 <Header />
                 <HeaderMobile />
-                <Footer ecurieClub={true}/>
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
                         <h5 className="titrePage">Domino de Larré</h5>

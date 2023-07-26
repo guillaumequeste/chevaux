@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Header from '../Header'
 import HeaderMobile from '../HeaderMobile'
 import Helmet from '../Helmet'
-import Footer from '../Footer'
 import Bounce from 'react-reveal/Bounce'
 import Fade from 'react-reveal/Fade'
 
@@ -15,7 +14,6 @@ class Claudia_Eria extends Component {
                         link={"http://chevaux.guillaumequeste.fr/claudia_eria"} />
                 <Header />
                 <HeaderMobile />
-                <Footer ecurie2014={true}/>
                 <div className="accueilPremierPartantGalop">
                     <Bounce top>
                         <h5 className="titrePage">Claudia Eria</h5>
