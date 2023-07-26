@@ -21,7 +21,7 @@ class Est extends Component {
           
           <div className="titreAccueilHippodrome">
             <Bounce top>
-              <h5 className="regionHippodrome">Est</h5>
+              <h5 className="regionHippodrome">Est (3/8)</h5>
             </Bounce>
           </div>
 

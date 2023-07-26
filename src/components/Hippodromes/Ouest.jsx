@@ -21,10 +21,32 @@ class Ouest extends Component {
           
           <div className="titreAccueilHippodrome">
             <Bounce top>
-              <h5 className="regionHippodrome">Ouest</h5>
+              <h5 className="regionHippodrome">Ouest (7/48)</h5>
             </Bounce>
           </div>
 
+          <Fade right>
+            <div className="hippodrome">
+              <img
+                src={require("../../img/hippodromes/les_sables_d_olonne.jpg")}
+                alt="les_sables_d_olonne"
+                className="imgHorizontale"
+              />
+              <div className="infosHippodromes">
+                <h3 className="nomHippodrome">Les Sables d'Olonne</h3>
+                <h6 className="pInfosHippodrome">
+                  <div className="divHippodrome">Piste en sable et piste en herbe</div>
+                  <div className="divHippodrome">Corde à gauche</div>
+                  <div className="divHippodrome">1 260 m</div>
+                  <div className="divHippodrome">Pays de la Loire</div>
+                  <div className="divHippodrome">Vendée</div>
+                  <div className="divHippodrome">Talmont Saint Hilaire</div>
+                  <div className="divHippodrome">Hippodrome de la Malbrande</div>
+                </h6>
+              </div>
+            </div>
+          </Fade>
+          
           <Fade right>
             <div className="hippodrome">
               <img
@@ -94,6 +116,50 @@ class Ouest extends Component {
           <Fade right>
             <div className="hippodrome">
               <img
+                src={require("../../img/hippodromes/plesse.jpg")}
+                alt="plesse"
+                className="imgHorizontale"
+              />
+              <div className="infosHippodromes">
+                <h3 className="nomHippodrome">Plessé</h3>
+                <h6 className="pInfosHippodrome">
+                  <div className="divHippodrome">Piste en herbe</div>
+                  <div className="divHippodrome">Corde à droite</div>
+                  <div className="divHippodrome">1 400 m</div>
+                  <div className="divHippodrome">Pays de la Loire</div>
+                  <div className="divHippodrome">Loire-Atlantique</div>
+                  <div className="divHippodrome">Plessé</div>
+                  <div className="divHippodrome">Hippodrome du Parc de Fresnay</div>
+                </h6>
+              </div>
+            </div>
+          </Fade>
+
+          <Fade right>
+            <div className="hippodrome">
+              <img
+                src={require("../../img/hippodromes/saint-jean-de-monts.jpg")}
+                alt="saint-jean-de-monts"
+                className="imgHorizontale"
+              />
+              <div className="infosHippodromes">
+                <h3 className="nomHippodrome">Saint-Jean-de-Monts</h3>
+                <h6 className="pInfosHippodrome">
+                  <div className="divHippodrome">Piste en herbe</div>
+                  <div className="divHippodrome">Corde à droite</div>
+                  <div className="divHippodrome">1 200 m</div>
+                  <div className="divHippodrome">Pays de la Loire</div>
+                  <div className="divHippodrome">Vendée</div>
+                  <div className="divHippodrome">Saint-Jean-de-Monts</div>
+                  <div className="divHippodrome">Hippodrome de l'Atlantique</div>
+                </h6>
+              </div>
+            </div>
+          </Fade>
+
+          <Fade right>
+            <div className="hippodrome">
+              <img
                 src={require("../../img/hippodromes/saint-malo.jpg")}
                 alt="saint-malo"
                 className="imgHorizontale"
@@ -128,18 +194,16 @@ class Ouest extends Component {
           <div className="nomListe">Guingamp</div>
           <div className="nomListe">Josselin</div>
           <div className="nomListe">La Gacilly</div>
-          <div className="nomListe">Guerche-de-Bretagne</div>
+          <div className="nomListe">La Guerche-de-Bretagne</div>
           <div className="nomListe">La Roche-sur-Yon</div>
           <div className="nomListe">Landivisiau</div>
           <div className="nomListe">Le Pertre</div>
-          <div className="nomListe">Les Sables d'Olonne</div>
           <div className="nomListe">Loudéac</div>
           <div className="nomListe">Luçon</div>
           <div className="nomListe">Machecoul</div>
           <div className="nomListe">Mauron</div>
           <div className="nomListe">Morlaix-St Pol</div>
           <div className="nomListe">Niort</div>
-          <div className="nomListe">Plessé</div>
           <div className="nomListe">Plestin-les-Grèves</div>
           <div className="nomListe">Ploërmel</div>
           <div className="nomListe">Ploubalay-Lancieux</div>
@@ -151,7 +215,6 @@ class Ouest extends Component {
           <div className="nomListe">Redon</div>
           <div className="nomListe">Rostrenen</div>
           <div className="nomListe">Saint Brieuc</div>
-          <div className="nomListe">Saint-Jean-de-Monts</div>
           <div className="nomListe">Savenay</div>
           <div className="nomListe">Thouars</div>
           <div className="nomListe">Vannes</div>

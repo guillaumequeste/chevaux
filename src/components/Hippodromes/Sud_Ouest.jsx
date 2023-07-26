@@ -21,7 +21,7 @@ class Sud_Ouest extends Component {
           
           <div className="titreAccueilHippodrome">
             <Bounce top>
-              <h5 className="regionHippodrome">Sud-Ouest</h5>
+              <h5 className="regionHippodrome">Sud-Ouest (0/47)</h5>
             </Bounce>
           </div>
 
@@ -40,7 +40,7 @@ class Sud_Ouest extends Component {
           <div className="nomListe">Cazaubon-Barbotan</div>
           <div className="nomListe">Chatelaillon-La Rochelle</div>
           <div className="nomListe">Dax</div>
-          <div className="nomListe">Eauze</div>
+          <div className="nomListe">Eauze et de l'Armagnac</div>
           <div className="nomListe">Fleurance</div>
           <div className="nomListe">Gabarret</div>
           <div className="nomListe">Gémozac</div>
@@ -61,7 +61,7 @@ class Sud_Ouest extends Component {
           <div className="nomListe">Monpazier</div>
           <div className="nomListe">Mont de Marsan</div>
           <div className="nomListe">Montauban</div>
-          <div className="nomListe">Montignac</div>
+          <div className="nomListe">Montignac Charente</div>
           <div className="nomListe">Pau</div>
           <div className="nomListe">Pompadour</div>
           <div className="nomListe">Royan la Palmyre</div>

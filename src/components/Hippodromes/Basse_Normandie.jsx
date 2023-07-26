@@ -21,7 +21,7 @@ class Basse_Normandie extends Component {
           
           <div className="titreAccueilHippodrome">
             <Bounce top>
-              <h5 className="regionHippodrome">Basse-Normandie</h5>
+              <h5 className="regionHippodrome">Basse-Normandie (16/31)</h5>
             </Bounce>
           </div>
 
@@ -319,11 +319,11 @@ class Basse_Normandie extends Component {
                 className="imgHorizontale"
               />
               <div className="infosHippodromes">
-                <h3 className="nomHippodrome">Saint-Pierre-sur-Dives</h3>
+                <h3 className="nomHippodrome">Saint-Pierre-en-Auge</h3>
                 <h6 className="pInfosHippodrome">
                   <div className="divHippodrome">Piste en herbe</div>
                   <div className="divHippodrome">Corde à droite</div>
-                  <div className="divHippodrome">1 000 m</div>
+                  <div className="divHippodrome">1 120 m</div>
                   <div className="divHippodrome">Basse-Normandie</div>
                   <div className="divHippodrome">Calvados</div>
                   <div className="divHippodrome">Saint-Pierre-en-Auge</div>
@@ -380,7 +380,6 @@ class Basse_Normandie extends Component {
           <div className="nomListe">Agon-Coutainville</div>
           <div className="nomListe">Alençon</div>
           <div className="nomListe">Avranches</div>
-          <div className="nomListe">Bagnoles-de-l'Orne</div>
           <div className="nomListe">Bourigny</div>
           <div className="nomListe">Bréhal</div>
           <div className="nomListe">Carentan-les-Marais</div>

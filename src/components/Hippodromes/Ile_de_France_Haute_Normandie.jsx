@@ -21,7 +21,7 @@ class Ile_de_France_Haute_Normandie extends Component {
           
           <div className="titreAccueilHippodrome">
             <Bounce top>
-              <h5 className="regionHippodrome">Ile de France & Haute-Normandie</h5>
+              <h5 className="regionHippodrome">Ile de France & Haute-Normandie (21/22)</h5>
             </Bounce>
           </div>
 
@@ -116,28 +116,6 @@ class Ile_de_France_Haute_Normandie extends Component {
           <Fade right>
             <div className="hippodrome">
               <img
-                src={require("../../img/hippodromes/chantilly.jpg")}
-                alt="chantilly"
-                className="imgHorizontale"
-              />
-              <div className="infosHippodromes">
-                <h3 className="nomHippodrome">Chantilly</h3>
-                <h6 className="pInfosHippodrome">
-                  <div className="divHippodrome">Piste en herbe et PSF</div>
-                  <div className="divHippodrome">Corde à droite</div>
-                  <div className="divHippodrome">2 000 m</div>
-                  <div className="divHippodrome">Hauts-de-France</div>
-                  <div className="divHippodrome">Oise</div>
-                  <div className="divHippodrome">Chantilly</div>
-                  <div className="divHippodrome">Hippodrome de Chantilly</div>
-                </h6>
-              </div>
-            </div>
-          </Fade>
-
-          <Fade right>
-            <div className="hippodrome">
-              <img
                 src={require("../../img/hippodromes/chartres.jpg")}
                 alt="chartres"
                 className="imgHorizontale"
@@ -152,28 +130,6 @@ class Ile_de_France_Haute_Normandie extends Component {
                   <div className="divHippodrome">Eure-et-Loire</div>
                   <div className="divHippodrome">Chartres</div>
                   <div className="divHippodrome">Hippodrome de Chartres</div>
-                </h6>
-              </div>
-            </div>
-          </Fade>
-
-          <Fade right>
-            <div className="hippodrome">
-              <img
-                src={require("../../img/hippodromes/compiegne.jpg")}
-                alt="compiegne"
-                className="imgHorizontale"
-              />
-              <div className="infosHippodromes">
-                <h3 className="nomHippodrome">Compiègne</h3>
-                <h6 className="pInfosHippodrome">
-                  <div className="divHippodrome">Piste en herbe</div>
-                  <div className="divHippodrome">Corde à gauche</div>
-                  <div className="divHippodrome">2 200 m</div>
-                  <div className="divHippodrome">Hauts-de-France</div>
-                  <div className="divHippodrome">Oise</div>
-                  <div className="divHippodrome">Compiègne</div>
-                  <div className="divHippodrome">Hippodrome du Putois</div>
                 </h6>
               </div>
             </div>

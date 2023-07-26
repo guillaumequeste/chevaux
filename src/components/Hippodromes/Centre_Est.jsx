@@ -21,7 +21,7 @@ class Centre_Est extends Component {
           
           <div className="titreAccueilHippodrome">
             <Bounce top>
-              <h5 className="regionHippodrome">Centre-Est</h5>
+              <h5 className="regionHippodrome">Centre-Est (0/17)</h5>
             </Bounce>
           </div>
 
@@ -40,7 +40,8 @@ class Centre_Est extends Component {
           <div className="nomListe">Moulins</div>
           <div className="nomListe">Paray-le-Monial</div>
           <div className="nomListe">Saint-Galmier</div>
-          <div className="nomListe">Vichy</div>
+          <div className="nomListe">Vichy-Auvergne</div>
+          <div className="nomListe">Vitteaux</div>
           
         </div>
       </div>

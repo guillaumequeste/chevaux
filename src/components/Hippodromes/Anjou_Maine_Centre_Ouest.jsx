@@ -21,7 +21,7 @@ class Anjou_Maine_Centre_Ouest extends Component {
           
           <div className="titreAccueilHippodrome">
             <Bounce top>
-              <h5 className="regionHippodrome">Anjou-Maine-Centre-Ouest</h5>
+              <h5 className="regionHippodrome">Anjou-Maine (7/33)</h5>
             </Bounce>
           </div>
 
@@ -33,7 +33,7 @@ class Anjou_Maine_Centre_Ouest extends Component {
                 className="imgHorizontale"
               />
               <div className="infosHippodromes">
-                <h3 className="nomHippodrome">Angers</h3>
+                <h3 className="nomHippodrome">Angers-Ecouflant</h3>
                 <h6 className="pInfosHippodrome">
                   <div className="divHippodrome">Piste en herbe et sable</div>
                   <div className="divHippodrome">Corde à gauche</div>

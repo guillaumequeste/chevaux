@@ -20,7 +20,7 @@ class ListeHippodromes extends Component {
           
           <div className="titreAccueilHippodrome">
             <Bounce top>
-              <h5 className="regionHippodrome">Liste des hippodromes</h5>
+              <h5 className="regionHippodrome">Liste des hippodromes (66/239)</h5>
             </Bounce>
           </div>
 
@@ -54,6 +54,7 @@ class ListeHippodromes extends Component {
             <div className="nomListe">Gournay en Bray</div>
             <div className="nomListe">Graignes</div>
             <div className="nomListe">Granville</div>
+            <div className="nomListe">Kuurne</div>
             <div className="nomListe">La Capelle</div>
             <div className="nomListe">La Ferté-Vidame</div>
             <div className="nomListe">Laon</div>
@@ -75,6 +76,7 @@ class ListeHippodromes extends Component {
             <div className="nomListe">Nancy</div>
             <div className="nomListe">Nantes</div>
             <div className="nomListe">Nort-sur-Erdre</div>
+            <div className="nomListe">Ostende</div>
             <div className="nomListe">Rambouillet</div>
             <div className="nomListe">Rânes</div>
             <div className="nomListe">Reims</div>
@@ -85,9 +87,11 @@ class ListeHippodromes extends Component {
             <div className="nomListe">Saint-Pierre-sur-Dives</div>
             <div className="nomListe">Segré</div>
             <div className="nomListe">Strasbourg</div>
+            <div className="nomListe">Tongres</div>
             <div className="nomListe">Villedieu-les-Poêles</div>
             <div className="nomListe">Vincennes</div>
             <div className="nomListe">Vire</div>
+            <div className="nomListe">Waregem</div>
     
           </div>
           

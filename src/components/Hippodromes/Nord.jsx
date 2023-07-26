@@ -21,7 +21,7 @@ class Nord extends Component {
           
           <div className="titreAccueilHippodrome">
             <Bounce top>
-              <h5 className="regionHippodrome">Nord</h5>
+              <h5 className="regionHippodrome">Nord (10/11)</h5>
             </Bounce>
           </div>
 
@@ -86,6 +86,50 @@ class Nord extends Component {
                   <div className="divHippodrome">Pas-de-Calais</div>
                   <div className="divHippodrome">Arras</div>
                   <div className="divHippodrome">Hippodrome des Hauts-Blancs-Monts</div>
+                </h6>
+              </div>
+            </div>
+          </Fade>
+
+          <Fade right>
+            <div className="hippodrome">
+              <img
+                src={require("../../img/hippodromes/chantilly.jpg")}
+                alt="chantilly"
+                className="imgHorizontale"
+              />
+              <div className="infosHippodromes">
+                <h3 className="nomHippodrome">Chantilly</h3>
+                <h6 className="pInfosHippodrome">
+                  <div className="divHippodrome">Piste en herbe et PSF</div>
+                  <div className="divHippodrome">Corde à droite</div>
+                  <div className="divHippodrome">2 000 m</div>
+                  <div className="divHippodrome">Hauts-de-France</div>
+                  <div className="divHippodrome">Oise</div>
+                  <div className="divHippodrome">Chantilly</div>
+                  <div className="divHippodrome">Hippodrome de Chantilly</div>
+                </h6>
+              </div>
+            </div>
+          </Fade>
+
+          <Fade right>
+            <div className="hippodrome">
+              <img
+                src={require("../../img/hippodromes/compiegne.jpg")}
+                alt="compiegne"
+                className="imgHorizontale"
+              />
+              <div className="infosHippodromes">
+                <h3 className="nomHippodrome">Compiègne</h3>
+                <h6 className="pInfosHippodrome">
+                  <div className="divHippodrome">Piste en herbe</div>
+                  <div className="divHippodrome">Corde à gauche</div>
+                  <div className="divHippodrome">2 200 m</div>
+                  <div className="divHippodrome">Hauts-de-France</div>
+                  <div className="divHippodrome">Oise</div>
+                  <div className="divHippodrome">Compiègne</div>
+                  <div className="divHippodrome">Hippodrome du Putois</div>
                 </h6>
               </div>
             </div>

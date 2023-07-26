@@ -21,7 +21,7 @@ class Corse extends Component {
           
           <div className="titreAccueilHippodrome">
             <Bounce top>
-              <h5 className="regionHippodrome">Corse</h5>
+              <h5 className="regionHippodrome">Corse (0/4)</h5>
             </Bounce>
           </div>
 

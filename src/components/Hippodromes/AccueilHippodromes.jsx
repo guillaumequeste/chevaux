@@ -22,7 +22,7 @@ class AccueilHippodromes extends Component {
 
             <div className="titreAccueilHippodrome">
                 <Bounce top>
-                <h5 className="regionHippodrome">63 hippodromes visités</h5>
+                <h5 className="regionHippodrome">66 hippodromes visités</h5>
                 </Bounce>
             </div>
             
@@ -45,12 +45,6 @@ class AccueilHippodromes extends Component {
             </Fade>
 
             <Fade right>
-                <NavLink to="/basse_normandie" className="rubrique border-black">
-                    <h6 className="titreRubrique">Basse-Normandie</h6>
-                </NavLink>
-            </Fade>
-
-            <Fade right>
                 <NavLink to="/ile_de_france_haute_normandie" className="rubrique border-black">
                     <h6 className="titreRubrique">Ile-de-France & Haute-Normandie</h6>
                 </NavLink>
@@ -63,6 +57,12 @@ class AccueilHippodromes extends Component {
             </Fade>
 
             <Fade right>
+                <NavLink to="/basse_normandie" className="rubrique border-black">
+                    <h6 className="titreRubrique">Basse-Normandie</h6>
+                </NavLink>
+            </Fade>
+
+            <Fade right>
                 <NavLink to="/ouest" className="rubrique border-black">
                     <h6 className="titreRubrique">Ouest</h6>
                 </NavLink>
@@ -70,7 +70,7 @@ class AccueilHippodromes extends Component {
 
             <Fade right>
                 <NavLink to="/anjou_maine_centre_ouest" className="rubrique border-black">
-                    <h6 className="titreRubrique">Anjou-Maine-Centre-Ouest</h6>
+                    <h6 className="titreRubrique">Anjou-Maine</h6>
                 </NavLink>
             </Fade>
 

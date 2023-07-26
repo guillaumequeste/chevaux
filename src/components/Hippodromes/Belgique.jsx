@@ -21,7 +21,7 @@ class Belgique extends Component {
           
           <div className="titreAccueilHippodrome">
             <Bounce top>
-              <h5 className="regionHippodrome">Belgique</h5>
+              <h5 className="regionHippodrome">Belgique (1/5)</h5>
             </Bounce>
           </div>
 
@@ -47,7 +47,9 @@ class Belgique extends Component {
             </div>
           </Fade>
 
+          <div className="nomListe">Kuurne</div>
           <div className="nomListe">Ostende</div>
+          <div className="nomListe">Tongres</div>
           <div className="nomListe">Waregem</div>
           
         </div>
