@@ -106,6 +106,9 @@ import LadyEntrainement from './components/Lady/LadyEntrainement'
 import LadyCourses from './components/Lady/LadyCourses'
 import LadyFiche from './components/Lady/LadyFiche'
 
+import AccueilKaleotic from './components/Kaleotic/AccueilKaleotic'
+import KaleoticFiche from './components/Kaleotic/KaleoticFiche'
+
 import Bilan from './components/Bilan'
 import Credits from './components/Credits'
 import Contact from './components/Contact'
@@ -214,6 +217,9 @@ const Root = () => (
             <Route path='/lady_entrainement' component={LadyEntrainement}/> 
             <Route path='/lady_courses' component={LadyCourses}/> 
             <Route path='/lady_fiche' component={LadyFiche}/> 
+
+            <Route path='/kaleotic' component={AccueilKaleotic}/>
+            <Route path='/kaleotic_fiche' component={KaleoticFiche}/> 
 
             <Route path='/bilan' component={Bilan}/>
             <Route path='/credits' component={Credits}/>
