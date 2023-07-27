@@ -101,7 +101,7 @@
 
 
 
-/* Lady écurie ------------------------------------------------------------------ */
+/* Kaleotic écurie ------------------------------------------------------------------ */
 
 .accueilPremierPartantGalop2 {
     min-height: 93vh;
@@ -123,6 +123,13 @@
 .titreKaleotic {
     text-align: center;
     font-family: 'Dancing Script', cursive;
+    padding: 5% 0 5% 0;
+}
+
+.titreKaleoticEntrainement {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
     padding: 5% 0 5% 0;
 }
 

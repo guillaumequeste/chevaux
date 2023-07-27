@@ -107,7 +107,10 @@ import LadyCourses from './components/Lady/LadyCourses'
 import LadyFiche from './components/Lady/LadyFiche'
 
 import AccueilKaleotic from './components/Kaleotic/AccueilKaleotic'
+import KaleoticEcurie from './components/Kaleotic/KaleoticEcurie'
+import KaleoticEntrainement from './components/Kaleotic/KaleoticEntrainement'
 import KaleoticFiche from './components/Kaleotic/KaleoticFiche'
+
 
 import Bilan from './components/Bilan'
 import Credits from './components/Credits'
@@ -219,6 +222,8 @@ const Root = () => (
             <Route path='/lady_fiche' component={LadyFiche}/> 
 
             <Route path='/kaleotic' component={AccueilKaleotic}/>
+            <Route path='/kaleotic_ecurie' component={KaleoticEcurie}/> 
+            <Route path='/kaleotic_entrainement' component={KaleoticEntrainement}/> 
             <Route path='/kaleotic_fiche' component={KaleoticFiche}/> 
 
             <Route path='/bilan' component={Bilan}/>

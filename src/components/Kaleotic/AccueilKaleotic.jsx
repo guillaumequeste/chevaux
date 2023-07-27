@@ -27,26 +27,20 @@ class AccueilKaleotic extends Component {
 
                     <div className="menu">
                         <div className="divMenu">
-                            <Link to="/lady_ecurie" className="linkImg">
-                                <img
-                                    src={require("../../img/lady/ecurie_lady.jpg")}
-                                    alt="ecurie_lady"
-                                    className="img_ecurie_lady"
-                                 />
+                            <Link to="/kaleotic_ecurie" className="linkImg">
+                                <p>Kaléotic écurie</p>
+                                   
                             </Link> 
                         </div>
 
                         <div className="divMenu">
-                            <Link to="/lady_entrainement" className="linkImg">
-                                <img
-                                    src={require("../../img/lady/entrainement_lady.jpg")}
-                                    alt="entrainement_lady"
-                                    className="img_entrainement_lady"
-                                 />
+                            <Link to="/kaleotic_entrainement" className="linkImg">
+                                <p>Kaléotic entraînement</p>
+                                    
                             </Link> 
                         </div>
 
-                        <div className="divMenu">
+                        {/*<div className="divMenu">
                             <Link to="/lady_courses" className="linkImg">
                                 <img
                                     src={require("../../img/lady/courses_lady.jpg")}
@@ -54,7 +48,7 @@ class AccueilKaleotic extends Component {
                                     className="img_courses_lady"
                                  />
                             </Link> 
-                        </div>
+        </div>*/}
 
                         <div className="divMenu">
                             <Link to="/kaleotic_fiche" className="linkImg">
