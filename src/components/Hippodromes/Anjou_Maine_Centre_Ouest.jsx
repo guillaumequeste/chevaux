@@ -19,7 +19,7 @@ class Anjou_Maine_Centre_Ouest extends Component {
           
           <div className="titreAccueilHippodrome">
             <Bounce top>
-              <h5 className="regionHippodrome">Anjou-Maine (7/33)</h5>
+              <h5 className="regionHippodrome">Anjou-Maine (9/33)</h5>
             </Bounce>
           </div>
 
@@ -40,6 +40,28 @@ class Anjou_Maine_Centre_Ouest extends Component {
                   <div className="divHippodrome">Maine-et-Loire</div>
                   <div className="divHippodrome">Angers</div>
                   <div className="divHippodrome">Hippodrome d'Eventard</div>
+                </h6>
+              </div>
+            </div>
+          </Fade>
+
+          <Fade right>
+            <div className="hippodrome">
+              <img
+                src={require("../../img/hippodromes/chateau-du-loir.jpg")}
+                alt="chateau-du-loir"
+                className="imgHorizontale"
+              />
+              <div className="infosHippodromes">
+                <h3 className="nomHippodrome">Château-du-Loir</h3>
+                <h6 className="pInfosHippodrome">
+                  <div className="divHippodrome">Piste en herbe</div>
+                  <div className="divHippodrome">Corde à gauche</div>
+                  <div className="divHippodrome">1 175 m</div>
+                  <div className="divHippodrome">Pays de la Loire</div>
+                  <div className="divHippodrome">Sarthe</div>
+                  <div className="divHippodrome">Château-du-Loir</div>
+                  <div className="divHippodrome">Hippodrome de Bonlieu</div>
                 </h6>
               </div>
             </div>
@@ -136,6 +158,28 @@ class Anjou_Maine_Centre_Ouest extends Component {
           <Fade right>
             <div className="hippodrome">
               <img
+                src={require("../../img/hippodromes/le_mans.jpg")}
+                alt="le_mans"
+                className="imgHorizontale"
+              />
+              <div className="infosHippodromes">
+                <h3 className="nomHippodrome">Le Mans</h3>
+                <h6 className="pInfosHippodrome">
+                  <div className="divHippodrome">Piste en herbe et sable</div>
+                  <div className="divHippodrome">Corde à gauche</div>
+                  <div className="divHippodrome">1 350 m</div>
+                  <div className="divHippodrome">Pays de la Loire</div>
+                  <div className="divHippodrome">Sarthe</div>
+                  <div className="divHippodrome">Le Mans</div>
+                  <div className="divHippodrome">Hippodrome des Hunaudières</div>
+                </h6>
+              </div>
+            </div>
+          </Fade>
+
+          <Fade right>
+            <div className="hippodrome">
+              <img
                 src={require("../../img/hippodromes/meslay.jpg")}
                 alt="meslay"
                 className="imgHorizontale"
@@ -178,14 +222,12 @@ class Anjou_Maine_Centre_Ouest extends Component {
           </Fade>
 
           <div className="nomListe">Beaupréau</div>
-          <div className="nomListe">Château-du-Loir</div>
           <div className="nomListe">Chinon</div>
           <div className="nomListe">Durtal</div>
           <div className="nomListe">Ecommoy</div>
           <div className="nomListe">Jallais</div>
           <div className="nomListe">La Chartre-sur-le-Loir</div>
           <div className="nomListe">La Roche-Posay</div>
-          <div className="nomListe">Le Mans</div>
           <div className="nomListe">Mamers</div>
           <div className="nomListe">Méral</div>
           <div className="nomListe">Molières</div>
