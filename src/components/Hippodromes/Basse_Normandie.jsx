@@ -19,7 +19,7 @@ class Basse_Normandie extends Component {
           
           <div className="titreAccueilHippodrome">
             <Bounce top>
-              <h5 className="regionHippodrome">Basse-Normandie (16/31)</h5>
+              <h5 className="regionHippodrome">Basse-Normandie (17/31)</h5>
             </Bounce>
           </div>
 
@@ -40,6 +40,28 @@ class Basse_Normandie extends Component {
                   <div className="divHippodrome">Orne</div>
                   <div className="divHippodrome">Argentan</div>
                   <div className="divHippodrome">Hippodrome d'Argentan</div>
+                </h6>
+              </div>
+            </div>
+          </Fade>
+
+          <Fade right>
+            <div className="hippodrome">
+              <img
+                src={require("../../img/hippodromes/avranches.jpg")}
+                alt="avranches"
+                className="imgHorizontale"
+              />
+              <div className="infosHippodromes">
+                <h3 className="nomHippodrome">Avranches</h3>
+                <h6 className="pInfosHippodrome">
+                  <div className="divHippodrome">Piste en herbe</div>
+                  <div className="divHippodrome">Corde à gauche</div>
+                  <div className="divHippodrome">1 200 m</div>
+                  <div className="divHippodrome">Basse-Normandie</div>
+                  <div className="divHippodrome">Manche</div>
+                  <div className="divHippodrome">Avranches</div>
+                  <div className="divHippodrome">Hippodrome des Grèves</div>
                 </h6>
               </div>
             </div>
@@ -377,7 +399,6 @@ class Basse_Normandie extends Component {
 
           <div className="nomListe">Agon-Coutainville</div>
           <div className="nomListe">Alençon</div>
-          <div className="nomListe">Avranches</div>
           <div className="nomListe">Bourigny</div>
           <div className="nomListe">Bréhal</div>
           <div className="nomListe">Carentan-les-Marais</div>
