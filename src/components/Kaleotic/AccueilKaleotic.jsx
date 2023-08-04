@@ -28,15 +28,21 @@ class AccueilKaleotic extends Component {
                     <div className="menu">
                         <div className="divMenu">
                             <Link to="/kaleotic_ecurie" className="linkImg">
-                                <p>Kaléotic écurie</p>
-                                   
+                            <img
+                                    src={require("../../img/kaleotic/ecurie_kaleotic.jpg")}
+                                    alt="ecurie_kaleotic"
+                                    className="img_ecurie_kaleotic"
+                                 />
                             </Link> 
                         </div>
 
                         <div className="divMenu">
                             <Link to="/kaleotic_entrainement" className="linkImg">
-                                <p>Kaléotic entraînement</p>
-                                    
+                            <img
+                                    src={require("../../img/kaleotic/entrainement_kaleotic.jpg")}
+                                    alt="entrainement_kaleotic"
+                                    className="img_entrainement_kaleotic"
+                                 />
                             </Link> 
                         </div>
 

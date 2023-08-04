@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 :root {
-    --backgroundLady-color: rgb(71, 70, 68);
+    --backgroundLady-color: rgb(29, 27, 22);
 }
 
 
@@ -62,18 +62,18 @@
 
 @media screen and (min-width: 1025px) {
     .img_ecurie_kaleotic {
-        width: 55%;
+        width: 45%;
     }
 }
 
 .img_entrainement_kaleotic {
-    width: 80%;
+    width: 75%;
     border-radius: 5px;
 }
 
 @media screen and (min-width: 1025px) {
     .img_entrainement_kaleotic {
-        width: 55%;
+        width: 45%;
     }
 }
 
