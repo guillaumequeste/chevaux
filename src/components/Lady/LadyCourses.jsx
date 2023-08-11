@@ -100,6 +100,11 @@ class LadyCourses extends Component {
                     <div className="photosPage">
                         <Fade right>
                             <div className="divPhotoPage">
+                                <img src={require("../../img/lady/courses/c15.jpg")} alt="c15" className="photoPageHorizontale"/>
+                            </div>
+                        </Fade>
+                        <Fade right>
+                            <div className="divPhotoPage">
                                 <img src={require("../../img/lady/courses/c16.jpg")} alt="c16" className="photoPageHorizontale"/>
                             </div>
                         </Fade>
@@ -108,13 +113,13 @@ class LadyCourses extends Component {
                                 <img src={require("../../img/lady/courses/c19.jpg")} alt="c19" className="photoPageHorizontale"/>
                             </div>
                         </Fade>
+                    </div>
+                    <div className="photosPage">
                         <Fade right>
                             <div className="divPhotoPage">
                                 <img src={require("../../img/lady/courses/c20.jpg")} alt="c20" className="photoPageVerticale"/>
                             </div>
                         </Fade>
-                    </div>
-                    <div className="photosPage">
                         <Fade right>
                             <div className="divPhotoPage">
                                 <img src={require("../../img/lady/courses/c21.jpg")} alt="c21" className="photoPageHorizontale"/>
@@ -125,13 +130,13 @@ class LadyCourses extends Component {
                                 <img src={require("../../img/lady/courses/c22.jpg")} alt="c22" className="photoPageHorizontale"/>
                             </div>
                         </Fade>
+                    </div>
+                    <div className="photosPage">
                         <Fade right>
                             <div className="divPhotoPage">
                                 <img src={require("../../img/lady/courses/c23.jpg")} alt="c23" className="photoPageHorizontale"/>
                             </div>
                         </Fade>
-                    </div>
-                    <div className="photosPage">
                         <Fade right>
                             <div className="divPhotoPage">
                                 <img src={require("../../img/lady/courses/c25.jpg")} alt="c25" className="photoPageHorizontale"/>
@@ -142,13 +147,13 @@ class LadyCourses extends Component {
                                 <img src={require("../../img/lady/courses/c26.jpg")} alt="c26" className="photoPageHorizontale"/>
                             </div>
                         </Fade>
+                    </div>
+                    <div className="photosPage">
                         <Fade right>
                             <div className="divPhotoPage">
                                 <img src={require("../../img/lady/courses/c27.jpg")} alt="c27" className="photoPageHorizontale"/>
                             </div>
                         </Fade>
-                    </div>
-                    <div className="photosPage">
                         <Fade right>
                             <div className="divPhotoPage">
                                 <img src={require("../../img/lady/courses/c29.jpg")} alt="c29" className="photoPageVerticale"/>
@@ -159,13 +164,13 @@ class LadyCourses extends Component {
                                 <img src={require("../../img/lady/courses/c31.jpg")} alt="c31" className="photoPageHorizontale"/>
                             </div>
                         </Fade>
+                    </div>
+                    <div className="photosPage">
                         <Fade right>
                             <div className="divPhotoPage">
                                 <img src={require("../../img/lady/courses/c32.jpg")} alt="c32" className="photoPageHorizontale"/>
                             </div>
                         </Fade>
-                    </div>
-                    <div className="photosPage">
                         <Fade right>
                             <div className="divPhotoPage">
                                 <img src={require("../../img/lady/courses/c33.jpg")} alt="c33" className="photoPageVerticale"/>

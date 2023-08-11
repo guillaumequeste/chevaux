@@ -11,9 +11,9 @@ class AccueilKaleotic extends Component {
                     title={"Accueil Lady Wrung Chevaux"}
                     link={"http://chevaux.guillaumequeste.fr/kaleotic"}
                 />
-                <div className="accueilLady">
+                <div className="accueilKaleotic">
 
-                    <div className='titreAccueilLady'>
+                    <div className='titreAccueilKaleotic'>
                         <h1>Kaleotic</h1>
                     </div>
 
@@ -21,7 +21,7 @@ class AccueilKaleotic extends Component {
                         <img
                             src={require("../../img/horse.png")}
                             alt="horse"
-                            className="horseLady"
+                            className="horseKaleotic"
                         />
                     </Link>
 
