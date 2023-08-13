@@ -19,7 +19,7 @@ class Anjou_Maine_Centre_Ouest extends Component {
           
           <div className="titreAccueilHippodrome">
             <Bounce top>
-              <h5 className="regionHippodrome">Anjou-Maine (9/33)</h5>
+              <h5 className="regionHippodrome">Anjou-Maine (10/33)</h5>
             </Bounce>
           </div>
 
@@ -221,6 +221,28 @@ class Anjou_Maine_Centre_Ouest extends Component {
             </div>
           </Fade>
 
+          <Fade right>
+            <div className="hippodrome">
+              <img
+                src={require("../../img/hippodromes/sille-le-guillaume.jpg")}
+                alt="sille-le-guillaume"
+                className="imgHorizontale"
+              />
+              <div className="infosHippodromes">
+                <h3 className="nomHippodrome">Sillé-le-Guillaume</h3>
+                <h6 className="pInfosHippodrome">
+                  <div className="divHippodrome">Piste en herbe</div>
+                  <div className="divHippodrome">Corde à droite</div>
+                  <div className="divHippodrome">1 300 m</div>
+                  <div className="divHippodrome">Pays de la Loire</div>
+                  <div className="divHippodrome">Sarthe</div>
+                  <div className="divHippodrome">Sillé-le-Guillaume</div>
+                  <div className="divHippodrome">Hippodrome de la Forêt</div>
+                </h6>
+              </div>
+            </div>
+          </Fade>
+
           <div className="nomListe">Beaupréau</div>
           <div className="nomListe">Chinon</div>
           <div className="nomListe">Durtal</div>
@@ -242,7 +264,6 @@ class Anjou_Maine_Centre_Ouest extends Component {
           <div className="nomListe">Saumur</div>
           <div className="nomListe">Savigny-sur-Braye</div>
           <div className="nomListe">Senonnes-Pouancé</div>
-          <div className="nomListe">Sillé-le-Guillaume</div>
           <div className="nomListe">Tours Chambray</div>
           <div className="nomListe">Vibraye</div>
           
