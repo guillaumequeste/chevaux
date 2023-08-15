@@ -19,7 +19,7 @@ class Nord extends Component {
           
           <div className="titreAccueilHippodrome">
             <Bounce top>
-              <h5 className="regionHippodrome">Nord (10/11)</h5>
+              <h5 className="regionHippodrome">Nord (11/11)</h5>
             </Bounce>
           </div>
 
@@ -84,6 +84,28 @@ class Nord extends Component {
                   <div className="divHippodrome">Pas-de-Calais</div>
                   <div className="divHippodrome">Arras</div>
                   <div className="divHippodrome">Hippodrome des Hauts-Blancs-Monts</div>
+                </h6>
+              </div>
+            </div>
+          </Fade>
+
+          <Fade right>
+            <div className="hippodrome">
+              <img
+                src={require("../../img/hippodromes/berck.jpg")}
+                alt="berck"
+                className="imgHorizontale"
+              />
+              <div className="infosHippodromes">
+                <h3 className="nomHippodrome">Berck-sur-Mer</h3>
+                <h6 className="pInfosHippodrome">
+                  <div className="divHippodrome">Piste en herbe</div>
+                  <div className="divHippodrome">Corde à droite</div>
+                  <div className="divHippodrome">1 200 m</div>
+                  <div className="divHippodrome">Hauts de France</div>
+                  <div className="divHippodrome">Pas-de-Calais</div>
+                  <div className="divHippodrome">Berck-sur-Mer</div>
+                  <div className="divHippodrome">Hippodrome de la Molière</div>
                 </h6>
               </div>
             </div>
@@ -242,8 +264,6 @@ class Nord extends Component {
               </div>
             </div>
           </Fade>
-
-          <div className="nomListe">Berck-sur-Mer</div>
           
         </div>
       </div>
