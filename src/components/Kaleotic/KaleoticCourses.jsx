@@ -28,7 +28,7 @@ class KaleoticCourses extends Component {
                         />
                     </Link>
 
-                    <Link to="/lady_wrung" className="retour">
+                    <Link to="/kaleotic" className="retour">
                         <span className="retour">Retour</span>
                     </Link>
 
