@@ -39,14 +39,35 @@ class Sud_Est extends Component {
                   <div className="divHippodrome">Provence-Alpes-Côte d'Azur</div>
                   <div className="divHippodrome">Vaucluse</div>
                   <div className="divHippodrome">Le Pontet</div>
-                  <div className="divHippodrome">HippodromeRoberty</div>
+                  <div className="divHippodrome">Hippodrome Roberty</div>
+                </h6>
+              </div>
+            </div>
+          </Fade>
+
+          <Fade right>
+            <div className="hippodrome">
+              <img
+                src={require("../../img/hippodromes/cagnes.jpg")}
+                alt="cagnes"
+                className="imgHorizontale"
+              />
+              <div className="infosHippodromes">
+                <h3 className="nomHippodrome">Cagnes-sur-Mer</h3>
+                <h6 className="pInfosHippodrome">
+                  <div className="divHippodrome">Piste en herbe et PSF</div>
+                  <div className="divHippodrome">Corde à gauche</div>
+                  <div className="divHippodrome">2 000 m</div>
+                  <div className="divHippodrome">Provence-Alpes-Côte d'Azur</div>
+                  <div className="divHippodrome">Alpes-Maritimes</div>
+                  <div className="divHippodrome">Cagnes-sur-Mer</div>
+                  <div className="divHippodrome">Hippodrome de la Côte d'Azur</div>
                 </h6>
               </div>
             </div>
           </Fade>
 
           <div className="nomListe">Bollène</div>
-          <div className="nomListe">Cagnes-sur-Mer</div>
           <div className="nomListe">Carpentras</div>
           <div className="nomListe">Cavaillon</div>
           <div className="nomListe">Hyères</div>

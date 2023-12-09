@@ -124,6 +124,7 @@
     text-align: center;
     font-family: 'Dancing Script', cursive;
     padding: 5% 0 5% 0;
+    font-size: 2.2rem;
 }
 
 .titreKaleoticEntrainement {
@@ -201,3 +202,34 @@
     }
 }
 
+/* Kaleotic courses ------------------------------------------------------------------ */
+
+.accueilKaleoticCourses {
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--backgroundKaleotic-color);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10vh;
+    text-align: -webkit-center;
+}
+
+.titreKaleoticCourses {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    padding: 5% 0 0 0;
+}
+
+.titreKaleoticCourses2 {
+    text-align: center;
+    font-family: 'Hind Siliguri', cursive;
+    margin: 0;
+}
+
+
+.titreKaleoticCourses3 {
+    text-align: center;
+    font-family: 'Hind Siliguri', cursive;
+    padding: 0% 0 5% 0;
+}

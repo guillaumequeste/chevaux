@@ -14,7 +14,7 @@ class KaleoticEcurie extends Component {
         
                 <div className="accueilPremierPartantGalop2">
                     <Bounce top>
-                        <h1 className="titreLady">Kaleotic à l'écurie</h1>
+                        <h1 className="titreKaleotic">Kaleotic à l'écurie</h1>
                     </Bounce>
 
                     <Link to="/" className="accueilApp">

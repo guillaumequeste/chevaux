@@ -105,11 +105,15 @@ import LadyEcurie from './components/Lady/LadyEcurie'
 import LadyEntrainement from './components/Lady/LadyEntrainement'
 import LadyCourses from './components/Lady/LadyCourses'
 import LadyFiche from './components/Lady/LadyFiche'
+import C09102022 from './components/Lady/C09102022'
+import C17112022 from './components/Lady/C17112022'
 
 import AccueilKaleotic from './components/Kaleotic/AccueilKaleotic'
 import KaleoticEcurie from './components/Kaleotic/KaleoticEcurie'
 import KaleoticEntrainement from './components/Kaleotic/KaleoticEntrainement'
+import KaleoticCourses from './components/Kaleotic/KaleoticCourses'
 import KaleoticFiche from './components/Kaleotic/KaleoticFiche'
+import C04122023 from './components/Kaleotic/C04122023'
 
 
 import Bilan from './components/Bilan'
@@ -220,11 +224,15 @@ const Root = () => (
             <Route path='/lady_entrainement' component={LadyEntrainement}/> 
             <Route path='/lady_courses' component={LadyCourses}/> 
             <Route path='/lady_fiche' component={LadyFiche}/> 
+            <Route path='/lady_09102022' component={C09102022}/>
+            <Route path='/lady_17112022' component={C17112022}/>
 
             <Route path='/kaleotic' component={AccueilKaleotic}/>
             <Route path='/kaleotic_ecurie' component={KaleoticEcurie}/> 
             <Route path='/kaleotic_entrainement' component={KaleoticEntrainement}/> 
+            <Route path='/kaleotic_courses' component={KaleoticCourses}/>
             <Route path='/kaleotic_fiche' component={KaleoticFiche}/> 
+            <Route path='/kaleotic_04122023' component={C04122023}/>
 
             <Route path='/bilan' component={Bilan}/>
             <Route path='/credits' component={Credits}/>

@@ -18,7 +18,7 @@ class ListeHippodromes extends Component {
           
           <div className="titreAccueilHippodrome">
             <Bounce top>
-              <h5 className="regionHippodrome">Liste des hippodromes visités (71/239)</h5>
+              <h5 className="regionHippodrome">Liste des hippodromes visités (72/239)</h5>
             </Bounce>
           </div>
 
@@ -39,6 +39,7 @@ class ListeHippodromes extends Component {
             <div className="nomListe">Bihorel</div>
             <div className="nomListe">Cabourg</div>
             <div className="nomListe">Caen</div>
+            <div className="nomListe">Cagnes-sur-Mer</div>
             <div className="nomListe">Chantilly</div>
             <div className="nomListe">Chartres</div>
             <div className="nomListe">Château-du-Loir</div>
