@@ -78,13 +78,13 @@
 }
 
 .img_courses_kaleotic {
-    width: 80%;
+    width: 88%;
     border-radius: 5px;
 }
 
 @media screen and (min-width: 1025px) {
     .img_courses_kaleotic {
-        width: 65%;
+        width: 55%;
     }
 }
 
@@ -106,7 +106,7 @@
 .accueilPremierPartantGalop2 {
     min-height: 93vh;
     width: 100%;
-    background-color: var(--backgroundLady-color);
+    background-color: var(--backgroundKaleotic-color);
     color: white;
     padding-bottom: 10vh;
     font-family: 'Lato', sans-serif;

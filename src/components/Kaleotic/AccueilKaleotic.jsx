@@ -46,15 +46,15 @@ class AccueilKaleotic extends Component {
                             </Link> 
                         </div>
 
-                        {/*<div className="divMenu">
-                            <Link to="/lady_courses" className="linkImg">
+                        <div className="divMenu">
+                            <Link to="/kaleotic_courses" className="linkImg">
                                 <img
-                                    src={require("../../img/lady/courses_lady.jpg")}
-                                    alt="courses_lady"
-                                    className="img_courses_lady"
+                                    src={require("../../img/kaleotic/courses_kaleotic.jpg")}
+                                    alt="courses_kaleotic"
+                                    className="img_courses_kaleotic"
                                  />
                             </Link> 
-        </div>*/}
+                        </div>
 
                         <div className="divMenu">
                             <Link to="/kaleotic_fiche" className="linkImg">
