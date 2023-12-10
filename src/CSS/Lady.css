@@ -2,6 +2,7 @@
 
 :root {
     --backgroundLady-color: rgb(71, 70, 68);
+    --backgroundLady-color2: rgb(31, 30, 28);
 }
 
 
@@ -204,4 +205,46 @@
     .photoPageVerticaleFiche {
         width: 34vw;
     }
+}
+
+
+
+/* Lady courses ------------------------------------------------------------------ */
+
+.accueilLadyCourses {
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--backgroundLady-color);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10vh;
+    text-align: -webkit-center;
+}
+
+
+.rubriqueLady {
+    border-radius: 5px;
+    width: 70%;
+    height: 10vh;
+    margin-left: 5%;
+    display: flex;
+    margin-bottom: 2%;
+    color: white;
+    background-color: var(--backgroundLady-color2);
+    box-shadow: 10px 5px 5px rgb(109, 109, 109);
+}
+
+
+.rubriqueLady:hover {
+    color: black;
+    text-decoration: none;
+    background-color: rgb(214, 208, 208);
+}
+
+.titreRubriqueLady {
+    margin: auto;
+    text-align: center;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: bold;
 }

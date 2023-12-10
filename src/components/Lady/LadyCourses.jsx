@@ -13,7 +13,7 @@ class LadyCourses extends Component {
                 <Helmet title={"Lady Wrung courses"}
                         link={"http://chevaux.guillaumequeste.fr/lady_courses"} />
 
-                <div className="accueilKaleoticCourses">
+                <div className="accueilLadyCourses">
     
                     <Bounce top>
                         <h1 className="titreLady">Lady aux courses</h1>
@@ -32,14 +32,14 @@ class LadyCourses extends Component {
                     </Link>
 
                     <Fade right>
-                        <NavLink to="/lady_09102022" className="rubrique">
-                        <h6 className="titreRubrique">9 octobre 2022, Nort-sur-Erdre, 9ème</h6>
+                        <NavLink to="/lady_09102022" className="rubriqueLady">
+                        <h6 className="titreRubriqueLady">9 octobre 2022, Nort-sur-Erdre, 9ème</h6>
                         </NavLink>
                     </Fade>
 
                     <Fade right>
-                        <NavLink to="/lady_17112022" className="rubrique">
-                        <h6 className="titreRubrique">17 novembre 2022, Dieppe, 4ème</h6>
+                        <NavLink to="/lady_17112022" className="rubriqueLady">
+                        <h6 className="titreRubriqueLady">17 novembre 2022, Dieppe, 4ème</h6>
                         </NavLink>
                     </Fade>
                     
