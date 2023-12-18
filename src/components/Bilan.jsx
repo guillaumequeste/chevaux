@@ -30,7 +30,10 @@ class Bilan extends Component {
       places_jo: 4,
       courses_lady: 2,
       victoires_lady: 0,
-      places_lady: 1
+      places_lady: 1,
+      courses_kaleotic: 2,
+      victoires_kaleotic: 0,
+      places_kaleotic: 2
     };
   }
 
@@ -49,7 +52,8 @@ class Bilan extends Component {
       this.state.courses_xxl +
       this.state.courses_top +
       this.state.courses_jo +
-      this.state.courses_lady;
+      this.state.courses_lady +
+      this.state.courses_kaleotic;
     const total_victoires =
       this.state.victoires_2013 +
       this.state.victoires_2014 +
@@ -58,7 +62,8 @@ class Bilan extends Component {
       this.state.victoires_xxl +
       this.state.victoires_top +
       this.state.victoires_jo +
-      this.state.victoires_lady;
+      this.state.victoires_lady +
+      this.state.victoires_kaleotic;
     const total_places =
       this.state.places_2013 +
       this.state.places_2014 +
@@ -67,7 +72,8 @@ class Bilan extends Component {
       this.state.places_xxl +
       this.state.places_top +
       this.state.places_jo +
-      this.state.places_lady;
+      this.state.places_lady +
+      this.state.places_kaleotic;
     return (
       <div>
         <Helmet
@@ -267,7 +273,26 @@ class Bilan extends Component {
             </p>
           </div>
 
-          
+          <div className="result">
+            <p className="pReussite">
+              <span className="span_casaque_bilan">
+                <img src={require("../img/kaleotic/casaqueKaleotic.png")} alt="casaqueKaleotic" className="casaque_bilan"/>
+              </span>
+              <strong>Kaleotic</strong> : {this.state.courses_kaleotic} courses,{" "}
+              {this.state.victoires_kaleotic} victoire, {this.state.places_kaleotic}{" "}
+              places
+            </p>
+            <p className="reussite">
+              {reussite(
+                this.state.victoires_kaleotic,
+                this.state.places_kaleotic,
+                this.state.courses_kaleotic
+              )}
+              % de réussite (
+              {reussite_gagne(this.state.victoires_kaleotic, this.state.courses_kaleotic)}
+              % à la gagne)
+            </p>
+          </div>
 
         </div>
       </div>
