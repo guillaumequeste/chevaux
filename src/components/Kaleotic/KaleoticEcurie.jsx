@@ -173,12 +173,46 @@ class KaleoticEcurie extends Component {
                         </Fade>
                         <Fade right>
                             <div className="divPhotoPage">
-                                <img src={require("../../img/kaleotic/ecurie/kec26.jpg")} alt="kec26" className="photoPageVerticale"/>
+                                <img src={require("../../img/kaleotic/ecurie/kec26.jpg")} alt="kec26" className="photoPageHorizontale"/>
                             </div>
                         </Fade>
                         <Fade right>
                             <div className="divPhotoPage">
                                 <img src={require("../../img/kaleotic/ecurie/kec27.jpg")} alt="kec27" className="photoPageVerticale"/>
+                            </div>
+                        </Fade>
+                    </div>
+                    <div className="photosPage">
+                        <Fade right>
+                            <div className="divPhotoPage">
+                                <img src={require("../../img/kaleotic/ecurie/kec28.jpg")} alt="kec28" className="photoPageVerticale"/>
+                            </div>
+                        </Fade>
+                        <Fade right>
+                            <div className="divPhotoPage">
+                                <img src={require("../../img/kaleotic/ecurie/kec29.jpg")} alt="kec29" className="photoPageVerticale"/>
+                            </div>
+                        </Fade>
+                        <Fade right>
+                            <div className="divPhotoPage">
+                                <img src={require("../../img/kaleotic/ecurie/kec30.jpg")} alt="kec30" className="photoPageVerticale"/>
+                            </div>
+                        </Fade>
+                    </div>
+                    <div className="photosPage">
+                        <Fade right>
+                            <div className="divPhotoPage">
+                                <img src={require("../../img/kaleotic/ecurie/kec31.jpg")} alt="kec31" className="photoPageVerticale"/>
+                            </div>
+                        </Fade>
+                        <Fade right>
+                            <div className="divPhotoPage">
+                                <img src={require("../../img/kaleotic/ecurie/kec32.jpg")} alt="kec32" className="photoPageVerticale"/>
+                            </div>
+                        </Fade>
+                        <Fade right>
+                            <div className="divPhotoPage">
+                                <img src={require("../../img/kaleotic/ecurie/kec33.jpg")} alt="kec33" className="photoPageVerticale"/>
                             </div>
                         </Fade>
                     </div>

@@ -43,6 +43,13 @@ class KaleoticCourses extends Component {
               <h6 className="titreRubriqueKaleotic">18 décembre 2023, Cagnes-sur-Mer, 2ème</h6>
             </NavLink>
           </Fade>
+
+          <Fade right>
+            <NavLink to="/kaleotic_10032024" className="rubriqueKaleotic">
+              <h6 className="titreRubriqueKaleotic">10 mars 2024, Saint-Brieuc, 5ème</h6>
+            </NavLink>
+          </Fade>
+
         </div>
       </div>
     );

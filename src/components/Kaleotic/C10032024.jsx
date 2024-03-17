@@ -4,17 +4,24 @@ import Bounce from 'react-reveal/Bounce'
 import Fade from 'react-reveal/Fade'
 import { Link } from "react-router-dom";
 
-class KaleoticEntrainement extends Component {
+class C10032024 extends Component {
   
     render () {
         return (
             <div>
-                <Helmet title={"Kaleotic entraînement"}
-                        link={"http://chevaux.guillaumequeste.fr/kaleotic_entrainement"} />
+                <Helmet title={"Kaleotic 10 mars 2024"}
+                        link={"http://chevaux.guillaumequeste.fr/Kaleotic_10032024"} />
         
                 <div className="accueilPremierPartantGalop2">
                     <Bounce top>
-                        <h1 className="titreKaleoticEntrainement">Kaleotic sur les pistes</h1>
+                        <h3 className="titreKaleoticCourses">10 mars 2024</h3>
+                        <h5 className="titreKaleoticCourses2">Saint-Brieuc</h5>
+                        <h5 className="titreKaleoticCourses2">Prix de Clairefontaine</h5>
+                        <h5 className="titreKaleoticCourses2">A conditions</h5>
+                        <h5 className="titreKaleoticCourses2">Classe 3</h5>
+                        <h5 className="titreKaleoticCourses2">3 800m Steeple-chase</h5>
+                        <h5 className="titreKaleoticCourses2">6 partants</h5>
+                        <h5 className="titreKaleoticCourses3">5ème</h5>
                     </Bounce>
 
                     <Link to="/" className="accueilApp">
@@ -25,141 +32,124 @@ class KaleoticEntrainement extends Component {
                         />
                     </Link>
 
-                    <Link to="/kaleotic" className="retour">
+                    <Link to="/kaleotic_courses" className="retour">
                         <span className="retour">Retour</span>
                     </Link>
 
                     <div className="photosPage">
                         <Fade right>
                             <div className="divPhotoPage">
-                                <img src={require("../../img/kaleotic/entrainement/ken01.jpg")} alt="ken01" className="photoPageHorizontale"/>
+                                <img src={require("../../img/kaleotic/courses/10032024/10032024_01.jpg")} alt="10032024_01" className="photoPageVerticale"/>
                             </div>
                         </Fade>
                         <Fade right>
                             <div className="divPhotoPage">
-                                <img src={require("../../img/kaleotic/entrainement/ken02.jpg")} alt="ken02" className="photoPageHorizontale"/>
+                                <img src={require("../../img/kaleotic/courses/10032024/10032024_02.jpg")} alt="10032024_02" className="photoPageVerticale"/>
                             </div>
                         </Fade>
                         <Fade right>
                             <div className="divPhotoPage">
-                                <img src={require("../../img/kaleotic/entrainement/ken03.jpg")} alt="ken03" className="photoPageHorizontale"/>
+                                <img src={require("../../img/kaleotic/courses/10032024/10032024_03.jpg")} alt="10032024_03" className="photoPageHorizontale"/>
                             </div>
                         </Fade>
                     </div>
                     <div className="photosPage">
                         <Fade right>
                             <div className="divPhotoPage">
-                                <img src={require("../../img/kaleotic/entrainement/ken04.JPG")} alt="ken04" className="photoPageHorizontale"/>
+                                <img src={require("../../img/kaleotic/courses/10032024/10032024_04.jpg")} alt="10032024_04" className="photoPageHorizontale"/>
                             </div>
                         </Fade>
                         <Fade right>
                             <div className="divPhotoPage">
-                                <img src={require("../../img/kaleotic/entrainement/ken05.JPG")} alt="ken05" className="photoPageHorizontale"/>
+                                <img src={require("../../img/kaleotic/courses/10032024/10032024_05.jpg")} alt="10032024_05" className="photoPageHorizontale"/>
                             </div>
                         </Fade>
                         <Fade right>
                             <div className="divPhotoPage">
-                                <img src={require("../../img/kaleotic/entrainement/ken06.JPG")} alt="ken06" className="photoPageHorizontale"/>
+                                <img src={require("../../img/kaleotic/courses/10032024/10032024_06.jpg")} alt="10032024_06" className="photoPageHorizontale"/>
                             </div>
                         </Fade>
                     </div>
                     <div className="photosPage">
                         <Fade right>
                             <div className="divPhotoPage">
-                                <img src={require("../../img/kaleotic/entrainement/ken07.JPG")} alt="ken07" className="photoPageHorizontale"/>
+                                <img src={require("../../img/kaleotic/courses/10032024/10032024_07.jpg")} alt="10032024_07" className="photoPageHorizontale"/>
                             </div>
                         </Fade>
                         <Fade right>
                             <div className="divPhotoPage">
-                                <img src={require("../../img/kaleotic/entrainement/ken08.JPG")} alt="ken08" className="photoPageHorizontale"/>
+                                <img src={require("../../img/kaleotic/courses/10032024/10032024_08.jpg")} alt="10032024_08" className="photoPageHorizontale"/>
                             </div>
                         </Fade>
                         <Fade right>
                             <div className="divPhotoPage">
-                                <img src={require("../../img/kaleotic/entrainement/ken09.jpg")} alt="ken09" className="photoPageHorizontale"/>
+                                <img src={require("../../img/kaleotic/courses/10032024/10032024_09.jpg")} alt="10032024_09" className="photoPageHorizontale"/>
                             </div>
                         </Fade>
                     </div>
                     <div className="photosPage">
                         <Fade right>
                             <div className="divPhotoPage">
-                                <img src={require("../../img/kaleotic/entrainement/ken10.jpg")} alt="ken10" className="photoPageVerticale"/>
+                                <img src={require("../../img/kaleotic/courses/10032024/10032024_10.jpg")} alt="10032024_10" className="photoPageHorizontale"/>
                             </div>
                         </Fade>
                         <Fade right>
                             <div className="divPhotoPage">
-                                <img src={require("../../img/kaleotic/entrainement/ken11.jpg")} alt="ken11" className="photoPageVerticale"/>
+                                <img src={require("../../img/kaleotic/courses/10032024/10032024_11.jpg")} alt="10032024_11" className="photoPageHorizontale"/>
                             </div>
                         </Fade>
                         <Fade right>
                             <div className="divPhotoPage">
-                                <img src={require("../../img/kaleotic/entrainement/ken12.JPG")} alt="ken12" className="photoPageVerticale"/>
+                                <img src={require("../../img/kaleotic/courses/10032024/10032024_12.jpg")} alt="10032024_12" className="photoPageHorizontale"/>
                             </div>
                         </Fade>
                     </div>
                     <div className="photosPage">
                         <Fade right>
                             <div className="divPhotoPage">
-                                <img src={require("../../img/kaleotic/entrainement/ken13.JPG")} alt="ken13" className="photoPageVerticale"/>
+                                <img src={require("../../img/kaleotic/courses/10032024/10032024_13.jpg")} alt="10032024_13" className="photoPageHorizontale"/>
                             </div>
                         </Fade>
                         <Fade right>
                             <div className="divPhotoPage">
-                                <img src={require("../../img/kaleotic/entrainement/ken14.JPG")} alt="ken14" className="photoPageVerticale"/>
+                                <img src={require("../../img/kaleotic/courses/10032024/10032024_14.jpg")} alt="10032024_14" className="photoPageHorizontale"/>
                             </div>
                         </Fade>
                         <Fade right>
                             <div className="divPhotoPage">
-                                <img src={require("../../img/kaleotic/entrainement/ken15.JPG")} alt="ken15" className="photoPageVerticale"/>
+                                <img src={require("../../img/kaleotic/courses/10032024/10032024_15.jpg")} alt="10032024_15" className="photoPageHorizontale"/>
                             </div>
                         </Fade>
                     </div>
                     <div className="photosPage">
                         <Fade right>
                             <div className="divPhotoPage">
-                                <img src={require("../../img/kaleotic/entrainement/ken16.JPG")} alt="ken16" className="photoPageVerticale"/>
+                                <img src={require("../../img/kaleotic/courses/10032024/10032024_16.jpg")} alt="10032024_16" className="photoPageHorizontale"/>
                             </div>
                         </Fade>
                         <Fade right>
                             <div className="divPhotoPage">
-                                <img src={require("../../img/kaleotic/entrainement/ken17.JPG")} alt="ken17" className="photoPageVerticale"/>
+                                <img src={require("../../img/kaleotic/courses/10032024/10032024_17.jpg")} alt="10032024_17" className="photoPageVerticale"/>
                             </div>
                         </Fade>
                         <Fade right>
                             <div className="divPhotoPage">
-                                <img src={require("../../img/kaleotic/entrainement/ken18.JPG")} alt="ken18" className="photoPageVerticale"/>
+                                <img src={require("../../img/kaleotic/courses/10032024/10032024_18.jpg")} alt="10032024_18" className="photoPageHorizontale"/>
                             </div>
                         </Fade>
                     </div>
                     <div className="photosPage">
                         <Fade right>
                             <div className="divPhotoPage">
-                                <img src={require("../../img/kaleotic/entrainement/ken19.JPG")} alt="ken19" className="photoPageVerticale"/>
-                            </div>
-                        </Fade>
-                        <Fade right>
-                            <div className="divPhotoPage">
-                                <img src={require("../../img/kaleotic/entrainement/ken20.JPG")} alt="ken20" className="photoPageVerticale"/>
-                            </div>
-                        </Fade>
-                        <Fade right>
-                            <div className="divPhotoPage">
-                                <img src={require("../../img/kaleotic/entrainement/ken21.JPG")} alt="ken21" className="photoPageVerticale"/>
+                                <img src={require("../../img/kaleotic/courses/10032024/10032024_19.jpg")} alt="10032024_19" className="photoPageVerticale"/>
                             </div>
                         </Fade>
                     </div>
-                    <div className="photosPage">
-                        <Fade right>
-                            <div className="divPhotoPage">
-                                <img src={require("../../img/kaleotic/entrainement/ken22.jpg")} alt="ken22" className="photoPageVerticale"/>
-                            </div>
-                        </Fade>
-                    </div>
-                    
+                   
                 </div>
             </div>
         )
     }
 }
 
-export default KaleoticEntrainement
+export default C10032024

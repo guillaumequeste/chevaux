@@ -19,7 +19,7 @@ class Ouest extends Component {
           
           <div className="titreAccueilHippodrome">
             <Bounce top>
-              <h5 className="regionHippodrome">Ouest (7/48)</h5>
+              <h5 className="regionHippodrome">Ouest (8/48)</h5>
             </Bounce>
           </div>
 
@@ -136,6 +136,28 @@ class Ouest extends Component {
           <Fade right>
             <div className="hippodrome">
               <img
+                src={require("../../img/hippodromes/saint_brieuc.jpg")}
+                alt="saint_brieuc"
+                className="imgHorizontale"
+              />
+              <div className="infosHippodromes">
+                <h3 className="nomHippodrome">Saint-Brieuc</h3>
+                <h6 className="pInfosHippodrome">
+                  <div className="divHippodrome">Piste en herbe et sable</div>
+                  <div className="divHippodrome">Corde à droite</div>
+                  <div className="divHippodrome">1 450 m</div>
+                  <div className="divHippodrome">Bretagne</div>
+                  <div className="divHippodrome">Côtes d'Armor</div>
+                  <div className="divHippodrome">Yffiniac</div>
+                  <div className="divHippodrome">Hippodrome de la Baie</div>
+                </h6>
+              </div>
+            </div>
+          </Fade>
+
+          <Fade right>
+            <div className="hippodrome">
+              <img
                 src={require("../../img/hippodromes/saint-jean-de-monts.jpg")}
                 alt="saint-jean-de-monts"
                 className="imgHorizontale"
@@ -212,7 +234,6 @@ class Ouest extends Component {
           <div className="nomListe">Questembert</div>
           <div className="nomListe">Redon</div>
           <div className="nomListe">Rostrenen</div>
-          <div className="nomListe">Saint Brieuc</div>
           <div className="nomListe">Savenay</div>
           <div className="nomListe">Thouars</div>
           <div className="nomListe">Vannes</div>
