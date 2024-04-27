@@ -19,9 +19,31 @@ class Centre_Est extends Component {
           
           <div className="titreAccueilHippodrome">
             <Bounce top>
-              <h5 className="regionHippodrome">Centre-Est (0/17)</h5>
+              <h5 className="regionHippodrome">Centre-Est (1/17)</h5>
             </Bounce>
           </div>
+
+          <Fade right>
+            <div className="hippodrome">
+              <img
+                src={require("../../img/hippodromes/lyon_parilly.jpg")}
+                alt="lyon_parilly"
+                className="imgHorizontale"
+              />
+              <div className="infosHippodromes">
+                <h3 className="nomHippodrome">Lyon Parilly</h3>
+                <h6 className="pInfosHippodrome">
+                  <div className="divHippodrome">Piste en herbe</div>
+                  <div className="divHippodrome">Corde à gauche</div>
+                  <div className="divHippodrome">1 800 m</div>
+                  <div className="divHippodrome">Auvergne-Rhône-Alpes</div>
+                  <div className="divHippodrome">Rhône</div>
+                  <div className="divHippodrome">Lyon</div>
+                  <div className="divHippodrome">Hippodrome de Parilly</div>
+                </h6>
+              </div>
+            </div>
+          </Fade>
 
           <div className="nomListe">Aix-les-Bains</div>
           <div className="nomListe">Châteauroux</div>
@@ -33,7 +55,6 @@ class Centre_Est extends Component {
           <div className="nomListe">La Clayette</div>
           <div className="nomListe">Lignières-en-Berry</div>
           <div className="nomListe">Lyon la Soie</div>
-          <div className="nomListe">Lyon Parilly</div>
           <div className="nomListe">Montluçon - Néris les Bains</div>
           <div className="nomListe">Moulins</div>
           <div className="nomListe">Paray-le-Monial</div>

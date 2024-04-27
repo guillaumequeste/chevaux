@@ -31,9 +31,9 @@ class Bilan extends Component {
       courses_lady: 2,
       victoires_lady: 0,
       places_lady: 1,
-      courses_kaleotic: 3,
+      courses_kaleotic: 4,
       victoires_kaleotic: 0,
-      places_kaleotic: 3
+      places_kaleotic: 4
     };
   }
 

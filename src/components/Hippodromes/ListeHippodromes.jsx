@@ -72,6 +72,7 @@ class ListeHippodromes extends Component {
             <div className="nomListe">Les Sables d'Olonne</div>
             <div className="nomListe">Lisieux</div>
             <div className="nomListe">Longchamp</div>
+            <div className="nomListe">Lyon Parilly</div>
             <div className="nomListe">Maisons-Laffitte</div>
             <div className="nomListe">Mauquenchy</div>
             <div className="nomListe">Maure-de-Bretagne</div>
