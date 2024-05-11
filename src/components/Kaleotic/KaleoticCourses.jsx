@@ -56,6 +56,12 @@ class KaleoticCourses extends Component {
             </NavLink>
           </Fade>
 
+          <Fade right>
+            <NavLink to="/kaleotic_09052024" className="rubriqueKaleotic">
+              <h6 className="titreRubriqueKaleotic">9 mai 2024, Lyon Parilly, 6ème</h6>
+            </NavLink>
+          </Fade>
+
         </div>
       </div>
     );
