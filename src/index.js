@@ -118,6 +118,8 @@ import C18122023 from './components/Kaleotic/C18122023'
 import C10032024 from './components/Kaleotic/C10032024'
 import C20042024 from './components/Kaleotic/C20042024'
 import C09052024 from './components/Kaleotic/C09052024'
+import C01072024 from './components/Kaleotic/C01072024'
+import C25072024 from './components/Kaleotic/C25072024'
 
 import Bilan from './components/Bilan'
 import Credits from './components/Credits'
@@ -240,6 +242,8 @@ const Root = () => (
             <Route path='/kaleotic_10032024' component={C10032024}/>
             <Route path='/kaleotic_20042024' component={C20042024}/>
             <Route path='/kaleotic_09052024' component={C09052024}/>
+            <Route path='/kaleotic_01072024' component={C01072024}/>
+            <Route path='/kaleotic_25072024' component={C25072024}/>
 
             <Route path='/bilan' component={Bilan}/>
             <Route path='/credits' component={Credits}/>
