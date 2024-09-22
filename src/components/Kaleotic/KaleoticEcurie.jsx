@@ -233,6 +233,13 @@ class KaleoticEcurie extends Component {
                             </div>
                         </Fade>
                     </div>
+                    <div className="photosPage">
+                        <Fade right>
+                            <div className="divPhotoPage">
+                                <img src={require("../../img/kaleotic/ecurie/kec37.jpg")} alt="kec37" className="photoPageVerticale"/>
+                            </div>
+                        </Fade>
+                    </div>
                 </div>
             </div>
         )
